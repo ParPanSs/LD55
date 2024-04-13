@@ -11,5 +11,7 @@ namespace LudumDare55
         public Sprite inGameDemonSprite;
         public Pentagram pentagram;
         public Cassette cassette;
+
+        public string demonID;
     }
 }

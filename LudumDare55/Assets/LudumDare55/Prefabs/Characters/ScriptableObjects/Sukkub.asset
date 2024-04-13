@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289509e1718263b4eaf9418fd9232d04, type: 3}
   m_Name: Sukkub
   m_EditorClassIdentifier: 
-  itemToSummon: []
+  itemToSummon:
+  - _itemID: 
+    _itemSprite: {fileID: 0}
+  - _itemID: 
+    _itemSprite: {fileID: 0}
+  - _itemID: 
+    _itemSprite: {fileID: 0}
   catalogueDemonSprite: {fileID: 0}
   inGameDemonSprite: {fileID: 0}
   pentagram:
@@ -21,4 +27,7 @@ MonoBehaviour:
     _border: {fileID: 0}
   cassette:
     _cassetteAudio: {fileID: 0}
-    _cassetteAudioCharacteristics: []
+    _cassetteAudioCharacteristics:
+    - 
+    - 
+    - 
