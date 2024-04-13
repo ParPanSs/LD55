@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 2a7bc9b3b3139154fb92b425adf898ce
+guid: 62dde3cbe47df3b4da49fafdadce4d72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8775155131942013761
-    second: TestDemon_0
+      213: 2953165483732388326
+    second: pentBorders_0
+  - first:
+      213: 6364553917772127386
+    second: pentBorders_1
+  - first:
+      213: 9144936950826157795
+    second: pentBorders_2
+  - first:
+      213: -7152163113529873940
+    second: pentBorders_3
+  - first:
+      213: -8698352661053822994
+    second: pentBorders_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,7 +96,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -97,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TestDemon_0
+      name: pentBorders_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 19
-        width: 355
-        height: 475
+        x: 75
+        y: 229
+        width: 177
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +152,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb476a776e2683680800000000000000
-      internalID: -8775155131942013761
+      spriteID: 6e940d46c50cbf820800000000000000
+      internalID: 2953165483732388326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pentBorders_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 232
+        width: 209
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cd0ae3110735850800000000000000
+      internalID: 6364553917772127386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pentBorders_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 86
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6465f64b759ee70800000000000000
+      internalID: 9144936950826157795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pentBorders_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 312
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96662ca896ebc90800000000000000
+      internalID: -7152163113529873940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pentBorders_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 57
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee720d2375e394780800000000000000
+      internalID: -8698352661053822994
       vertices: []
       indices: 
       edges: []
@@ -149,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +253,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TestDemon_0: -8775155131942013761
+      pentBorders_0: 2953165483732388326
+      pentBorders_1: 6364553917772127386
+      pentBorders_2: 9144936950826157795
+      pentBorders_3: -7152163113529873940
+      pentBorders_4: -8698352661053822994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

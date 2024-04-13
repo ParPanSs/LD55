@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2a7bc9b3b3139154fb92b425adf898ce
+guid: 1604a2a97b91e7640be44900c8df586e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8775155131942013761
-    second: TestDemon_0
+      213: 7288227751793793591
+    second: PentFigure1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TestDemon_0
+      name: PentFigure1_0
       rect:
         serializedVersion: 2
         x: 57
-        y: 19
-        width: 355
-        height: 475
+        y: 55
+        width: 402
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb476a776e2683680800000000000000
-      internalID: -8775155131942013761
+      spriteID: 73a10db868cf42560800000000000000
+      internalID: 7288227751793793591
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TestDemon_0: -8775155131942013761
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
