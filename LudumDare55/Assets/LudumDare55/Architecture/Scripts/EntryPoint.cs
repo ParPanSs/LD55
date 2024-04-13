@@ -1,7 +1,14 @@
-﻿namespace LudumDare55
+﻿using UnityEngine;
+
+namespace LudumDare55
 {
-    public class EntryPoint
+    public class EntryPoint : MonoBehaviour
     {
-        
+        [SerializeField] private CatalogueController catalogueController;
+
+        private void Start()
+        {
+            
+        }
     }
 }

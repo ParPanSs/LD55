@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 289509e1718263b4eaf9418fd9232d04, type: 3}
-  m_Name: Sukkub
+  m_Name: Demon
   m_EditorClassIdentifier: 
   itemToSummon:
   - _itemID: 1
     _itemSprite: {fileID: -5636343253877202797, guid: 5c477a263a22b0a47b73b2e0e6fbaec2, type: 3}
   - _itemID: 2
-    _itemSprite: {fileID: -1311454706999046921, guid: f80c033eb95e77f47b4eef1f5240ae54, type: 3}
+    _itemSprite: {fileID: 3915219234243150006, guid: 40390f5c038e2b148b13d9d3f331c6f8, type: 3}
   - _itemID: 3
-    _itemSprite: {fileID: 6612041103238939525, guid: 705145b80ab367a4dbed63ece6c57850, type: 3}
-  catalogueDemonSprite: {fileID: -8775155131942013761, guid: 2a7bc9b3b3139154fb92b425adf898ce, type: 3}
+    _itemSprite: {fileID: 2428474534786820240, guid: 606cccc8adfd1a7498ece20c77eba351, type: 3}
+  catalogueDemonSprite: {fileID: -593209668180429919, guid: 973dcafb2dd5a9745afbf459a736857f, type: 3}
   inGameDemonSprite: {fileID: 0}
   pentagram:
-    _figure: {fileID: -8231561842554078603, guid: 33fe0ee003ad1df46806f992ca6ba9e6, type: 3}
-    _drawing: {fileID: 21300000, guid: 088d43b5239fd854fb73d7cc713b7096, type: 3}
-    _border: {fileID: -1427329278356613421, guid: 78c485871e84d83439c0ec3925739a51, type: 3}
+    _figure: {fileID: 3900084702088455972, guid: ccbe2d0dbae87564b8e9b33941b61c50, type: 3}
+    _drawing: {fileID: 21300000, guid: 63e02a18036d0dc4a85965273b1973a9, type: 3}
+    _border: {fileID: -5558410624592043985, guid: 27aa4a0dcf01dec45989d2f256351d1a, type: 3}
   cassette:
     _cassetteAudio: {fileID: 0}
     _cassetteAudioCharacteristics:
-    - 2313
-    - 42352fsdfs
-    - sdfsdfsdf
-  demonID: 2
+    - 1
+    - 2
+    - 3
+  demonID: 1

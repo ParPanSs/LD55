@@ -18,6 +18,17 @@ namespace LudumDare55
         {
             return _cassetteAudio;
         }
+
+        public string GetDescription()
+        {
+            var descriptionText = "";
+            foreach (var characteristic in _cassetteAudioCharacteristics)
+            {
+                descriptionText += characteristic + " ";
+            }
+
+            return descriptionText;
+        }
     }
 }
 

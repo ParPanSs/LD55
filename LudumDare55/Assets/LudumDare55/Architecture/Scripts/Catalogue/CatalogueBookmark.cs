@@ -5,11 +5,12 @@ namespace LudumDare55
     public class CatalogueBookmark : MonoBehaviour
     {
         [SerializeField] private string demonID;
-        private CatalogueController _catalogueController = new();
+        [SerializeField] private CatalogueController _catalogueController;
         private BookmarkEvent bookmarkEvent = new();
 
         private void Start()
         {
+            // _catalogueController = FindAnyObjectByType<CatalogueController>();
             bookmarkEvent.OnBookmarkPressed += _catalogueController.ChangeDemon;
         }
         
