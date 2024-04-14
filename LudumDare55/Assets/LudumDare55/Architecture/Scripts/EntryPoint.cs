@@ -6,13 +6,14 @@ namespace LudumDare55
     {
         [SerializeField] private CatalogueController catalogueController;
         [SerializeField] private InGamePentagramController inGamePentagramController;
+        [SerializeField] private TimerController timerController;
         
         [SerializeField] private RoundManager roundManager;
         [SerializeField] private CatalogueBookmark[] bookmarks;
         
         private void Start()
         {
-            roundManager.Construct(inGamePentagramController);
+            roundManager.Construct(inGamePentagramController, timerController);
             
             foreach (var bookmark in bookmarks)
             {

@@ -19,16 +19,9 @@ namespace LudumDare55
             return _cassetteAudio;
         }
 
-        // TODO: remove concatenation
         public string GetDescription()
         {
-            var descriptionText = "";
-            foreach (var characteristic in _cassetteAudioCharacteristics)
-            {
-                descriptionText += characteristic + " ";
-            }
-
-            return descriptionText;
+            return string.Join(" ", _cassetteAudioCharacteristics);
         }
     }
 }

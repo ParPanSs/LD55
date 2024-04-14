@@ -6,7 +6,8 @@ namespace LudumDare55
     public class CreateScriptableObjectOfSetup : ScriptableObject
     {
         // TODO: encapsulate fields
-        public Item[] setupItems;
+        public float SetupTime = 120f;
+        public Item[] setupItems;   
         public Pentagram setupPentagram;
         public Cassette setupCassete;
     }
