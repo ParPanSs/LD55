@@ -1,0 +1,1239 @@
+fileFormatVersion: 2
+guid: cba3ae1580a1b124c84e0e144f4ef9b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 327615245168651353
+    second: FishTailItem_0
+  - first:
+      213: 6830767157941661679
+    second: FishTailItem_1
+  - first:
+      213: 7674530009467869973
+    second: FishTailItem_2
+  - first:
+      213: 4948667306939977969
+    second: FishTailItem_3
+  - first:
+      213: -908179237224029605
+    second: FishTailItem_4
+  - first:
+      213: -2577667877947366605
+    second: FishTailItem_5
+  - first:
+      213: 7257056091706418916
+    second: FishTailItem_6
+  - first:
+      213: -2317005975098655647
+    second: FishTailItem_7
+  - first:
+      213: 4355150017007827586
+    second: FishTailItem_8
+  - first:
+      213: 6032412732894021259
+    second: FishTailItem_9
+  - first:
+      213: 585543839219976884
+    second: FishTailItem_10
+  - first:
+      213: 656709237263919584
+    second: FishTailItem_11
+  - first:
+      213: 765406244517992400
+    second: FishTailItem_12
+  - first:
+      213: 3424909638738497838
+    second: FishTailItem_13
+  - first:
+      213: 2150399636522850849
+    second: FishTailItem_14
+  - first:
+      213: 6527619227444389058
+    second: FishTailItem_15
+  - first:
+      213: 7349687656831479483
+    second: FishTailItem_16
+  - first:
+      213: -6675978465127693535
+    second: FishTailItem_17
+  - first:
+      213: -4682442320991506864
+    second: FishTailItem_18
+  - first:
+      213: -1547018063106683844
+    second: FishTailItem_19
+  - first:
+      213: 3603519942759886835
+    second: FishTailItem_20
+  - first:
+      213: 3668936329466417499
+    second: FishTailItem_21
+  - first:
+      213: 3370251035454820483
+    second: FishTailItem_22
+  - first:
+      213: -3169294829198558144
+    second: FishTailItem_23
+  - first:
+      213: -3434497997513673076
+    second: FishTailItem_24
+  - first:
+      213: -8919836761070028860
+    second: FishTailItem_25
+  - first:
+      213: 8242031778938774151
+    second: FishTailItem_26
+  - first:
+      213: -4543816255832229368
+    second: FishTailItem_27
+  - first:
+      213: -6589530600260521721
+    second: FishTailItem_28
+  - first:
+      213: 794241383168213848
+    second: FishTailItem_29
+  - first:
+      213: -9106620300188572774
+    second: FishTailItem_30
+  - first:
+      213: -4432741121149156241
+    second: FishTailItem_31
+  - first:
+      213: 5407367274271110891
+    second: FishTailItem_32
+  - first:
+      213: -1320908750962144292
+    second: FishTailItem_33
+  - first:
+      213: 4437570468754540068
+    second: FishTailItem_34
+  - first:
+      213: 6428290985259241652
+    second: FishTailItem_35
+  - first:
+      213: -1722188645986833724
+    second: FishTailItem_36
+  - first:
+      213: 309210613629206893
+    second: FishTailItem_37
+  - first:
+      213: 2600073459142008332
+    second: FishTailItem_38
+  - first:
+      213: -2953677001313371042
+    second: FishTailItem_39
+  - first:
+      213: -7723267492129576130
+    second: FishTailItem_40
+  - first:
+      213: -716520703577310646
+    second: FishTailItem_41
+  - first:
+      213: 8938380904223174941
+    second: FishTailItem_42
+  - first:
+      213: -1489208671931065723
+    second: FishTailItem_43
+  - first:
+      213: 7556336819623243154
+    second: FishTailItem_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FishTailItem_0
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc7e5c03a2784459af8f361ed79703
+      internalID: 1747667324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_1
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08da270b515cd41b6332bb182596b9
+      internalID: -756807053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4617efbc4ffaba46b9474c24324841b
+      internalID: -659114657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a69a08795e64fa4b84faf5bc92d8f0c
+      internalID: 1136455680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b42dde5c81fd214ca01dc7a5a88983b
+      internalID: 873621490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_5
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c00f553ef7be640afb8b64df59e0f8
+      internalID: 1377090956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4d52a5dee61bb40bc496eef76050c9
+      internalID: -226344403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_7
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a07ad575575fe42a0f90ca524ba020
+      internalID: 49121044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b0c899c79662a4fb47f4e198233d9e
+      internalID: 1951898994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8184545db844d4fa1d28b8584c46cc
+      internalID: -209394210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80078402c54dc754f8bf95dd7a5c23b0
+      internalID: 59640840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8880ed9eb1f4641b44ed0bcc7b001e
+      internalID: -1915064810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18b5b3b2e32d024f9de3f8ed585d8ef
+      internalID: 1038675154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_13
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c4b3c2d2d36414e906bf4c4fac622d
+      internalID: 810318815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_14
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2e9e8d83ce5ed42b3a3d8aec50d9d7
+      internalID: -497107599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_15
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6890c1b727d32374c9c8fc2853813ca6
+      internalID: 1342641381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e174a19dd3de04dabee0331598976c
+      internalID: 1803886150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28650ce1daed0489a2fef5f6de1c9a
+      internalID: -1763070056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417189a392f0cc446ba59f768bbe05f5
+      internalID: -1358734517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8046977ce2d38fc4b9546be9fefd03b1
+      internalID: 1383604094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_20
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53307265c55d6a44fb1df246d1fa5517
+      internalID: -542502621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_21
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e983fff6682a914ebf694f34f6e95a5
+      internalID: 8831420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_22
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3037552e0dbba4f478568ee60589b1be
+      internalID: -1845660724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ecb604345d43441b4d072bde5ba458
+      internalID: -418614993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed51efc0bcc8db4faf63243702138fe
+      internalID: 395797176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_25
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d88fa8137eda4caa19a3eac6231aa
+      internalID: 805762178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_26
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa11b4d9b69ac5643b3bee01710c8608
+      internalID: 2022095240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_27
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b1e0d6e19e2b641ba161c4c5e98e25
+      internalID: 462103883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_28
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2b9cfc3ac555e4d86d48d840ebb21f
+      internalID: -354558912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_29
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0df206ff40c17248b158c101765925d
+      internalID: 411267311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dba820a6e284845b60705c702fc6ab
+      internalID: -148622760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5478b817f9c1f7641b682b4deda51b0d
+      internalID: -2059636203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f72a04408eff5428603b55b903b07a
+      internalID: -768725330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_33
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d446d2a35863d564188338960149a17f
+      internalID: 479589321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_34
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7548fe8d699cb5648a99cfc6bf10c5cb
+      internalID: 161103302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_35
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f70098d5353caf4aa982501634ba1be
+      internalID: 1006812211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_36
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bf7cbc8b99e924395cbfaf8d6a0922
+      internalID: -379206532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c99e6afd3a92c440b3f08f40b1b7e77
+      internalID: -68260152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25829d4305e9e004a91d64bccab2fb94
+      internalID: -748646364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_39
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b05d16560269cf459535c091f125c4c
+      internalID: 2016634776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_40
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be9fbc177130f46bec64e76007f958
+      internalID: -923601703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_41
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb3c33397b5e7447a457cd626aeb855
+      internalID: 226607711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_42
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990b820f1f5dbc4fa2535f3a0883826
+      internalID: 1417224965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_43
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb126428695b7ec43a8422abdaa5b541
+      internalID: -420849648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FishTailItem_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf10bf11e85a947ae2d020d4281c3d
+      internalID: 1330389907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2054d6276713bd44ca1122e46154715e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FishTailItem_0: 1747667324
+      FishTailItem_1: -756807053
+      FishTailItem_10: 59640840
+      FishTailItem_11: -1915064810
+      FishTailItem_12: 1038675154
+      FishTailItem_13: 810318815
+      FishTailItem_14: -497107599
+      FishTailItem_15: 1342641381
+      FishTailItem_16: 1803886150
+      FishTailItem_17: -1763070056
+      FishTailItem_18: -1358734517
+      FishTailItem_19: 1383604094
+      FishTailItem_2: -659114657
+      FishTailItem_20: -542502621
+      FishTailItem_21: 8831420
+      FishTailItem_22: -1845660724
+      FishTailItem_23: -418614993
+      FishTailItem_24: 395797176
+      FishTailItem_25: 805762178
+      FishTailItem_26: 2022095240
+      FishTailItem_27: 462103883
+      FishTailItem_28: -354558912
+      FishTailItem_29: 411267311
+      FishTailItem_3: 1136455680
+      FishTailItem_30: -148622760
+      FishTailItem_31: -2059636203
+      FishTailItem_32: -768725330
+      FishTailItem_33: 479589321
+      FishTailItem_34: 161103302
+      FishTailItem_35: 1006812211
+      FishTailItem_36: -379206532
+      FishTailItem_37: -68260152
+      FishTailItem_38: -748646364
+      FishTailItem_39: 2016634776
+      FishTailItem_4: 873621490
+      FishTailItem_40: -923601703
+      FishTailItem_41: 226607711
+      FishTailItem_42: 1417224965
+      FishTailItem_43: -420849648
+      FishTailItem_44: 1330389907
+      FishTailItem_5: 1377090956
+      FishTailItem_6: -226344403
+      FishTailItem_7: 49121044
+      FishTailItem_8: 1951898994
+      FishTailItem_9: -209394210
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
