@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -20,10 +21,21 @@ namespace LudumDare55
         
         private async Task DecrementTimeAsync()
         {
+            var semaphore = new SemaphoreSlim(1);
+
             while (_timerModel.GetFloatTime() > 0)
             {
-                await Task.Delay(1000);
+                await Task.Delay(10);
                 
+                if (Application.isPlaying == false) { return; }
+
+                if (Time.timeScale == 0)
+                {
+                    await semaphore.WaitAsync(); 
+                    while (Time.timeScale == 0) await Task.Delay(100);
+                    semaphore.Release();
+                }
+
                 _timerModel.DecrementTime(1);
                 timerView.DisplayTime(_timerModel.GetStringTime());
 
