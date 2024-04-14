@@ -153,10 +153,10 @@ TextureImporter:
       name: TimerRage1_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1046
-        width: 593
-        height: 514
+        x: 0
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: TimerRage1_1
       rect:
         serializedVersion: 2
-        x: 691
-        y: 1046
-        width: 590
-        height: 514
+        x: 650
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: TimerRage1_2
       rect:
         serializedVersion: 2
-        x: 1347
-        y: 1046
-        width: 584
-        height: 509
+        x: 1300
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: TimerRage1_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 526
-        width: 583
-        height: 500
+        x: 0
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: TimerRage1_4
       rect:
         serializedVersion: 2
-        x: 698
-        y: 526
-        width: 583
-        height: 488
+        x: 650
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: TimerRage1_5
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 526
-        width: 583
-        height: 476
+        x: 1300
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: TimerRage1_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 6
-        width: 583
-        height: 465
+        x: 0
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: TimerRage1_7
       rect:
         serializedVersion: 2
-        x: 698
-        y: 6
-        width: 583
-        height: 456
+        x: 650
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: TimerRage1_8
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 6
-        width: 583
-        height: 451
+        x: 1300
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,7 +341,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ccc27b732b460c843afb20bf19f44609
     internalID: 0
     vertices: []
     indices: 

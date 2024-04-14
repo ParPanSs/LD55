@@ -153,10 +153,10 @@ TextureImporter:
       name: TimerIdle5_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1046
-        width: 583
-        height: 450
+        x: 0
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: TimerIdle5_1
       rect:
         serializedVersion: 2
-        x: 698
-        y: 1046
-        width: 583
-        height: 450
+        x: 650
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: TimerIdle5_2
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 1046
-        width: 583
-        height: 450
+        x: 1300
+        y: 1040
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: TimerIdle5_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 526
-        width: 583
-        height: 450
+        x: 0
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: TimerIdle5_4
       rect:
         serializedVersion: 2
-        x: 698
-        y: 526
-        width: 583
-        height: 450
+        x: 650
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: TimerIdle5_5
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 526
-        width: 583
-        height: 450
+        x: 1300
+        y: 520
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: TimerIdle5_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 6
-        width: 583
-        height: 450
+        x: 0
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: TimerIdle5_7
       rect:
         serializedVersion: 2
-        x: 698
-        y: 6
-        width: 583
-        height: 450
+        x: 650
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: TimerIdle5_8
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 6
-        width: 583
-        height: 450
+        x: 1300
+        y: 0
+        width: 650
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,7 +341,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 227b9cd0687d29540b5961f6a42635c7
     internalID: 0
     vertices: []
     indices: 
