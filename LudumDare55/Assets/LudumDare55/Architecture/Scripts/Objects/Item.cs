@@ -8,13 +8,16 @@ namespace LudumDare55
         [SerializeField] private string _itemID;
         public string itemID => _itemID;
         
-        [SerializeField] private Sprite _itemSprite;
-        public Sprite itemSprite => _itemSprite;
-
-        public Item(string itemID, Sprite itemSprite)
+        [SerializeField] private Sprite _catalogueItemSprite;
+        public Sprite catalogueItemSprite => _catalogueItemSprite;
+        
+        [SerializeField] private Sprite _inGameItemSprite;
+        public Sprite inGameItemSprite => _inGameItemSprite;
+        
+        public Item(string itemID, Sprite catalogueItemSprite)
         {
             _itemID = itemID;
-            _itemSprite = itemSprite;
+            _catalogueItemSprite = catalogueItemSprite;
         }
     }
 }

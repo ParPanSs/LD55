@@ -28,7 +28,7 @@ namespace LudumDare55
             for (int i = 0; i < demonItems.Length; i++)
             {
                 if(demonItems[i])
-                    demonItems[i].sprite = demonSO.itemToSummon[i].itemSprite;
+                    demonItems[i].sprite = demonSO.itemToSummon[i].catalogueItemSprite;
             }
         }
     }

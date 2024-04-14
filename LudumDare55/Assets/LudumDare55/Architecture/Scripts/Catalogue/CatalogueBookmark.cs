@@ -7,10 +7,10 @@ namespace LudumDare55
         [SerializeField] private string demonID;
         [SerializeField] private CatalogueController _catalogueController;
         private BookmarkEvent bookmarkEvent = new();
-
-        private void Start()
+        
+        public void Construct(CatalogueController catalogueController)
         {
-            // _catalogueController = FindAnyObjectByType<CatalogueController>();
+            _catalogueController = catalogueController;
             bookmarkEvent.OnBookmarkPressed += _catalogueController.ChangeDemon;
         }
         
@@ -21,7 +21,7 @@ namespace LudumDare55
 
         private void OnDestroy()
         {
-            bookmarkEvent.OnBookmarkPressed -= _catalogueController.ChangeDemon;
+            if (_catalogueController != null) bookmarkEvent.OnBookmarkPressed -= _catalogueController.ChangeDemon;
         }
     }
 }

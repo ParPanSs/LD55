@@ -6,6 +6,7 @@ namespace LudumDare55
     [CreateAssetMenu(fileName = "Create Demon", menuName = "Scriptable Object/Create Demon")]
     public class CreateScriptableObjectOfDemon : ScriptableObject
     {
+        // TODO: encapsulate fields
         public List<Item> itemToSummon;
         public Sprite catalogueDemonSprite;
         public Sprite inGameDemonSprite;
