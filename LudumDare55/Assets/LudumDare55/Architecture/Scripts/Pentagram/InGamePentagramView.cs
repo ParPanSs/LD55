@@ -23,7 +23,6 @@ namespace LudumDare55
         private void DrawPentagram(Pentagram pentagram)
         {
             pentagramFigure.sprite = pentagram.figure;
-            pentagramBorder.sprite = pentagram.border;
             pentagramDrawing.sprite = pentagram.drawing;
         }
 

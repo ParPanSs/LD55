@@ -8,7 +8,7 @@ namespace LudumDare55
 
         public void Construct(Item item)
         {
-            itemSpriteRenderer.sprite = item.catalogueItemSprite;
+            itemSpriteRenderer.sprite = item.itemSprite;
         }
     }
 }

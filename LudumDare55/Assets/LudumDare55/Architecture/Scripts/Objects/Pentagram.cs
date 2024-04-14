@@ -11,14 +11,10 @@ namespace LudumDare55
         [SerializeField] private Sprite _drawing;
         public Sprite drawing => _drawing;
         
-        [SerializeField] private Sprite _border;
-        public Sprite border => _border;
-        
-        public Pentagram(Sprite figure, Sprite drawing, Sprite border)
+        public Pentagram(Sprite figure, Sprite drawing)
         {
             _figure = figure;
             _drawing = drawing;
-            _border = border;
         }
     }
 }
