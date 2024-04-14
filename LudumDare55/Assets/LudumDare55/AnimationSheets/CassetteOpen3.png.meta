@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 20792bafbc267f1429edc316d8709cc4
+guid: b12175123ce8d7a4bb640ffce5f8a744
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 766573571187914661
-    second: testBackgorund_0
+      213: 3439092681177721720
+    second: CassetteOpen3_0
+  - first:
+      213: 5323501718199851408
+    second: CassetteOpen3_1
+  - first:
+      213: -1994331961174059874
+    second: CassetteOpen3_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,33 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,22 +106,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: testBackgorund_0
+      name: CassetteOpen3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 625
+        height: 502
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a7bbdcf99a63aa00800000000000000
-      internalID: 766573571187914661
+      spriteID: d29dc1b1111b9e9469f08e015c4b9edf
+      internalID: -868126637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassetteOpen3_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 625
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e781d45e9e8664d98ad2cb14dc9802
+      internalID: -339186720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassetteOpen3_2
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 625
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112adffd9c705444d8464cb4780aeb32
+      internalID: -848558734
       vertices: []
       indices: 
       edges: []
@@ -149,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 43b59a587bf7cc54cb94d569a700a308
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      testBackgorund_0: 766573571187914661
+      CassetteOpen3_0: -868126637
+      CassetteOpen3_1: -339186720
+      CassetteOpen3_2: -848558734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
