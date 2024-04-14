@@ -13,19 +13,13 @@ MonoBehaviour:
   m_Name: Setup_1
   m_EditorClassIdentifier: 
   setupItems:
-  - _itemID: 1
-    _catalogueItemSprite: {fileID: 3915219234243150006, guid: 40390f5c038e2b148b13d9d3f331c6f8, type: 3}
-    _inGameItemSprite: {fileID: 3915219234243150006, guid: 40390f5c038e2b148b13d9d3f331c6f8, type: 3}
-  - _itemID: 2
-    _catalogueItemSprite: {fileID: 6612041103238939525, guid: 705145b80ab367a4dbed63ece6c57850, type: 3}
-    _inGameItemSprite: {fileID: 6612041103238939525, guid: 705145b80ab367a4dbed63ece6c57850, type: 3}
-  - _itemID: 3
-    _catalogueItemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
-    _inGameItemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
+  - _itemSprite: {fileID: 2100297013, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
+  - _itemSprite: {fileID: 292332532, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
+  - _itemSprite: {fileID: 1842896601, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
   setupPentagram:
     _figure: {fileID: -1712136595682835211, guid: 04ea3612dce399d448720458123f755a, type: 3}
     _drawing: {fileID: 21300000, guid: bff4104f6daf88044832d7f1d3625ae2, type: 3}
-    _border: {fileID: 21300000, guid: 7dd3c646acf48c940bf32c99cde2c381, type: 3}
   setupCassete:
     _cassetteAudio: {fileID: 0}
     _cassetteAudioCharacteristics: []
+  demonSetupID: 2

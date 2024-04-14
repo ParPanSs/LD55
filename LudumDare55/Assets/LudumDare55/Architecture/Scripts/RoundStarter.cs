@@ -8,24 +8,23 @@ namespace LudumDare55
     public class RoundStarter
     {
         [SerializeField] private List<CreateScriptableObjectOfSetup> setups;
-        private TimerController _timerController;
         private InGamePentagramController _inGamePentagramController;
+        public string rightDemon { get; private set; }
 
-        public void Construct(InGamePentagramController inGamePentagramController, TimerController timerController)
+        public void Construct(InGamePentagramController inGamePentagramController)
         {
             _inGamePentagramController = inGamePentagramController;
-
-            _timerController = timerController;
-            
-                // TODO: REMOVE THIS SHIT
             StartNewRound();
         }
         
         public void StartNewRound()
         {
+            if (setups.Count == 0)
+                return;
             var newSetup = setups[Random.Range(0, setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);
-            _timerController.StartTimer(newSetup);
+            rightDemon = newSetup.demonSetupID;
+            setups.Remove(newSetup);
         }
     }
 }

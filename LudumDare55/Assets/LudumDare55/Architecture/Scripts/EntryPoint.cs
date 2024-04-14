@@ -8,16 +8,23 @@ namespace LudumDare55
         [SerializeField] private InGamePentagramController inGamePentagramController;
         [SerializeField] private TimerController timerController;
         [SerializeField] private RoundStarter roundStarter;
+        [SerializeField] private RoundEnder roundEnder;
         [SerializeField] private CatalogueBookmark[] bookmarks;
+        [SerializeField] private Bell bell;
+        [SerializeField] private float dayTime;
         
-        private void Start()
+        private void Awake()
         {
-            roundStarter.Construct(inGamePentagramController, timerController);
-            
+            StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
+            catalogueController.Construct();
+            roundStarter.Construct(inGamePentagramController);
+            roundEnder.Construct(roundStarter, inGamePentagramController);
             foreach (var bookmark in bookmarks)
             {
                 bookmark.Construct(catalogueController);
             }
+
+            bell.Construct(catalogueController, roundEnder);
         }
     }
 }

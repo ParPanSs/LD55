@@ -13,22 +13,18 @@ MonoBehaviour:
   m_Name: Yokai
   m_EditorClassIdentifier: 
   itemToSummon:
-  - _itemID: 1
-    _itemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
-  - _itemID: 2
-    _itemSprite: {fileID: -6632645725276615402, guid: 1e28bd73868e58d47bf7e18879a4079d, type: 3}
-  - _itemID: 3
-    _itemSprite: {fileID: 2428474534786820240, guid: 606cccc8adfd1a7498ece20c77eba351, type: 3}
+  - _itemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
+  - _itemSprite: {fileID: -6632645725276615402, guid: 1e28bd73868e58d47bf7e18879a4079d, type: 3}
+  - _itemSprite: {fileID: 2428474534786820240, guid: 606cccc8adfd1a7498ece20c77eba351, type: 3}
   catalogueDemonSprite: {fileID: 2110535366432347642, guid: 9adc955e1c3b93942aa07cbf91974c91, type: 3}
   inGameDemonSprite: {fileID: 0}
   pentagram:
     _figure: {fileID: -1984948155764981686, guid: 3b471809bdb538f42825a7a3a72f2cab, type: 3}
     _drawing: {fileID: 21300000, guid: 3db286a0fa091a348ab72ab0ba877c49, type: 3}
-    _border: {fileID: -2477507760385150302, guid: 1c492f0e39b747840aeda9f583a3164b, type: 3}
   cassette:
     _cassetteAudio: {fileID: 0}
     _cassetteAudioCharacteristics:
     - fgb
     - vbcv
     - cvbc
-  demonID: 3
+  demonID: 2

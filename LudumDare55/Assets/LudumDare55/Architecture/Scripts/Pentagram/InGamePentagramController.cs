@@ -11,5 +11,10 @@ namespace LudumDare55
         {
             inGamePentagramView.DisplaySetup(setup);
         }
+
+        public void ClearSetup()
+        {
+            inGamePentagramView.ClearSetup();
+        }
     }
 }

@@ -10,7 +10,9 @@ namespace LudumDare55
         [SerializeField] private SpriteRenderer pentagramDrawing;
 
         [SerializeField] private GameObject itemPrefab;
+        [SerializeField] private GameObject cassettePrefab;
         [SerializeField] private Transform[] itemSpawnPoints;
+        [SerializeField] private Transform casetteSpawnPoint;
         private List<GameObject> spawnedItems = new();
 
         // TODO make cassette
@@ -18,6 +20,27 @@ namespace LudumDare55
         {
             DrawPentagram(setup.setupPentagram);
             CreateItems(setup.setupItems);
+        }
+
+        public void ClearSetup()
+        {
+            ErasePentagram();
+            DestroyItems();
+        }
+
+        private void ErasePentagram()
+        {
+            pentagramFigure.sprite = null;
+            pentagramDrawing.sprite = null;
+        }
+
+        private void DestroyItems()
+        {
+            foreach (var item in spawnedItems)
+            {
+                Destroy(item);
+            }
+            spawnedItems.Clear();
         }
         
         private void DrawPentagram(Pentagram pentagram)
@@ -34,6 +57,12 @@ namespace LudumDare55
                 spawnedItems.Add(itemObject);
                 itemObject.GetComponent<InGameItem>().Construct(items[i]);
             } 
+        }
+
+        private void CreateCassete(Cassette cassette)
+        {
+            var spawnedCassette = Instantiate(cassettePrefab, casetteSpawnPoint);
+            
         }
     }
 }

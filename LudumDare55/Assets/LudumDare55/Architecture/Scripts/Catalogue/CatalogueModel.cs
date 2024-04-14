@@ -8,5 +8,10 @@
         {
             _currentSelectedDemonID = currentSelectedDemonID;
         }
+
+        public string GetCurrentSelectedDemonID()
+        {
+            return _currentSelectedDemonID;
+        }
     }
 }
