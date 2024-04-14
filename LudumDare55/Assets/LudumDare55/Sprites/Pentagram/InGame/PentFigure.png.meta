@@ -129,12 +129,12 @@ TextureImporter:
       name: PentFigure_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 55
-        width: 402
-        height: 219
+        x: 0
+        y: 0
+        width: 567
+        height: 336
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0b2db6ac1443a6840aabd13005b40b99
     internalID: 0
     vertices: []
     indices: 

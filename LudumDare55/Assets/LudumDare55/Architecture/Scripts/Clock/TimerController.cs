@@ -10,7 +10,7 @@ namespace LudumDare55
         private TimerModel _timerModel;
         private readonly RoundEndEvent _roundEndEvent = new();
     
-        public async void StartTimer(object sender, CreateScriptableObjectOfSetup setup)
+        public async void StartTimer(CreateScriptableObjectOfSetup setup)
         {
             _timerModel = new TimerModel(setup.SetupTime);
             timerView.DisplayTime(_timerModel.GetStringTime());
@@ -32,6 +32,11 @@ namespace LudumDare55
                 _roundEndEvent.InvokeEvent();
                 return;
             }
+        }
+
+        public void PunishmentDecrementTime(float time)
+        {
+            _timerModel.DecrementTime(time);
         }
     }
 }

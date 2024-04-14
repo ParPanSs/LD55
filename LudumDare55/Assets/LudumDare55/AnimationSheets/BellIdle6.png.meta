@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 1604a2a97b91e7640be44900c8df586e
+guid: 068b06c8e8c1fd4448e8d862127a95eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7288227751793793591
-    second: PentFigure1_0
+      213: -4910514393149811332
+    second: BellIdle6_0
+  - first:
+      213: -4771658915376861507
+    second: BellIdle6_1
+  - first:
+      213: -1439531250707264490
+    second: BellIdle6_2
+  - first:
+      213: 7687309091827188959
+    second: BellIdle6_3
+  - first:
+      213: -1968249516884015964
+    second: BellIdle6_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,33 +96,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,22 +112,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PentFigure1_0
+      name: BellIdle6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd22154a6f5c40047bbd841239ea1cf2
+      internalID: -995206551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BellIdle6_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 304
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9813f334403705941b13a55550a1204f
+      internalID: -612250855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BellIdle6_2
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 304
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44b055665ecc2419e26e4fcad78bce
+      internalID: -1638770956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BellIdle6_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 567
-        height: 336
+        width: 318
+        height: 304
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73a10db868cf42560800000000000000
-      internalID: 7288227751793793591
+      spriteID: deb8dd32b2c861a4cb841c605c2c2f96
+      internalID: -415843829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BellIdle6_4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7dec3b5bd6a5a428b149f07a05fbd3
+      internalID: 242048200
       vertices: []
       indices: 
       edges: []
@@ -149,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f1634c4737a0e22498504556c0ad694e
+    spriteID: 6514cb07994b2904bbef67a3471463a9
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PentFigure1_0: 7288227751793793591
+      BellIdle6_0: -995206551
+      BellIdle6_1: -612250855
+      BellIdle6_2: -1638770956
+      BellIdle6_3: -415843829
+      BellIdle6_4: 242048200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

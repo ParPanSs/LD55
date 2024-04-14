@@ -7,7 +7,7 @@ namespace LudumDare55
     {
         [SerializeField] private InGamePentagramView inGamePentagramView;
 
-        public void SetSetup(object sender, CreateScriptableObjectOfSetup setup)
+        public void SetSetup(CreateScriptableObjectOfSetup setup)
         {
             inGamePentagramView.DisplaySetup(setup);
         }
