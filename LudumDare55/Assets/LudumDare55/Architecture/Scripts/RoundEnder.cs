@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Playables;
 
 namespace LudumDare55
 {
@@ -9,16 +10,16 @@ namespace LudumDare55
         private RoundStarter _roundStarter;
         private TimerController _timerController;
         private SceneTransition _sceneTransition;
-        private AudioSource _roundSuccessAudioSource;
+        private PlayableDirector _roundSuccessTimeline;
 
         public void Construct(RoundStarter roundStarter, InGamePentagramController inGamePentagramController,
-            TimerController timerController, SceneTransition sceneTransition, AudioSource roundSuccessAudioSource)
+            TimerController timerController, SceneTransition sceneTransition, PlayableDirector roundSuccessTimeline)
         {
             _roundStarter = roundStarter;
             _inGamePentagramController = inGamePentagramController;
             _timerController = timerController;
             _sceneTransition = sceneTransition;
-            _roundSuccessAudioSource = roundSuccessAudioSource;
+            _roundSuccessTimeline = roundSuccessTimeline;
         }
 
         public void CompareId(string currentSelectedDemonID)
@@ -31,7 +32,7 @@ namespace LudumDare55
         {
             if (!_roundStarter.roundIsInProgress) return;
          
-            _roundSuccessAudioSource.Play();
+            _roundSuccessTimeline.Play();
             if (_roundStarter.setupsCount > 0)
             {
                 _inGamePentagramController.ClearSetup();

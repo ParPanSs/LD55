@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace LudumDare55
 {
@@ -34,7 +35,7 @@ namespace LudumDare55
             inGamePentagramController.Construct(inGamePentagramView);
             
             roundStarter.Construct(inGamePentagramController, daySetups);
-            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<AudioSource>());
+            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<PlayableDirector>());
             bell.Construct(catalogueController, roundEnder);
             timerController.Construct(roundEnder, timerView);
             
