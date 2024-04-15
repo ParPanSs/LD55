@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace LudumDare55
@@ -11,10 +12,13 @@ namespace LudumDare55
         [SerializeField] private Transform cassetteSpawnPoint;
         [SerializeField] private Transform pentagramFigureSpawnPoint;
         [SerializeField] private Transform[] pentagramDrawingSpawnPoints;
+        [SerializeField] private Transform demonSpawnPoint;
         
         private readonly List<GameObject> spawnedItems = new();
         private readonly List<GameObject> spawnedPentagramParts = new();
         private GameObject _spawnedCassette;
+        private GameObject _spawnedDemon;
+        private GameObject _demonPrefab;
         private Animator _animator;
         
         public void DisplaySetup(CreateScriptableObjectOfSetup setup)
@@ -22,6 +26,7 @@ namespace LudumDare55
             CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
             CreateCassette(setup.setupCassette);
+            _demonPrefab = setup.demonObject;
         }
 
         public void ClearSetup()
@@ -58,6 +63,7 @@ namespace LudumDare55
         {
             _animator = gameObject.GetComponent<Animator>();
             _animator.SetTrigger("Dissapear");
+            if (_spawnedDemon == null) CreateDemon();
             Destroy(gameObject, time);
         }
 
@@ -91,6 +97,12 @@ namespace LudumDare55
             var cassetteObject = Instantiate(cassettePrefab, cassetteSpawnPoint);
             cassetteObject.GetComponent<InGameCassetteObject>().Construct(cassette.cassetteAudio);
             _spawnedCassette = cassetteObject;
+        }
+
+        private void CreateDemon()
+        {
+            _spawnedDemon = Instantiate(_demonPrefab, demonSpawnPoint);
+            DestroyWithDelay(_spawnedDemon, 5f);
         }
     }
 }

@@ -24,7 +24,7 @@ namespace LudumDare55
         
         public void StartNewRound()
         {
-            _ejector.StartCoroutine(StartNewRoundRoutine(2f));
+            _ejector.StartCoroutine(StartNewRoundRoutine(7f));
         }
 
         private IEnumerator StartNewRoundRoutine(float delay)

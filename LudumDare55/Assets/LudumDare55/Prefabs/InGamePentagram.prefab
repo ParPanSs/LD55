@@ -65,6 +65,7 @@ Transform:
   - {fileID: 4433447637868622609}
   - {fileID: 7670687747859123075}
   - {fileID: 7322881564173039115}
+  - {fileID: 8603253464396858092}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6613525214066436659
@@ -92,6 +93,7 @@ MonoBehaviour:
   - {fileID: 153715890981937467}
   - {fileID: 8479672805883967626}
   - {fileID: 5176296739569193645}
+  demonSpawnPoint: {fileID: 8603253464396858092}
 --- !u!1 &2362049740229098172
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +490,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7322881564173039115}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8256247815083737955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8603253464396858092}
+  m_Layer: 0
+  m_Name: DemonSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8603253464396858092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256247815083737955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07, y: 0.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5430766394702092737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8506174123298389071
 GameObject:

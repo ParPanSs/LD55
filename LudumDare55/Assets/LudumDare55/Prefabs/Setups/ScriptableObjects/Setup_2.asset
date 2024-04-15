@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Setup_2
   m_EditorClassIdentifier: 
   demonSetupID: 1
+  demonObject: {fileID: 2763300291780553116, guid: be4669e492a83d842b711b4b1c3435ea, type: 3}
   setupItems:
   - _itemObject: {fileID: 1798185435219313895, guid: b91f323b0f3a9cb47a46d3c8a9fc8d4d, type: 3}
   - _itemObject: {fileID: 8566719220398212347, guid: 30e29323b22fb7d4cadbae670af7bb96, type: 3}
   - _itemObject: {fileID: 2726361978035075908, guid: 59c5033a7a37ad54d820aeade4d7b990, type: 3}
   setupCataloguePentagram:
     _figure: {fileID: 0}
-    _drawing: {fileID: 0}
+    _drawings: []
   setupCassette:
     _cassetteAudio: {fileID: 8300000, guid: f7f4b962cf4a1804486089454b872b8e, type: 3}
