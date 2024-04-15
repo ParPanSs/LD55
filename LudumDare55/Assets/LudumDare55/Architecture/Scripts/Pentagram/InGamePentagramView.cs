@@ -68,7 +68,6 @@ namespace LudumDare55
         {
             _animator = gameObject.GetComponent<Animator>();
             Debug.Log(gameObject.name);
-            _animator.SetTrigger("Dissapear");
             _animator.SetTrigger("Disappear");
             if (_spawnedDemon == null) CreateDemon();
             Destroy(gameObject, time);
@@ -109,7 +108,7 @@ namespace LudumDare55
         private void CreateDemon()
         {
             _spawnedDemon = Instantiate(_demonPrefab, demonSpawnPoint);
-            DestroyWithDelay(_spawnedDemon, 5f);
+            DestroyWithDelay(_spawnedDemon, 4f);
         }
     }
 }

@@ -10,6 +10,7 @@ namespace LudumDare55
         [SerializeField] private AudioClip[] timerSounds;
         [SerializeField] private AudioSource _timerSoundsPlayer;
         [SerializeField] private AudioSource timerWrongBeeper;
+        [SerializeField] private Animator minusTimeAnimator;
 
         private void Start()
         {
@@ -26,6 +27,7 @@ namespace LudumDare55
         public void PlayPunishmentSound()
         {
             timerWrongBeeper.Play();
+            minusTimeAnimator.Play("MinusTime");
         }
         
         public void SetRageAnimation()
