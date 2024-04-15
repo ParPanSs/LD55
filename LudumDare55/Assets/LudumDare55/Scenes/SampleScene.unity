@@ -278,12 +278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1378bf8f2a46423bb96f138b973bfd34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catalogueController:
-    _catalogueView: {fileID: 403749153}
-  inGamePentagramController:
-    inGamePentagramView: {fileID: 1763471193}
-  timerController:
-    timerView: {fileID: 1475393286}
+  catalogueView: {fileID: 403749153}
+  inGamePentagramView: {fileID: 1763471193}
+  timerView: {fileID: 1475393286}
   roundStarter:
     setups:
     - {fileID: 11400000, guid: caf5e52296de4fb43b4eddbcae285eb1, type: 2}

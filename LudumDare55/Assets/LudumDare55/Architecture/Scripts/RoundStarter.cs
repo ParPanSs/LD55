@@ -5,19 +5,20 @@ using Random = UnityEngine.Random;
 
 namespace LudumDare55
 {
-    [System.Serializable]
     public class RoundStarter
     {
-        [SerializeField] private List<CreateScriptableObjectOfSetup> setups;
+        public string rightDemon { get; private set; }
+        public int setupsCount { get; private set; }
+        
+        private List<CreateScriptableObjectOfSetup> _setups;
         private InGamePentagramController _inGamePentagramController;
         private Ejector _ejector;
         
-        public string rightDemon { get; private set; }
-        public int setupsCount { get; private set; }
 
-        public void Construct(InGamePentagramController inGamePentagramController)
+        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups)
         {
             _ejector = new GameObject().AddComponent<Ejector>();
+            _setups = setups;
             _inGamePentagramController = inGamePentagramController;
             StartNewRound();
         }
@@ -31,11 +32,11 @@ namespace LudumDare55
         {
             yield return new WaitForSeconds(delay);
             
-            var newSetup = setups[Random.Range(0, setups.Count)];
+            var newSetup = _setups[Random.Range(0, _setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);
             rightDemon = newSetup.demonSetupID;
-            setups.Remove(newSetup);
-            setupsCount = setups.Count;
+            _setups.Remove(newSetup);
+            setupsCount = _setups.Count;
         }
     }
 }

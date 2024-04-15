@@ -2,19 +2,23 @@
 
 namespace LudumDare55
 {
-    [System.Serializable]
     public class InGamePentagramController
     {
-        [SerializeField] private InGamePentagramView inGamePentagramView;
+        private InGamePentagramView _inGamePentagramView;
 
-        public void SetSetup(CreateScriptableObjectOfSetup setup)
+        public void Construct(InGamePentagramView inGamePentagramView)
         {
-            inGamePentagramView.DisplaySetup(setup);
+            _inGamePentagramView = inGamePentagramView;
+        }
+
+    public void SetSetup(CreateScriptableObjectOfSetup setup)
+        {
+            _inGamePentagramView.DisplaySetup(setup);
         }
 
         public void ClearSetup()
         {
-            inGamePentagramView.ClearSetup();
+            _inGamePentagramView.ClearSetup();
         }
     }
 }

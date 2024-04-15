@@ -1,15 +1,13 @@
-﻿using UnityEngine;
-
-namespace LudumDare55
+﻿namespace LudumDare55
 {
-    [System.Serializable]
     public class CatalogueController
     {
-        [SerializeField] private CatalogueView _catalogueView;
+        private CatalogueView _catalogueView;
         private CatalogueModel _catalogueModel;
 
-        public void Construct()
+        public void Construct(CatalogueView catalogueView)
         {
+            _catalogueView = catalogueView;
             //TODO: Make demon default again
             SetSelectedDemon(0.ToString());
         }

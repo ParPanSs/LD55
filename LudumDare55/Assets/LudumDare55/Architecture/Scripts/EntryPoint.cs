@@ -1,31 +1,44 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace LudumDare55
 {
     public class EntryPoint : MonoBehaviour
     {
-        [SerializeField] private CatalogueController catalogueController;
-        [SerializeField] private InGamePentagramController inGamePentagramController;
-        [SerializeField] private TimerController timerController;
-        [SerializeField] private RoundStarter roundStarter;
-        [SerializeField] private RoundEnder roundEnder;
+        private readonly CatalogueController catalogueController = new();
+        [Header("Catalogue")]
+        [SerializeField] private CatalogueView catalogueView;
         [SerializeField] private CatalogueBookmark[] bookmarks;
+        
+        private readonly InGamePentagramController inGamePentagramController = new();
+        [Header("Pentagram")]
+        [SerializeField] private InGamePentagramView inGamePentagramView;
+        
+        private readonly TimerController timerController = new();
+        [Header("Timer")]
+        [SerializeField] private TimerView timerView;
+        
+        private readonly RoundStarter roundStarter = new();
+        private readonly RoundEnder roundEnder = new();
+        [Header("Round")]
+        [SerializeField] private float dayTime;
+        [SerializeField] private List<CreateScriptableObjectOfSetup> daySetups;
         [SerializeField] private Bell bell;
         [SerializeField] private SceneTransition sceneTransition;
-        [SerializeField] private float dayTime;
         
         private void Awake()
         {
-            StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
-            catalogueController.Construct();
-            roundStarter.Construct(inGamePentagramController);
+            catalogueController.Construct(catalogueView);
+            foreach (var bookmark in bookmarks) { bookmark.Construct(catalogueController); }
+            
+            inGamePentagramController.Construct(inGamePentagramView);
+            
+            roundStarter.Construct(inGamePentagramController, daySetups);
             roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition);
-            foreach (var bookmark in bookmarks)
-            {
-                bookmark.Construct(catalogueController);
-            }
-            timerController.Construct(roundEnder);
             bell.Construct(catalogueController, roundEnder);
+            timerController.Construct(roundEnder, timerView);
+            
+            StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
         }
     }
 }
