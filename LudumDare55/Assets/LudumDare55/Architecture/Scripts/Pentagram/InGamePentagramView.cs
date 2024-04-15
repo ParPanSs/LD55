@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace LudumDare55
 {
@@ -12,6 +13,9 @@ namespace LudumDare55
         [SerializeField] private SpriteRenderer pentagramFigureSpriteRenderer;
         [SerializeField] private SpriteRenderer[] pentagramDrawingSpriteRenderers;
         [SerializeField] private Transform demonSpawnPoint;
+        [SerializeField] private PlayableDirector pentagramStartDirector;
+        [SerializeField] private PlayableDirector pentagramExitDirector;
+        
         
         private readonly List<GameObject> spawnedItems = new();
         private GameObject _spawnedCassette;
@@ -36,12 +40,14 @@ namespace LudumDare55
 
         private void DestroyPentagram()
         {
-            foreach (var part in pentagramDrawingSpriteRenderers)
+            pentagramExitDirector.Play();
+            
+            /*foreach (var part in pentagramDrawingSpriteRenderers)
             {
                 part.sprite = null;
             }
 
-            pentagramFigureSpriteRenderer.sprite = null;
+            pentagramFigureSpriteRenderer.sprite = null;*/
         }
 
         private void DestroyItems()
@@ -74,8 +80,9 @@ namespace LudumDare55
             {
                 pentagramDrawingSpriteRenderers[i].sprite = pentagram.drawings[i];
             }
-
             pentagramFigureSpriteRenderer.sprite = pentagram.figure;
+            
+            pentagramStartDirector.Play();
         }
 
         private void CreateItems(InGameItem[] items)
