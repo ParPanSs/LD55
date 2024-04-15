@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -62,6 +63,7 @@ namespace LudumDare55
         private void DestroyWithDelay(GameObject gameObject, float time)
         {
             _animator = gameObject.GetComponent<Animator>();
+            Debug.Log(gameObject.name);
             _animator.SetTrigger("Dissapear");
             if (_spawnedDemon == null) CreateDemon();
             Destroy(gameObject, time);

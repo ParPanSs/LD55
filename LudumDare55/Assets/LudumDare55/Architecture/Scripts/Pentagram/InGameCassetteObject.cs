@@ -9,6 +9,7 @@ namespace LudumDare55
         private AudioClip _cassetteAudioClip;
         private Vector2 _initialPosition;
         private AudioSource _recordPlayerAudioSource;
+        private Animator _recordPlayerAnimator;
         
         public void Construct(AudioClip cassetteAudioClip)
         {
@@ -31,6 +32,7 @@ namespace LudumDare55
             if (!_recordPlayerAudioSource) return;
             _recordPlayerAudioSource.Stop();
             _recordPlayerAudioSource.clip = null;
+            _recordPlayerAnimator.Play("RecordPlayerOpen");
         }
 
         private void OnMouseUp()
@@ -39,6 +41,7 @@ namespace LudumDare55
             
             if (recordPlayer)
             {
+                _recordPlayerAnimator = recordPlayer.GetComponent<Animator>();
                 _recordPlayerAudioSource = recordPlayer.GetComponent<AudioSource>();
                 _recordPlayerAudioSource.clip = _cassetteAudioClip;
                 gameObject.SetActive(false);
