@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: 6bf2508fa71bbf84baf5e00ef051b79c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4688951341851520780
+    second: DarkHairItem_0
+  - first:
+      213: 8973802707084525680
+    second: DarkHairItem_1
+  - first:
+      213: 6244594487021584946
+    second: DarkHairItem_2
+  - first:
+      213: 1019516686681135433
+    second: DarkHairItem_3
+  - first:
+      213: 6655186932992624546
+    second: DarkHairItem_4
+  - first:
+      213: 9113979629610460435
+    second: DarkHairItem_5
+  - first:
+      213: 5044442433098571292
+    second: DarkHairItem_6
+  - first:
+      213: -8103901568624592349
+    second: DarkHairItem_7
+  - first:
+      213: 2891791762818138432
+    second: DarkHairItem_8
+  - first:
+      213: 5016360242647211932
+    second: DarkHairItem_9
+  - first:
+      213: -1350921153129279455
+    second: DarkHairItem_10
+  - first:
+      213: -102555569737332870
+    second: DarkHairItem_11
+  - first:
+      213: -1928177296468741325
+    second: DarkHairItem_12
+  - first:
+      213: -8154605679648002599
+    second: DarkHairItem_13
+  - first:
+      213: 600203275453760137
+    second: DarkHairItem_14
+  - first:
+      213: 2317407725730671208
+    second: DarkHairItem_15
+  - first:
+      213: -4290924187864729986
+    second: DarkHairItem_16
+  - first:
+      213: 8901692168750495851
+    second: DarkHairItem_17
+  - first:
+      213: -2074511124457584915
+    second: DarkHairItem_18
+  - first:
+      213: 7200261748169009360
+    second: DarkHairItem_19
+  - first:
+      213: 2395798566913407074
+    second: DarkHairItem_20
+  - first:
+      213: 7275580544627698123
+    second: DarkHairItem_21
+  - first:
+      213: 9181949400767347379
+    second: DarkHairItem_22
+  - first:
+      213: -3326381797396690598
+    second: DarkHairItem_23
+  - first:
+      213: 2250909927043353644
+    second: DarkHairItem_24
+  - first:
+      213: 3082742732344152596
+    second: DarkHairItem_25
+  - first:
+      213: -1627886418605969878
+    second: DarkHairItem_26
+  - first:
+      213: 3491156543958087724
+    second: DarkHairItem_27
+  - first:
+      213: 8780814958156754372
+    second: DarkHairItem_28
+  - first:
+      213: -7517128731775238118
+    second: DarkHairItem_29
+  - first:
+      213: 3153728592280436294
+    second: DarkHairItem_30
+  - first:
+      213: 2774527537579258440
+    second: DarkHairItem_31
+  - first:
+      213: -2101921219946372051
+    second: DarkHairItem_32
+  - first:
+      213: 5714957115478594217
+    second: DarkHairItem_33
+  - first:
+      213: -67761266958236753
+    second: DarkHairItem_34
+  - first:
+      213: -4448366852127859545
+    second: DarkHairItem_35
+  - first:
+      213: 6409297610243567437
+    second: DarkHairItem_36
+  - first:
+      213: 6743180241897374008
+    second: DarkHairItem_37
+  - first:
+      213: -7313862641972557720
+    second: DarkHairItem_38
+  - first:
+      213: -4710000697851250237
+    second: DarkHairItem_39
+  - first:
+      213: -6790124225278975212
+    second: DarkHairItem_40
+  - first:
+      213: -7445160959021618197
+    second: DarkHairItem_41
+  - first:
+      213: 1292215140913021672
+    second: DarkHairItem_42
+  - first:
+      213: 3865674945976290250
+    second: DarkHairItem_43
+  - first:
+      213: -2017649951037003792
+    second: DarkHairItem_44
+  - first:
+      213: -6719810085572614112
+    second: DarkHairItem_45
+  - first:
+      213: -7795212813973129222
+    second: DarkHairItem_46
+  - first:
+      213: -7587461202407781076
+    second: DarkHairItem_47
+  - first:
+      213: -7625715371392962246
+    second: DarkHairItem_48
+  - first:
+      213: -8464643380561456843
+    second: DarkHairItem_49
+  - first:
+      213: 3215001537236628071
+    second: DarkHairItem_50
+  - first:
+      213: -127910515426218912
+    second: DarkHairItem_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DarkHairItem_0
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88726066d75a67349a9d1602d63cb847
+      internalID: 357816373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_1
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfe251292906104a82da41f0a947bb5
+      internalID: -1787390120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_2
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eceff8c6badc7478b239567aa8bb14
+      internalID: 181739326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2142
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba6ca203883ef54ca2178a2d81f32ca
+      internalID: 382393646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f13b1469d205449dff29824ef31e9
+      internalID: -1290023086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab176edea8b10147892bd591477c2dc
+      internalID: 481650265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43604c6f505bebb4ab3d9775fb51ffc4
+      internalID: 42661652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab49b316f2b50944b1d96ccaf0e4426
+      internalID: 834862799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb2c51a23b897948a6729307a1c60e9
+      internalID: -1701505059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b601fe0073b64da45ad1b321e919b1e2
+      internalID: 1208997031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_10
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1836
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420f30fe7b2583d44a5164ce8500664b
+      internalID: -45414113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39a78a2ed7fa140921c2f2230526ce
+      internalID: -821437762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4612a053a2cd245b7d276fc7ec3a3d
+      internalID: -827898866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f62def5f688dd146a1c2690064588af
+      internalID: 164260672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a89ac94a75efe941b3affa0c72b8594
+      internalID: -155641029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_15
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110369a95755b2e4ca6d5dc92706e403
+      internalID: 1400371494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_16
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcf54aff35271747b8ae9a56c48d25f
+      internalID: -1587119633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_17
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1530
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942e09009a6c5a04894ea5e2433f950b
+      internalID: -1702065456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9208fea91c371cc4ea888de66bacdb60
+      internalID: -1454439852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627a3d9790d713d40b661323b1aa55f2
+      internalID: -1790265964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_20
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2958386cdb261d4ab7b958b20b1dfb4
+      internalID: -1336281938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_21
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a637d4437685c64aad96511a036c33a
+      internalID: -1762593034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_22
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56ffddf360e00f478e69b7d3b0ca3d7
+      internalID: -1748514948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_23
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f9302e9d0973545b1c472db081f7ce
+      internalID: 745080625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_24
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1224
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2351d779e70c1b540aad63b8b9a41dd8
+      internalID: 951585647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2268645e70c19cf4282147cbabdb1557
+      internalID: -1574672155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b892775e9ffa14c8b1ff42ae708110
+      internalID: 1904371755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_27
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529ccf350e0f17e459fe13d60e9b6418
+      internalID: 912531800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_28
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de01167aa3341c9438a12ec0b8925651
+      internalID: -144509041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_29
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1376b233f77b479ad95537c85a92b
+      internalID: -1391997058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_30
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f777340aa0ec3d14ebf2953ffda418a6
+      internalID: 1897880192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_31
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 918
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dd9993d4b91054b9cf42e54c15681d
+      internalID: -994791565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc766de58160f1440a5c0c84d4952696
+      internalID: 430926772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070fddf24438a094583e3b3ae77d3629
+      internalID: -394988397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b902cdfc600c49446832370a20ff022b
+      internalID: -1305981147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_35
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff9cb7ea0833e4b8a22ff82d362a1d
+      internalID: -1558434944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_36
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e3d814074b2f541b253be16964661e
+      internalID: 2059477005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_37
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306d7765aa1aa247b61afdc8c8008eb
+      internalID: 858621663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_38
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 612
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b25eadc58d083648bbac736a965bb89
+      internalID: -1616327145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8d0007c7dbee2428aba65404416add
+      internalID: -1064615753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4928a17b321eaa44f95abb0e5a40e064
+      internalID: 197255345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3afae25a6b2e7246a193155335b0310
+      internalID: 1556703246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615273fb8a8d2c40b0a3ec0b58f0164
+      internalID: -204762521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_43
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09af6cf84ea95e44862afafb3736482
+      internalID: 1151726971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_44
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e146b9ae0ec24186051d3d16b7aff
+      internalID: 621060193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_45
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 306
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c9cd222d44fd24a948329f331f20ca
+      internalID: -979255640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkHairItem_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14ba6ebd4cb1464ab18625bdd1a95e7
+      internalID: 992897357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f0e5cdeae71d8724fb4c10cc3aeedf3b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DarkHairItem_0: 357816373
+      DarkHairItem_1: -1787390120
+      DarkHairItem_10: -45414113
+      DarkHairItem_11: -821437762
+      DarkHairItem_12: -827898866
+      DarkHairItem_13: 164260672
+      DarkHairItem_14: -155641029
+      DarkHairItem_15: 1400371494
+      DarkHairItem_16: -1587119633
+      DarkHairItem_17: -1702065456
+      DarkHairItem_18: -1454439852
+      DarkHairItem_19: -1790265964
+      DarkHairItem_2: 181739326
+      DarkHairItem_20: -1336281938
+      DarkHairItem_21: -1762593034
+      DarkHairItem_22: -1748514948
+      DarkHairItem_23: 745080625
+      DarkHairItem_24: 951585647
+      DarkHairItem_25: -1574672155
+      DarkHairItem_26: 1904371755
+      DarkHairItem_27: 912531800
+      DarkHairItem_28: -144509041
+      DarkHairItem_29: -1391997058
+      DarkHairItem_3: 382393646
+      DarkHairItem_30: 1897880192
+      DarkHairItem_31: -994791565
+      DarkHairItem_32: 430926772
+      DarkHairItem_33: -394988397
+      DarkHairItem_34: -1305981147
+      DarkHairItem_35: -1558434944
+      DarkHairItem_36: 2059477005
+      DarkHairItem_37: 858621663
+      DarkHairItem_38: -1616327145
+      DarkHairItem_39: -1064615753
+      DarkHairItem_4: -1290023086
+      DarkHairItem_40: 197255345
+      DarkHairItem_41: 1556703246
+      DarkHairItem_42: -204762521
+      DarkHairItem_43: 1151726971
+      DarkHairItem_44: 621060193
+      DarkHairItem_45: -979255640
+      DarkHairItem_46: 992897357
+      DarkHairItem_5: 481650265
+      DarkHairItem_6: 42661652
+      DarkHairItem_7: 834862799
+      DarkHairItem_8: -1701505059
+      DarkHairItem_9: 1208997031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
