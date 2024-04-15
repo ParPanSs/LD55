@@ -24,7 +24,7 @@ namespace LudumDare55
         
         public void StartNewRound()
         {
-            _ejector.StartCoroutine(StartNewRoundRoutine(5f));
+            _ejector.StartCoroutine(StartNewRoundRoutine(2f));
         }
 
         private IEnumerator StartNewRoundRoutine(float delay)
@@ -35,6 +35,7 @@ namespace LudumDare55
             _inGamePentagramController.SetSetup(newSetup);
             rightDemon = newSetup.demonSetupID;
             setups.Remove(newSetup);
+            setupsCount = setups.Count;
         }
     }
 }

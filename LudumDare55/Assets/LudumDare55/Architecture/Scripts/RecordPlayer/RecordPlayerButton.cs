@@ -35,7 +35,7 @@ namespace LudumDare55
                     {
                         recordPlayerAudioSource.Pause();
                         buttonAnimator.SetTrigger("Click");
-                        cassetteAnimator.Play("RecordPlayerCassette");
+                        cassetteAnimator.Play("RecordPlayerStatic");
                     }
                     break;
                 default:
