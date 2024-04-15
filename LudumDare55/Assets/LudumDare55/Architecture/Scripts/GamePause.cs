@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace LudumDare55
@@ -20,6 +21,11 @@ namespace LudumDare55
             _isGamePaused = !_isGamePaused;
             Time.timeScale = _isGamePaused ? 0 : 1;
             pausePanel.SetActive(_isGamePaused);
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape)) SetPause();
         }
 
         private void OnDestroy()

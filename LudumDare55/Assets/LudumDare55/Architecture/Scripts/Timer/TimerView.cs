@@ -8,13 +8,13 @@ namespace LudumDare55
         [SerializeField] private TextMeshPro[] digitTexts;
         [SerializeField] private Animator animator;
         [SerializeField] private AudioClip[] timerSounds;
-        [SerializeField] private AudioSource _timerSoundsPlayer;
+        [SerializeField] private AudioSource timerSoundsPlayer;
         [SerializeField] private AudioSource timerWrongBeeper;
         [SerializeField] private Animator minusTimeAnimator;
 
         private void Start()
         {
-            _timerSoundsPlayer = GetComponent<AudioSource>();
+            timerSoundsPlayer = GetComponent<AudioSource>();
         }
         public void DisplayTime(string displayTime)
         {
@@ -33,8 +33,8 @@ namespace LudumDare55
         public void SetRageAnimation()
         {
             animator.Play("TimerRunOutOfTime");
-            _timerSoundsPlayer.clip = timerSounds[1];
-            _timerSoundsPlayer.Play();
+            timerSoundsPlayer.clip = timerSounds[1];
+            timerSoundsPlayer.Play();
         }
     }
 }
