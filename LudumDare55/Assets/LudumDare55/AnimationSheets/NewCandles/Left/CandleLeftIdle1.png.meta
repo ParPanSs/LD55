@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: f6528a49f2631254995268443814edce
+guid: 6f865aef9acd6427886dfbad2dbff9ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5147430887461619106
-    second: CandleRight4_0
+      213: 8774159735406830931
+    second: CandleLeftIdle1_0
   - first:
-      213: 2969108517006363999
-    second: CandleRight4_1
+      213: -5734999704769477264
+    second: CandleLeftIdle1_1
   - first:
-      213: -5266299279084862765
-    second: CandleRight4_2
+      213: 730530030158676724
+    second: CandleLeftIdle1_2
   - first:
-      213: -770738331129903154
-    second: CandleRight4_3
+      213: -1147734329117846966
+    second: CandleLeftIdle1_3
   - first:
-      213: 6637310264228112578
-    second: CandleRight4_4
+      213: 2790388555960898064
+    second: CandleLeftIdle1_4
   - first:
-      213: 850222752780199434
-    second: CandleRight4_5
-  - first:
-      213: 2078976777058699223
-    second: CandleRight4_6
+      213: 8969670665625678116
+    second: CandleLeftIdle1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -90,7 +87,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -118,190 +115,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CandleRight4_0
+      name: CandleLeftIdle1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1700
-        width: 414
-        height: 850
+        y: 1079
+        width: 452
+        height: 830
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b731cfa423bdf514da33fb39355b6003
-      internalID: -794699673
+      spriteID: 355a577bac314c970800000000000000
+      internalID: 8774159735406830931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CandleRight4_1
+      name: CandleLeftIdle1_1
       rect:
         serializedVersion: 2
-        x: 414
-        y: 1700
-        width: 414
-        height: 850
+        x: 599
+        y: 1079
+        width: 453
+        height: 835
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2b71a542c4f9d6a4fa3846d995dbb528
-      internalID: 1020611444
+      spriteID: 075ce3267203960b0800000000000000
+      internalID: -5734999704769477264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CandleRight4_2
+      name: CandleLeftIdle1_2
       rect:
         serializedVersion: 2
-        x: 828
-        y: 1700
-        width: 414
-        height: 850
+        x: 1199
+        y: 1079
+        width: 453
+        height: 834
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c066b2c4531c78749b4b6a364d8c60fe
-      internalID: -984887960
+      spriteID: 4f20d51213d532a00800000000000000
+      internalID: 730530030158676724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CandleRight4_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 850
-        width: 414
-        height: 850
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2b1d4f9b0b317847a273fcf6540a9c5
-      internalID: 1100145834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CandleRight4_4
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 850
-        width: 414
-        height: 850
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fec0c0b9058ac964aa0cc76569ab1055
-      internalID: 563352911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CandleRight4_5
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 850
-        width: 414
-        height: 850
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7690d78e4195a04097e50739349092c
-      internalID: -316214143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CandleRight4_6
+      name: CandleLeftIdle1_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 414
-        height: 850
+        width: 452
+        height: 790
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 892afbaf20ca37a41bf356cceebde040
-      internalID: -2037249143
+      spriteID: a42d86865bd6210f0800000000000000
+      internalID: -1147734329117846966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CandleRight4_7
+      name: CandleLeftIdle1_4
       rect:
         serializedVersion: 2
-        x: 414
+        x: 599
         y: 0
-        width: 414
-        height: 850
+        width: 453
+        height: 790
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1c1e0c774223936419374faed9dd9409
-      internalID: -1366431255
+      spriteID: 0125d578b9379b620800000000000000
+      internalID: 2790388555960898064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CandleRight4_8
+      name: CandleLeftIdle1_5
       rect:
         serializedVersion: 2
-        x: 828
+        x: 1199
         y: 0
-        width: 414
-        height: 850
+        width: 453
+        height: 799
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f09c6ecb4f98b3e4bb9270ee8b9a3663
-      internalID: -1939835128
+      spriteID: 4213cd072fbaa7c70800000000000000
+      internalID: 8969670665625678116
       vertices: []
       indices: 
       edges: []
@@ -309,23 +243,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9ab89e0a73c29e949b587eb2982aec10
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      CandleRight4_0: -794699673
-      CandleRight4_1: 1020611444
-      CandleRight4_2: -984887960
-      CandleRight4_3: 1100145834
-      CandleRight4_4: 563352911
-      CandleRight4_5: -316214143
-      CandleRight4_6: -2037249143
-      CandleRight4_7: -1366431255
-      CandleRight4_8: -1939835128
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
