@@ -15,6 +15,7 @@ namespace LudumDare55
         [SerializeField] private ButtonType buttonType;
         [SerializeField] private Animator buttonAnimator;
         [SerializeField] private Animator cassetteAnimator;
+        [SerializeField] private AudioSource buttonAudioSource;
         
         private void OnMouseDown()
         {
@@ -28,6 +29,7 @@ namespace LudumDare55
                         recordPlayerAudioSource.Play();
                         buttonAnimator.SetTrigger("Click");
                         cassetteAnimator.Play("RecordPlayerCassettePlay");
+                        buttonAudioSource.Play();
                     }
                     break;
                 case ButtonType.PauseButton:
@@ -36,6 +38,7 @@ namespace LudumDare55
                         recordPlayerAudioSource.Pause();
                         buttonAnimator.SetTrigger("Click");
                         cassetteAnimator.Play("RecordPlayerStatic");
+                        buttonAudioSource.Play();
                     }
                     break;
                 default:
