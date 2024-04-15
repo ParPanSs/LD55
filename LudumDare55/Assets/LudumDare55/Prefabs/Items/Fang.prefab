@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5441506059566643815}
   - component: {fileID: 1965533062191854033}
   - component: {fileID: 1563630417471776903}
+  - component: {fileID: -8775982137873645689}
   m_Layer: 0
   m_Name: Fang
   m_TagString: Untagged
@@ -109,3 +110,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8775982137873645689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3026188558491728653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478f92f262864e458376298710f31a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

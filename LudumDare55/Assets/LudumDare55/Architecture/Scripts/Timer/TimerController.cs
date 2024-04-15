@@ -6,10 +6,15 @@ namespace LudumDare55
     [System.Serializable]
     public class TimerController
     {
-        private const float PunishmentTime = 10f;
         [SerializeField] private TimerView timerView;
         private TimerModel _timerModel;
-        
+        private RoundEnder _roundEnder;
+        private const float PunishmentTime = 10f;
+
+        public void Construct(RoundEnder roundEnder)
+        {
+            _roundEnder = roundEnder;
+        }
         public IEnumerator DecrementTimeCoroutine(float time)
         {
             _timerModel = new TimerModel(time);
@@ -24,7 +29,7 @@ namespace LudumDare55
                 timerView.DisplayTime(_timerModel.GetStringTime());
 
                 if (_timerModel.GetFloatTime() != 0) { continue; }
-                
+                _roundEnder.EndDay();
                 yield break;
             }
         }
@@ -32,6 +37,7 @@ namespace LudumDare55
         public void PunishmentDecrementTime()
         {
             _timerModel.DecrementTime(PunishmentTime);
+            timerView.DisplayTime(_timerModel.GetStringTime());
         }
     }
 }

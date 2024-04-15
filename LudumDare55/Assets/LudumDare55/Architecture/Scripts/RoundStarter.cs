@@ -10,6 +10,7 @@ namespace LudumDare55
         [SerializeField] private List<CreateScriptableObjectOfSetup> setups;
         private InGamePentagramController _inGamePentagramController;
         public string rightDemon { get; private set; }
+        public int setupsCount { get; private set; }
 
         public void Construct(InGamePentagramController inGamePentagramController)
         {
@@ -19,8 +20,6 @@ namespace LudumDare55
         
         public void StartNewRound()
         {
-            if (setups.Count == 0)
-                return;
             var newSetup = setups[Random.Range(0, setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);
             rightDemon = newSetup.demonSetupID;

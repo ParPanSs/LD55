@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Sukkub
   m_EditorClassIdentifier: 
   demonID: 1
-  itemToSummon: []
+  itemToSummon:
+  - _itemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
+  - _itemSprite: {fileID: -2847930812935695759, guid: d683da5a05d6b4b4482a98b56285fdcc, type: 3}
+  - _itemSprite: {fileID: -1311454706999046921, guid: f80c033eb95e77f47b4eef1f5240ae54, type: 3}
   cataloguePentagram:
     _figure: {fileID: 0}
     _drawing: {fileID: 0}
@@ -22,5 +25,5 @@ MonoBehaviour:
     - ya
     - tozhe
     - ras
-  catalogueDemonSprite: {fileID: 0}
+  catalogueDemonSprite: {fileID: -1761438820, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
   inGameDemonPrefab: {fileID: 0}

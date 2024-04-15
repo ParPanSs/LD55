@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 7cc1097f002abbc41b305d1d2e92396e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1669450078160861664
+    second: CharacterPortraits_0
+  - first:
+      213: -565618138733698508
+    second: CharacterPortraits_1
+  - first:
+      213: 3494982329719292425
+    second: CharacterPortraits_2
+  - first:
+      213: 9052739027384607984
+    second: CharacterPortraits_3
+  - first:
+      213: 1682716436009870897
+    second: CharacterPortraits_4
+  - first:
+      213: 6079669531490932445
+    second: CharacterPortraits_5
+  - first:
+      213: -8020906441743618833
+    second: CharacterPortraits_6
+  - first:
+      213: -2117490594260513319
+    second: CharacterPortraits_7
+  - first:
+      213: -343054068062230019
+    second: CharacterPortraits_8
+  - first:
+      213: 9050661054376052139
+    second: CharacterPortraits_9
+  - first:
+      213: 1593965286551336283
+    second: CharacterPortraits_10
+  - first:
+      213: 5887594809182175635
+    second: CharacterPortraits_11
+  - first:
+      213: 8945900648447485841
+    second: CharacterPortraits_12
+  - first:
+      213: 355418311549296546
+    second: CharacterPortraits_13
+  - first:
+      213: 7383752513866376927
+    second: CharacterPortraits_14
+  - first:
+      213: 6054191527098039197
+    second: CharacterPortraits_15
+  - first:
+      213: -7733304396297021365
+    second: CharacterPortraits_16
+  - first:
+      213: 2500888661606313485
+    second: CharacterPortraits_17
+  - first:
+      213: -6382963479669870448
+    second: CharacterPortraits_18
+  - first:
+      213: -2978532924967328263
+    second: CharacterPortraits_19
+  - first:
+      213: -7117532903186948579
+    second: CharacterPortraits_20
+  - first:
+      213: -3547314659757624505
+    second: CharacterPortraits_21
+  - first:
+      213: -3786760206420316861
+    second: CharacterPortraits_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterPortraits_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 800
+        width: 178
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31878c8571054ba479af6e8a3e269dfc
+      internalID: 1692653928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 799
+        width: 187
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b8621a87ecbff499cf0e07cbb73ecc
+      internalID: 578340515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 791
+        width: 277
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa72949d413a6964d8bb6ea72d415096
+      internalID: -1761438820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 457
+        width: 255
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d9a64eabf341d4287938a6238e4bcc
+      internalID: -775250085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 464
+        width: 189
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17278c50e16ddd6489adc216d037a2ea
+      internalID: 1671836638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 429
+        width: 250
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0126bf7040954f8c3b0b89e84116d
+      internalID: 1760118027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 131
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2043d49a98023e41b01e9c9d19220a4
+      internalID: 187705928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 132
+        width: 180
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30112f3ce57fe76448c954c80d8faadd
+      internalID: 409173373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterPortraits_8
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 79
+        width: 198
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb0ca9cc1445c43958225f7c426947
+      internalID: 692809868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff2eb5fb42cbd33438af60bd53f7d0c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharacterPortraits_0: 1692653928
+      CharacterPortraits_1: 578340515
+      CharacterPortraits_2: -1761438820
+      CharacterPortraits_3: -775250085
+      CharacterPortraits_4: 1671836638
+      CharacterPortraits_5: 1760118027
+      CharacterPortraits_6: 187705928
+      CharacterPortraits_7: 409173373
+      CharacterPortraits_8: 692809868
+      CharacterPortraits_9: 382193247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

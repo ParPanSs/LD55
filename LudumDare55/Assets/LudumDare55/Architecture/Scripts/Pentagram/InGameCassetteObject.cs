@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace LudumDare55
 {
@@ -43,6 +42,7 @@ namespace LudumDare55
                 _recordPlayerAudioSource = recordPlayer.GetComponent<AudioSource>();
                 _recordPlayerAudioSource.clip = _cassetteAudioClip;
                 gameObject.SetActive(false);
+                recordPlayer.GetComponent<Animator>().Play("RecordPlayerCassette");
                 return;
             }
             

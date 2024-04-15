@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   demonSetupID: 2
   setupItems:
-  - _itemObject: {fileID: 5261332817478504665, guid: 9faf3c2624b13d346b37e875b11b18df, type: 3}
+  - _itemObject: {fileID: 890484212524659979, guid: 8a1825f8f8cb0034e8f68c1fa9a1e302, type: 3}
   - _itemObject: {fileID: 1111603235013364872, guid: 6a7c5a62e768e764fbcf318028e1e662, type: 3}
   - _itemObject: {fileID: 3827085293961925340, guid: 10527ae3a03e50448bfc3aeab69774dd, type: 3}
   setupCataloguePentagram:

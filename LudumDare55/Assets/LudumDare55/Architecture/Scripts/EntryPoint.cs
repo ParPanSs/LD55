@@ -11,6 +11,7 @@ namespace LudumDare55
         [SerializeField] private RoundEnder roundEnder;
         [SerializeField] private CatalogueBookmark[] bookmarks;
         [SerializeField] private Bell bell;
+        [SerializeField] private SceneTransition sceneTransition;
         [SerializeField] private float dayTime;
         
         private void Awake()
@@ -18,12 +19,12 @@ namespace LudumDare55
             StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
             catalogueController.Construct();
             roundStarter.Construct(inGamePentagramController);
-            roundEnder.Construct(roundStarter, inGamePentagramController);
+            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition);
             foreach (var bookmark in bookmarks)
             {
                 bookmark.Construct(catalogueController);
             }
-
+            timerController.Construct(roundEnder);
             bell.Construct(catalogueController, roundEnder);
         }
     }

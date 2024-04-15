@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3525393172021702689}
   - component: {fileID: 1077276180628135370}
   - component: {fileID: 5935441629828054821}
+  - component: {fileID: -7880677990742312145}
   m_Layer: 0
   m_Name: PurpleRose
   m_TagString: Untagged
@@ -109,3 +110,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7880677990742312145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3827085293961925340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478f92f262864e458376298710f31a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
