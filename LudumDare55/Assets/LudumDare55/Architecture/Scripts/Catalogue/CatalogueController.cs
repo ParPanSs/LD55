@@ -8,8 +8,7 @@
         public void Construct(CatalogueView catalogueView)
         {
             _catalogueView = catalogueView;
-            //TODO: Make demon default again
-            SetSelectedDemon(0.ToString());
+            SetSelectedDemon(1.ToString());
         }
         public void ChangeDemon(object sender, string e)
         {

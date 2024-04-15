@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 289509e1718263b4eaf9418fd9232d04, type: 3}
-  m_Name: Demon
+  m_Name: 1
   m_EditorClassIdentifier: 
-  demonID: 0
+  demonID: 1
   itemToSummon:
-  - _itemSprite: {fileID: 45710888, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: 340561283, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: -827187445, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: -193939374, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
-  - _itemSprite: {fileID: -1869861819, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   cataloguePentagram:
-    _figure: {fileID: 0}
-    _drawing: {fileID: 0}
+    _sprite: {fileID: 1400667938, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
   catalogueCassette:
     _cassetteAudioCharacteristics:
-    - ya
-    - pido
-    - ras
-  catalogueDemonSprite: {fileID: 692809868, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 0}
+    - child
+    - normal
+    - underwater
+  catalogueDemonSprite: {fileID: 1692653928, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  inGameDemonPrefab: {fileID: 7947637914608915352, guid: 1ff97f8b47bfcd548be77d64ec474ed9, type: 3}

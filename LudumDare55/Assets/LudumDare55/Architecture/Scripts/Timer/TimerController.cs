@@ -41,6 +41,7 @@ namespace LudumDare55
 
         public void PunishmentDecrementTime()
         {
+            _timerView.PlayPunishmentSound();
             _timerModel.DecrementTime(PunishmentTime);
             _timerView.DisplayTime(_timerModel.GetStringTime());
         }

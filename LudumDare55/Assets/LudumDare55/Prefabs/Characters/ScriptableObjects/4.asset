@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 289509e1718263b4eaf9418fd9232d04, type: 3}
-  m_Name: Sukkub
+  m_Name: 4
   m_EditorClassIdentifier: 
-  demonID: 1
+  demonID: 4
   itemToSummon:
-  - _itemSprite: {fileID: -6865360126105836498, guid: 169d85f4eb3321a45b93e9e45ba882bb, type: 3}
-  - _itemSprite: {fileID: -2847930812935695759, guid: d683da5a05d6b4b4482a98b56285fdcc, type: 3}
-  - _itemSprite: {fileID: -1311454706999046921, guid: f80c033eb95e77f47b4eef1f5240ae54, type: 3}
+  - _itemSprite: {fileID: -1707390935, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: -1338760563, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: -332523974, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   cataloguePentagram:
-    _figure: {fileID: 0}
-    _drawing: {fileID: 0}
+    _sprite: {fileID: -5692021688392579117, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
   catalogueCassette:
     _cassetteAudioCharacteristics:
-    - ya
-    - tozhe
-    - ras
+    - adult
+    - slow
+    - echo
   catalogueDemonSprite: {fileID: -1761438820, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 0}
+  inGameDemonPrefab: {fileID: 1148842165298037814, guid: 03e39942f420eb4439d39413c317503d, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028414fb37114072a9e369d2a96fa893, type: 3}
   m_Name: Setup_2_3
   m_EditorClassIdentifier: 
-  demonSetupID: 
+  demonSetupID: 4
   demonObject: {fileID: 1148842165298037814, guid: 03e39942f420eb4439d39413c317503d, type: 3}
   setupItems:
   - _itemObject: {fileID: 8566719220398212347, guid: 30e29323b22fb7d4cadbae670af7bb96, type: 3}
@@ -26,4 +26,4 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 06247992776fc924698083788abb240e, type: 3}
     - {fileID: 21300000, guid: 43e7c78367ed1a443b1580ebf3bfb3ae, type: 3}
   setupCassette:
-    _cassetteAudio: {fileID: 0}
+    _cassetteAudio: {fileID: 8300000, guid: 542ff87973b2f3145b782bc47745d3fe, type: 3}

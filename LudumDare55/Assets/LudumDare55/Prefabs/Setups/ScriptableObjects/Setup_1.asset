@@ -22,4 +22,4 @@ MonoBehaviour:
     _figure: {fileID: 0}
     _drawings: []
   setupCassette:
-    _cassetteAudio: {fileID: 8300000, guid: e45642975fab9c246873d512230175cd, type: 3}
+    _cassetteAudio: {fileID: 8300000, guid: 542ff87973b2f3145b782bc47745d3fe, type: 3}

@@ -34,7 +34,7 @@ namespace LudumDare55
             inGamePentagramController.Construct(inGamePentagramView);
             
             roundStarter.Construct(inGamePentagramController, daySetups);
-            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition);
+            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<AudioSource>());
             bell.Construct(catalogueController, roundEnder);
             timerController.Construct(roundEnder, timerView);
             

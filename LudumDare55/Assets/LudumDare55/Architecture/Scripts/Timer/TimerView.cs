@@ -8,7 +8,8 @@ namespace LudumDare55
         [SerializeField] private TextMeshPro[] digitTexts;
         [SerializeField] private Animator animator;
         [SerializeField] private AudioClip[] timerSounds;
-        private AudioSource _timerSoundsPlayer;
+        [SerializeField] private AudioSource _timerSoundsPlayer;
+        [SerializeField] private AudioSource timerWrongBeeper;
 
         private void Start()
         {
@@ -22,6 +23,11 @@ namespace LudumDare55
             }
         }
 
+        public void PlayPunishmentSound()
+        {
+            timerWrongBeeper.Play();
+        }
+        
         public void SetRageAnimation()
         {
             animator.Play("TimerRunOutOfTime");

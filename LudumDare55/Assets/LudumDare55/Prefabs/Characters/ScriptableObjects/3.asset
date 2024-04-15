@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289509e1718263b4eaf9418fd9232d04, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  demonID: 3
+  itemToSummon:
+  - _itemSprite: {fileID: -1153380358, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: -193939374, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  - _itemSprite: {fileID: 722770303, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+  cataloguePentagram:
+    _sprite: {fileID: -7902592156190263971, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+  catalogueCassette:
+    _cassetteAudioCharacteristics:
+    - adult
+    - slow
+    - echo
+  catalogueDemonSprite: {fileID: 409173373, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  inGameDemonPrefab: {fileID: 4707968171551636784, guid: 83b5e39ac82b3744eaac6fbee1fc0d47, type: 3}

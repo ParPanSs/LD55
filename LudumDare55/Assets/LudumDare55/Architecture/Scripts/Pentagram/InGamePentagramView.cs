@@ -69,6 +69,7 @@ namespace LudumDare55
             _animator = gameObject.GetComponent<Animator>();
             Debug.Log(gameObject.name);
             _animator.SetTrigger("Dissapear");
+            _animator.SetTrigger("Disappear");
             if (_spawnedDemon == null) CreateDemon();
             Destroy(gameObject, time);
         }

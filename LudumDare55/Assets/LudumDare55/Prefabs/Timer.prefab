@@ -226,7 +226,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 24
   m_Sprite: {fileID: 2310623820380672435, guid: 29e30dd99c7209d4699e4574eed715ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -317,7 +317,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 62
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &7938266695726130160
 MonoBehaviour:
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.5354643, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -532,7 +532,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 62
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &8911864529888122899
 MonoBehaviour:
@@ -707,7 +707,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 62
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4252924454953719247
 MonoBehaviour:
@@ -878,7 +878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 47
   m_Sprite: {fileID: -1127694631444267966, guid: 41a599ebac8dfe240ae62a41aa57196f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -991,7 +991,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 62
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &2021177763383218754
 MonoBehaviour:
@@ -1098,7 +1098,6 @@ GameObject:
   - component: {fileID: 917441846641252218}
   - component: {fileID: 8326631845189253288}
   - component: {fileID: 1078256067388454032}
-  - component: {fileID: 7344519926279097421}
   m_Layer: 0
   m_Name: TimerEyes
   m_TagString: Untagged
@@ -1163,7 +1162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 31
   m_Sprite: {fileID: -7599163756620337331, guid: 29e30dd99c7209d4699e4574eed715ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1176,18 +1175,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1078256067388454032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243914669935859428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5785b8ad5cba2a44ca10600598913772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7344519926279097421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1278,7 +1265,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 62
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1481092671666011806
 MonoBehaviour:

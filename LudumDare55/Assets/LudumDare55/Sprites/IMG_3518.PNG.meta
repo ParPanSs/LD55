@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: ac040ea88ad8673408119632d05db4ad
+guid: 2c83efcfc4646ea4e8491e7da9136819
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3429000006820230157
-    second: Pentagrams_0
+      213: -7300947161787469401
+    second: IMG_3518_0
   - first:
-      213: -4318420529237474961
-    second: Pentagrams_1
+      213: 1027257787817900764
+    second: IMG_3518_1
   - first:
-      213: -7902592156190263971
-    second: Pentagrams_2
+      213: 8584875111212526236
+    second: IMG_3518_2
   - first:
-      213: 1264480653788789014
-    second: Pentagrams_3
-  - first:
-      213: -5692021688392579117
-    second: Pentagrams_4
-  - first:
-      213: 1021659475798424703
-    second: Pentagrams_5
-  - first:
-      213: -8708893354285482913
-    second: Pentagrams_6
-  - first:
-      213: -1093284930548691481
-    second: Pentagrams_7
+      213: -5637538411571985250
+    second: IMG_3518_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +93,33 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pentagrams_0
+      name: IMG_3518_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 813
-        width: 271
-        height: 262
+        x: 253
+        y: 0
+        width: 1667
+        height: 884
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fb0ba259aeb960d0800000000000000
-      internalID: -3429000006820230157
+      spriteID: 7a1f2c90d33ddaa90800000000000000
+      internalID: -7300947161787469401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pentagrams_1
+      name: IMG_3518_1
       rect:
         serializedVersion: 2
-        x: 460
-        y: 813
-        width: 271
-        height: 262
+        x: 813
+        y: 687
+        width: 79
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f61cb0c9863e114c0800000000000000
-      internalID: -4318420529237474961
+      spriteID: cdab3afe38d814e00800000000000000
+      internalID: 1027257787817900764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pentagrams_2
+      name: IMG_3518_2
       rect:
         serializedVersion: 2
-        x: 857
-        y: 813
-        width: 271
-        height: 262
+        x: 886
+        y: 678
+        width: 99
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d55bd7dbd4a545290800000000000000
-      internalID: -7902592156190263971
+      spriteID: c9a2ae4dd6a932770800000000000000
+      internalID: 8584875111212526236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pentagrams_3
+      name: IMG_3518_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 437
-        width: 271
-        height: 262
+        x: 464
+        y: 0
+        width: 47
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,92 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6193f6284765c8110800000000000000
-      internalID: 1264480653788789014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pentagrams_4
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 437
-        width: 271
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d78a899e60e101b0800000000000000
-      internalID: -5692021688392579117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pentagrams_5
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 437
-        width: 271
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7c706851e9ad2e00800000000000000
-      internalID: 1021659475798424703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pentagrams_6
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 61
-        width: 271
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5cbd0fc2abc32780800000000000000
-      internalID: -8708893354285482913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pentagrams_7
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 61
-        width: 271
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ed8b5ce52fd3d0f0800000000000000
-      internalID: -1093284930548691481
+      spriteID: e94c1a20fa073c1b0800000000000000
+      internalID: -5637538411571985250
       vertices: []
       indices: 
       edges: []
@@ -291,14 +221,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IMG_3518_0: -7300947161787469401
+      IMG_3518_1: 1027257787817900764
+      IMG_3518_2: 8584875111212526236
+      IMG_3518_3: -5637538411571985250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
