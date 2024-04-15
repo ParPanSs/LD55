@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: Setup_2_8
   m_EditorClassIdentifier: 
   demonSetupID: 
-  demonObject: {fileID: 0}
-  setupItems: []
+  demonObject: {fileID: 4707968171551636784, guid: 83b5e39ac82b3744eaac6fbee1fc0d47, type: 3}
+  setupItems:
+  - _itemObject: {fileID: 890484212524659979, guid: 8a1825f8f8cb0034e8f68c1fa9a1e302, type: 3}
+  - _itemObject: {fileID: 2168138550253030454, guid: f9f9e021674f0c840adbdde7b127f2b4, type: 3}
   setupCataloguePentagram:
-    _figure: {fileID: 0}
-    _drawings: []
+    _figure: {fileID: 21300000, guid: 98562a5578694894283e8cda2f705c74, type: 3}
+    _drawings:
+    - {fileID: 21300000, guid: 93aa929589f4a6341ae620cb5c5629af, type: 3}
+    - {fileID: 21300000, guid: 956166ea5d2525543815cd76c87c36a2, type: 3}
+    - {fileID: 21300000, guid: ca4f6c4b0db674741b0ba8abc32fcf3d, type: 3}
+    - {fileID: 21300000, guid: 63630cc25e55e39488ab4bccac376720, type: 3}
+    - {fileID: 21300000, guid: d17e3811d01a19349bc236df8b52c3bb, type: 3}
   setupCassette:
     _cassetteAudio: {fileID: 0}

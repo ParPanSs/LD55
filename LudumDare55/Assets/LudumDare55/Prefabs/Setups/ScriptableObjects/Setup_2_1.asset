@@ -13,10 +13,18 @@ MonoBehaviour:
   m_Name: Setup_2_1
   m_EditorClassIdentifier: 
   demonSetupID: 
-  demonObject: {fileID: 0}
-  setupItems: []
+  demonObject: {fileID: 5674262773156573165, guid: 28b06008875c2bf49a84b40461f95eea, type: 3}
+  setupItems:
+  - _itemObject: {fileID: 890484212524659979, guid: 8a1825f8f8cb0034e8f68c1fa9a1e302, type: 3}
+  - _itemObject: {fileID: 6988004310422757082, guid: 12a91b470d314d9439e9a5072813de88, type: 3}
+  - _itemObject: {fileID: 2168138550253030454, guid: f9f9e021674f0c840adbdde7b127f2b4, type: 3}
   setupCataloguePentagram:
-    _figure: {fileID: 0}
-    _drawings: []
+    _figure: {fileID: 21300000, guid: 7a6ed5a5d50e0334ab11aa446e50b431, type: 3}
+    _drawings:
+    - {fileID: 21300000, guid: ab91cf77e9691fa4f89c23b3c9069eac, type: 3}
+    - {fileID: 21300000, guid: 4aea8b7714b046a4f893be3a7fd1646a, type: 3}
+    - {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
+    - {fileID: 21300000, guid: 9a3e3c4206913464b95779877bb5f778, type: 3}
+    - {fileID: 21300000, guid: 9a3e3c4206913464b95779877bb5f778, type: 3}
   setupCassette:
     _cassetteAudio: {fileID: 0}
