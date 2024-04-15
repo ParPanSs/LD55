@@ -118,19 +118,19 @@ TextureImporter:
       name: Pentagram4_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1707
-        width: 1342
-        height: 803
+        x: 0
+        y: 1708
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 548d8e2156c82ecb0800000000000000
-      internalID: -4836148684105656251
+      spriteID: 656f8272b18a6aa4ba5649cd622cf3e1
+      internalID: 404404356
       vertices: []
       indices: 
       edges: []
@@ -139,19 +139,19 @@ TextureImporter:
       name: Pentagram4_1
       rect:
         serializedVersion: 2
-        x: 1411
-        y: 1707
-        width: 1342
-        height: 803
+        x: 1400
+        y: 1708
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 013a1c8eb3850ebd0800000000000000
-      internalID: -2602983570288827632
+      spriteID: 751bc03ff88bfb143875fae89da0e171
+      internalID: -2006328846
       vertices: []
       indices: 
       edges: []
@@ -160,19 +160,19 @@ TextureImporter:
       name: Pentagram4_2
       rect:
         serializedVersion: 2
-        x: 11
-        y: 853
-        width: 1342
-        height: 803
+        x: 0
+        y: 854
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e401b64abda3c4eb0800000000000000
-      internalID: -4734344393242505138
+      spriteID: bbc60e8587c4bf04ebac448754663240
+      internalID: 1705988452
       vertices: []
       indices: 
       edges: []
@@ -181,19 +181,19 @@ TextureImporter:
       name: Pentagram4_3
       rect:
         serializedVersion: 2
-        x: 1423
-        y: 853
-        width: 1318
-        height: 791
+        x: 1400
+        y: 854
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85ac9cb5ca12c9be0800000000000000
-      internalID: -1469262354271581608
+      spriteID: 4321c91f6e95d88488466a9700ca4900
+      internalID: 1907693226
       vertices: []
       indices: 
       edges: []
@@ -202,19 +202,19 @@ TextureImporter:
       name: Pentagram4_4
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 0
-        width: 1301
-        height: 784
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c1c9761795b6c6260800000000000000
-      internalID: 7092161545100565532
+      spriteID: ac5d0c94e93db764297907aee0fe32dc
+      internalID: -1095901016
       vertices: []
       indices: 
       edges: []
@@ -223,19 +223,19 @@ TextureImporter:
       name: Pentagram4_5
       rect:
         serializedVersion: 2
-        x: 1438
+        x: 1400
         y: 0
-        width: 1286
-        height: 777
+        width: 1400
+        height: 854
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 464c2cf976d8dc850800000000000000
-      internalID: 6398926121764832356
+      spriteID: 1fa2d10f03471f541aa6c264ed0ec145
+      internalID: -720274506
       vertices: []
       indices: 
       edges: []
@@ -243,14 +243,20 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6d72ff8f7e3731d40ad6afd398da18db
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pentagram4_0: 404404356
+      Pentagram4_1: -2006328846
+      Pentagram4_2: 1705988452
+      Pentagram4_3: 1907693226
+      Pentagram4_4: -1095901016
+      Pentagram4_5: -720274506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
