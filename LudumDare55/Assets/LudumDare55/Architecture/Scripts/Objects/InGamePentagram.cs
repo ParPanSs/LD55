@@ -8,13 +8,13 @@ namespace LudumDare55
         [SerializeField] private GameObject _figure;
         public GameObject figure => _figure;
         
-        [SerializeField] private GameObject _drawing;
-        public GameObject drawing => _drawing;
+        [SerializeField] private GameObject[] _drawings;
+        public GameObject[] drawings => _drawings;
         
-        public InGamePentagram(GameObject figure, GameObject drawing)
+        public InGamePentagram(GameObject figure, GameObject[] drawings)
         {
             _figure = figure;
-            _drawing = drawing;
+            _drawings = drawings;
         }
     }
 }

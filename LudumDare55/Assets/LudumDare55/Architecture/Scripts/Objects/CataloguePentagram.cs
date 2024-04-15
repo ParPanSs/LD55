@@ -5,16 +5,12 @@ namespace LudumDare55
     [System.Serializable]
     public class CataloguePentagram
     {
-        [SerializeField] private Sprite _figure;
-        public Sprite figure => _figure;
+        [SerializeField] private Sprite _sprite;
+        public Sprite sprite => _sprite;
         
-        [SerializeField] private Sprite _drawing;
-        public Sprite drawing => _drawing;
-        
-        public CataloguePentagram(Sprite figure, Sprite drawing)
+        public CataloguePentagram(Sprite sprite)
         {
-            _figure = figure;
-            _drawing = drawing;
+            _sprite = sprite;
         }
     }
 }

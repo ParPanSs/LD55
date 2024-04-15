@@ -9,7 +9,8 @@ namespace LudumDare55
         
         [SerializeField] private Transform[] itemSpawnPoints;
         [SerializeField] private Transform cassetteSpawnPoint;
-        [SerializeField] private Transform pentagramSpawnPoint;
+        [SerializeField] private Transform pentagramFigureSpawnPoint;
+        [SerializeField] private Transform[] pentagramDrawingSpawnPoints;
         
         private readonly List<GameObject> spawnedItems = new();
         private readonly List<GameObject> spawnedPentagramParts = new();
@@ -59,14 +60,17 @@ namespace LudumDare55
             _animator.SetTrigger("Dissapear");
             Destroy(gameObject, time);
         }
-        
+
         private void CreatePentagram(InGamePentagram pentagram)
         {
-            if (pentagram.drawing == null) return;
-            spawnedPentagramParts.Add(Instantiate(pentagram.drawing, pentagramSpawnPoint));
-            
+            if (pentagram.drawings.Length == 0) return;
+            for (var i = 0; i < pentagram.drawings.Length; i++)
+            {
+                spawnedPentagramParts.Add(Instantiate(pentagram.drawings[i], pentagramDrawingSpawnPoints[i]));
+            }
+
             if (pentagram.figure == null) return;
-            spawnedPentagramParts.Add(Instantiate(pentagram.figure, pentagramSpawnPoint));
+            spawnedPentagramParts.Add(Instantiate(pentagram.figure, pentagramFigureSpawnPoint));
         }
 
         private void CreateItems(InGameItem[] items)

@@ -26,8 +26,7 @@ namespace LudumDare55
             if (_demonSo.itemToSummon.Count < 3) return;
             
             demonIcon.sprite = _demonSo.catalogueDemonSprite;
-            pentagramFigure.sprite = _demonSo.cataloguePentagram.figure;
-            pentagramDrawing.sprite = _demonSo.cataloguePentagram.drawing;
+            pentagramDrawing.sprite = _demonSo.cataloguePentagram.sprite;
             for (int i = 0; i < demonItems.Length; i++)
             {
                 if (demonItems[i]) demonItems[i].sprite = _demonSo.itemToSummon[i].itemSprite;
