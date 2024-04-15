@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -14,12 +15,14 @@ namespace LudumDare55
         private List<CreateScriptableObjectOfSetup> _setups;
         private InGamePentagramController _inGamePentagramController;
         private Ejector _ejector;
+        private TextMeshPro _roundsLeftText;
 
-        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups)
+        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups, TextMeshPro roundsLeftText)
         {
             _ejector = new GameObject().AddComponent<Ejector>();
             _setups = setups;
             _inGamePentagramController = inGamePentagramController;
+            _roundsLeftText = roundsLeftText;
             StartNewRound();
         }
         
@@ -31,6 +34,7 @@ namespace LudumDare55
         private IEnumerator StartNewRoundRoutine(float delay)
         {
             yield return new WaitForSeconds(delay);
+            _roundsLeftText.text = _setups.Count.ToString();
             
             var newSetup = _setups[Random.Range(0, _setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);

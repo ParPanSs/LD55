@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -24,6 +25,7 @@ namespace LudumDare55
         [Header("Round")]
         [SerializeField] private float dayTime;
         [SerializeField] private List<CreateScriptableObjectOfSetup> daySetups;
+        [SerializeField] private TextMeshPro roundsLeftText;
         [SerializeField] private Bell bell;
         [SerializeField] private SceneTransition sceneTransition;
         
@@ -34,10 +36,12 @@ namespace LudumDare55
             
             inGamePentagramController.Construct(inGamePentagramView);
             
-            roundStarter.Construct(inGamePentagramController, daySetups);
+            roundStarter.Construct(inGamePentagramController, daySetups, roundsLeftText);
             roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<PlayableDirector>());
             bell.Construct(catalogueController, roundEnder);
             timerController.Construct(roundEnder, timerView);
+
+            roundsLeftText.text = daySetups.Count.ToString();
             
             StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
         }
