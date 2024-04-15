@@ -18,6 +18,8 @@ namespace LudumDare55
         
         private void OnMouseDown()
         {
+            if (recordPlayerAudioSource.clip == null) return;
+            
             switch (buttonType)
             {
                 case ButtonType.PlayButton:
@@ -25,17 +27,15 @@ namespace LudumDare55
                     {
                         recordPlayerAudioSource.Play();
                         buttonAnimator.SetTrigger("Click");
-                    }
-                    else
-                    {
                         cassetteAnimator.Play("RecordPlayerCassettePlay");
                     }
                     break;
                 case ButtonType.PauseButton:
-                    if (!recordPlayerAudioSource.isPlaying)
+                    if (recordPlayerAudioSource.isPlaying)
                     {
                         recordPlayerAudioSource.Pause();
                         buttonAnimator.SetTrigger("Click");
+                        cassetteAnimator.Play("RecordPlayerCassette");
                     }
                     break;
                 default:
