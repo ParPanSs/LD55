@@ -6,6 +6,7 @@ namespace LudumDare55
     [System.Serializable]
     public class TimerController
     {
+        private const float PunishmentTime = 10f;
         [SerializeField] private TimerView timerView;
         private TimerModel _timerModel;
         
@@ -28,9 +29,9 @@ namespace LudumDare55
             }
         }
 
-        public void PunishmentDecrementTime(float time)
+        public void PunishmentDecrementTime()
         {
-            _timerModel.DecrementTime(time);
+            _timerModel.DecrementTime(PunishmentTime);
         }
     }
 }

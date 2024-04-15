@@ -7,12 +7,12 @@ namespace LudumDare55
     public class CreateScriptableObjectOfDemon : ScriptableObject
     {
         // TODO: encapsulate fields
-        public List<Item> itemToSummon;
-        public Sprite catalogueDemonSprite;
-        public Sprite inGameDemonSprite;
-        public Pentagram pentagram;
-        public Cassette cassette;
-
         public string demonID;
+        
+        public List<CatalogueItem> itemToSummon = new();
+        public CataloguePentagram cataloguePentagram;
+        public CatalogueCassette catalogueCassette;
+        public Sprite catalogueDemonSprite;
+        public GameObject inGameDemonPrefab;
     }
 }

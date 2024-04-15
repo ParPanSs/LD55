@@ -5,64 +5,74 @@ namespace LudumDare55
 {
     public class InGamePentagramView : MonoBehaviour
     {
-        [SerializeField] private SpriteRenderer pentagramFigure;
-        [SerializeField] private SpriteRenderer pentagramBorder;
-        [SerializeField] private SpriteRenderer pentagramDrawing;
-
-        [SerializeField] private GameObject itemPrefab;
         [SerializeField] private GameObject cassettePrefab;
+        
         [SerializeField] private Transform[] itemSpawnPoints;
-        [SerializeField] private Transform casetteSpawnPoint;
-        private List<GameObject> spawnedItems = new();
-
-        // TODO make cassette
+        [SerializeField] private Transform cassetteSpawnPoint;
+        [SerializeField] private Transform pentagramSpawnPoint;
+        
+        private readonly List<GameObject> spawnedItems = new();
+        private readonly List<GameObject> spawnedPentagramParts = new();
+        private GameObject _spawnedCassette;
+        
         public void DisplaySetup(CreateScriptableObjectOfSetup setup)
         {
-            DrawPentagram(setup.setupPentagram);
+            CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
+            CreateCassette(setup.setupCassette);
         }
 
         public void ClearSetup()
         {
-            ErasePentagram();
+            DestroyPentagram();
             DestroyItems();
+            DestroyCassette();
         }
 
-        private void ErasePentagram()
+        private void DestroyPentagram()
         {
-            pentagramFigure.sprite = null;
-            pentagramDrawing.sprite = null;
+            foreach (var part in spawnedPentagramParts) { Destroy(part); }
+            spawnedPentagramParts.Clear();
         }
 
         private void DestroyItems()
         {
-            foreach (var item in spawnedItems)
-            {
-                Destroy(item);
-            }
+            foreach (var item in spawnedItems) { Destroy(item); }
             spawnedItems.Clear();
         }
-        
-        private void DrawPentagram(Pentagram pentagram)
+
+        private void DestroyCassette()
         {
-            pentagramFigure.sprite = pentagram.figure;
-            pentagramDrawing.sprite = pentagram.drawing;
+            Destroy(_spawnedCassette);
+        }
+        
+        private void CreatePentagram(InGamePentagram pentagram)
+        {
+            if (pentagram.drawing == null) return;
+            spawnedPentagramParts.Add(Instantiate(pentagram.drawing, pentagramSpawnPoint));
+            
+            if (pentagram.figure == null) return;
+            spawnedPentagramParts.Add(Instantiate(pentagram.figure, pentagramSpawnPoint));
         }
 
-        private void CreateItems(Item[] items)
+        private void CreateItems(InGameItem[] items)
         {
             for (var i = 0; i < items.Length; i++)
             {
-                var itemObject = Instantiate(itemPrefab, itemSpawnPoints[i]);
+                if (items[i].itemObject == null) continue;
+                
+                var itemObject = Instantiate(items[i].itemObject, itemSpawnPoints[i]);
                 spawnedItems.Add(itemObject);
-                itemObject.GetComponent<InGameItem>().Construct(items[i]);
-            } 
+            }
         }
 
-        private void CreateCassete(Cassette cassette)
+        private void CreateCassette(InGameCassette cassette)
         {
-            var spawnedCassette = Instantiate(cassettePrefab, casetteSpawnPoint);
+            if (cassette.cassetteAudio == null) return;
             
+            var cassetteObject = Instantiate(cassettePrefab, cassetteSpawnPoint);
+            cassetteObject.GetComponent<InGameCassetteObject>().Construct(cassette.cassetteAudio);
+            _spawnedCassette = cassetteObject;
         }
     }
 }

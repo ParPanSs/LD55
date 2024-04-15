@@ -3,7 +3,7 @@ using UnityEngine;
 namespace LudumDare55
 {
     [System.Serializable]
-    public class Pentagram
+    public class CataloguePentagram
     {
         [SerializeField] private Sprite _figure;
         public Sprite figure => _figure;
@@ -11,7 +11,7 @@ namespace LudumDare55
         [SerializeField] private Sprite _drawing;
         public Sprite drawing => _drawing;
         
-        public Pentagram(Sprite figure, Sprite drawing)
+        public CataloguePentagram(Sprite figure, Sprite drawing)
         {
             _figure = figure;
             _drawing = drawing;

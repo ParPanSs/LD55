@@ -12,14 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028414fb37114072a9e369d2a96fa893, type: 3}
   m_Name: Setup_2
   m_EditorClassIdentifier: 
-  setupItems:
-  - _itemSprite: {fileID: 1549233836, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
-  - _itemSprite: {fileID: -988940155, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
-  - _itemSprite: {fileID: 814437844, guid: fc961d4ab2bc1a34698e9b6a3ee77898, type: 3}
-  setupPentagram:
-    _figure: {fileID: 7288227751793793591, guid: 1604a2a97b91e7640be44900c8df586e, type: 3}
-    _drawing: {fileID: 21300000, guid: bf3fd04de2ac33048b461fdec0432013, type: 3}
-  setupCassete:
-    _cassetteAudio: {fileID: 0}
-    _cassetteAudioCharacteristics: []
   demonSetupID: 1
+  setupItems:
+  - _itemObject: {fileID: 1798185435219313895, guid: b91f323b0f3a9cb47a46d3c8a9fc8d4d, type: 3}
+  - _itemObject: {fileID: 8566719220398212347, guid: 30e29323b22fb7d4cadbae670af7bb96, type: 3}
+  - _itemObject: {fileID: 2726361978035075908, guid: 59c5033a7a37ad54d820aeade4d7b990, type: 3}
+  setupCataloguePentagram:
+    _figure: {fileID: 0}
+    _drawing: {fileID: 0}
+  setupCassette:
+    _cassetteAudio: {fileID: 8300000, guid: f7f4b962cf4a1804486089454b872b8e, type: 3}

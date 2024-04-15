@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -13,20 +14,23 @@ namespace LudumDare55
         [SerializeField] private SpriteRenderer[] demonItems;
         [SerializeField] private TextMeshPro demonDescription;
         
-        private CreateScriptableObjectOfDemon demonSO;
+        private CreateScriptableObjectOfDemon _demonSo;
 
+        // TODO: reorder display and remove debug
         public void DisplayCurrentDemon(string demonID)
         {
-            Debug.Log(demonID);
-            demonSO = allDemons.Find(x => x.demonID == demonID);
-            demonIcon.sprite = demonSO.catalogueDemonSprite;
-            pentagramFigure.sprite = demonSO.pentagram.figure;
-            pentagramDrawing.sprite = demonSO.pentagram.drawing;
-            demonDescription.text = demonSO.cassette.GetDescription();
+            Debug.Log("Catalogue demon ID: " + demonID);
+            
+            _demonSo = allDemons.Find(x => x.demonID == demonID);
+            demonDescription.text = _demonSo.catalogueCassette.GetDescription();
+            if (_demonSo.itemToSummon.Count < 3) return;
+            
+            demonIcon.sprite = _demonSo.catalogueDemonSprite;
+            pentagramFigure.sprite = _demonSo.cataloguePentagram.figure;
+            pentagramDrawing.sprite = _demonSo.cataloguePentagram.drawing;
             for (int i = 0; i < demonItems.Length; i++)
             {
-                if(demonItems[i])
-                    demonItems[i].sprite = demonSO.itemToSummon[i].itemSprite;
+                if (demonItems[i]) demonItems[i].sprite = _demonSo.itemToSummon[i].itemSprite;
             }
         }
     }
