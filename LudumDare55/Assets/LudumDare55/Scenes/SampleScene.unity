@@ -287,8 +287,14 @@ MonoBehaviour:
   - {fileID: 1901539365}
   inGamePentagramView: {fileID: 1763471193}
   timerView: {fileID: 1475393286}
-  dayTime: 13
-  daySetups: []
+  dayTime: 520
+  daySetups:
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
+  - {fileID: 11400000, guid: 83e7ee083a1e9a347acb4ed988190898, type: 2}
   bell: {fileID: 2014329358}
   sceneTransition: {fileID: 1555687660}
 --- !u!4 &1147052885
@@ -916,53 +922,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 880754230669395960, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Name
-      value: SP
-      objectReference: {fileID: 0}
     - target: {fileID: 1533925510244983234, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
       propertyPath: m_Name
       value: Pentagram
-      objectReference: {fileID: 0}
-    - target: {fileID: 2616756780916956715, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Name
-      value: SP
-      objectReference: {fileID: 0}
-    - target: {fileID: 3955604456112124625, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Name
-      value: SP
-      objectReference: {fileID: 0}
-    - target: {fileID: 4051968406553822048, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
-    - target: {fileID: 4051968406553822048, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4433447637868622609, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4433447637868622609, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5148153185996481050, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
-    - target: {fileID: 5148153185996481050, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5276946435341523384, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
-    - target: {fileID: 5276946435341523384, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5430766394702092737, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1003,58 +965,6 @@ PrefabInstance:
     - target: {fileID: 5430766394702092737, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6383926946827122479, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
-    - target: {fileID: 6383926946827122479, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613525214066436659, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: 'pentagramDrawingSpawnPoints.Array.data[0]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613525214066436659, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: 'pentagramDrawingSpawnPoints.Array.data[1]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613525214066436659, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: 'pentagramDrawingSpawnPoints.Array.data[2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613525214066436659, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: 'pentagramDrawingSpawnPoints.Array.data[3]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6613525214066436659, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: 'pentagramDrawingSpawnPoints.Array.data[4]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7670687747859123075, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 7670687747859123075, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 8928001461145350798, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Name
-      value: SP
-      objectReference: {fileID: 0}
-    - target: {fileID: 9012353724549005970, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Name
-      value: SP
-      objectReference: {fileID: 0}
-    - target: {fileID: 9187410983750198081, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
-    - target: {fileID: 9187410983750198081, guid: 3744d448267b5984faf2742bcb001a39, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1128,11 +1038,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1298334000330567013, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.2111177
+      value: -6.61
       objectReference: {fileID: 0}
     - target: {fileID: 1298334000330567013, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1915236
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1298334000330567013, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1165,6 +1075,22 @@ PrefabInstance:
     - target: {fileID: 1298334000330567013, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841533860346727095, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
+      propertyPath: m_Size.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841533860346727095, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
+      propertyPath: m_Size.y
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841533860346727095, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8774159735406830931, guid: 6f865aef9acd6427886dfbad2dbff9ba, type: 3}
+    - target: {fileID: 3841533860346727095, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9180144500036868303, guid: 3378ecd2f3a301546bf1eb951d2e29ba, type: 3}
       propertyPath: m_Name
@@ -1189,11 +1115,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5816604944938053102, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.503774
+      value: 7.69
       objectReference: {fileID: 0}
     - target: {fileID: 5816604944938053102, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2130996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5816604944938053102, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1226,6 +1152,22 @@ PrefabInstance:
     - target: {fileID: 5816604944938053102, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043377670704233364, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
+      propertyPath: m_Size.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043377670704233364, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
+      propertyPath: m_Size.y
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7043377670704233364, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 87811175460804820, guid: 03789b317dae74539b4219d54b55f42d, type: 3}
+    - target: {fileID: 7043377670704233364, guid: 80b8fce3815b2e34e92909db39651f29, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

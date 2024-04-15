@@ -9,11 +9,11 @@ namespace LudumDare55
     {
         public string rightDemon { get; private set; }
         public int setupsCount { get; private set; }
-        
+        public bool roundIsInProgress { get; private set; }
+
         private List<CreateScriptableObjectOfSetup> _setups;
         private InGamePentagramController _inGamePentagramController;
         private Ejector _ejector;
-        
 
         public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups)
         {
@@ -36,7 +36,13 @@ namespace LudumDare55
             _inGamePentagramController.SetSetup(newSetup);
             rightDemon = newSetup.demonSetupID;
             _setups.Remove(newSetup);
+            SetRoundIsInProgress();
             setupsCount = _setups.Count;
+        }
+
+        public void SetRoundIsInProgress()
+        {
+            roundIsInProgress = !roundIsInProgress;
         }
     }
 }

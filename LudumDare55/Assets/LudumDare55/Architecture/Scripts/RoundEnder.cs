@@ -25,6 +25,7 @@
 
         private void RoundEnded()
         {
+            if (!_roundStarter.roundIsInProgress) return;
             if (_roundStarter.setupsCount > 0)
             {
                 _inGamePentagramController.ClearSetup();
@@ -34,6 +35,7 @@
             {
                 EndDay();
             }
+            _roundStarter.SetRoundIsInProgress();
         }
 
         public void EndDay()

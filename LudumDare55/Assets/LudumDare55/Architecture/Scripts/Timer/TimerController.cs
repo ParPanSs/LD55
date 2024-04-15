@@ -23,7 +23,7 @@ namespace LudumDare55
             
             while (_timerModel.GetFloatTime() > 0)
             {
-                if (_timerModel.GetFloatTime() == 10f)
+                if (Mathf.Approximately(_timerModel.GetFloatTime(), 10f))
                 {
                     _timerView.SetRageAnimation();
                 }

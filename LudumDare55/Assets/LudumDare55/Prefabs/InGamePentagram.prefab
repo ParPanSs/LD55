@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 8640134204174514260}
   - component: {fileID: 5148153185996481050}
   m_Layer: 0
-  m_Name: a1 (2)
+  m_Name: SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,13 +172,13 @@ MonoBehaviour:
   - {fileID: 3233258736368050277}
   - {fileID: 1220365193709811613}
   cassetteSpawnPoint: {fileID: 4433447637868622609}
-  pentagramFigureSpawnPoint: {fileID: 7670687747859123075}
-  pentagramDrawingSpawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  pentagramFigureSpriteRenderer: {fileID: 8358958166733303271}
+  pentagramDrawingSpriteRenderers:
+  - {fileID: 4051968406553822048}
+  - {fileID: 6383926946827122479}
+  - {fileID: 5148153185996481050}
+  - {fileID: 9187410983750198081}
+  - {fileID: 5276946435341523384}
   demonSpawnPoint: {fileID: 8603253464396858092}
 --- !u!1 &2616756780916956715
 GameObject:
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 6831924721802750951}
   - component: {fileID: 9187410983750198081}
   m_Layer: 0
-  m_Name: a1 (3)
+  m_Name: SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 3333045496680287814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7129283, y: -2.086939, z: -0.0034827292}
+  m_LocalPosition: {x: -6.04, y: 0, z: -0.0034827292}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 2105775949253179655}
   - component: {fileID: 4051968406553822048}
   m_Layer: 0
-  m_Name: a1
+  m_Name: SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,7 +510,7 @@ Transform:
   m_GameObject: {fileID: 7998462706977919655}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.3411423}
+  m_LocalPosition: {x: -0.05, y: -0.03, z: -0.3411423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 4876857954382581415}
   - component: {fileID: 5276946435341523384}
   m_Layer: 0
-  m_Name: a1 (4)
+  m_Name: SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 7381238127615727446}
   - component: {fileID: 6383926946827122479}
   m_Layer: 0
-  m_Name: a1 (1)
+  m_Name: SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
