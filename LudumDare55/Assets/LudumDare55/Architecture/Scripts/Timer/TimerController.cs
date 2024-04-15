@@ -23,6 +23,10 @@ namespace LudumDare55
             
             while (_timerModel.GetFloatTime() > 0)
             {
+                if (_timerModel.GetFloatTime() == 10f)
+                {
+                    _timerView.SetRageAnimation();
+                }
                 yield return new WaitForSecondsRealtime(1f);
                 if (Time.timeScale == 0) { continue; }
 

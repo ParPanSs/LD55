@@ -5,13 +5,13 @@ namespace LudumDare55
     [System.Serializable]
     public class InGamePentagram
     {
-        [SerializeField] private GameObject _figure;
-        public GameObject figure => _figure;
+        [SerializeField] private Sprite _figure;
+        public Sprite figure => _figure;
         
-        [SerializeField] private GameObject[] _drawings;
-        public GameObject[] drawings => _drawings;
+        [SerializeField] private Sprite[] _drawings;
+        public Sprite[] drawings => _drawings;
         
-        public InGamePentagram(GameObject figure, GameObject[] drawings)
+        public InGamePentagram(Sprite figure, Sprite[] drawings)
         {
             _figure = figure;
             _drawings = drawings;

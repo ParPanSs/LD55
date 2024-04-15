@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 namespace LudumDare55
@@ -11,12 +9,11 @@ namespace LudumDare55
         
         [SerializeField] private Transform[] itemSpawnPoints;
         [SerializeField] private Transform cassetteSpawnPoint;
-        [SerializeField] private Transform pentagramFigureSpawnPoint;
-        [SerializeField] private Transform[] pentagramDrawingSpawnPoints;
+        [SerializeField] private SpriteRenderer pentagramFigureSpriteRenderer;
+        [SerializeField] private SpriteRenderer[] pentagramDrawingSpriteRenderers;
         [SerializeField] private Transform demonSpawnPoint;
         
         private readonly List<GameObject> spawnedItems = new();
-        private readonly List<GameObject> spawnedPentagramParts = new();
         private GameObject _spawnedCassette;
         private GameObject _spawnedDemon;
         private GameObject _demonPrefab;
@@ -39,11 +36,12 @@ namespace LudumDare55
 
         private void DestroyPentagram()
         {
-            foreach (var part in spawnedPentagramParts)
+            foreach (var part in pentagramDrawingSpriteRenderers)
             {
-                DestroyWithDelay(part, 1f);
+                part.sprite = null;
             }
-            spawnedPentagramParts.Clear();
+
+            pentagramFigureSpriteRenderer.sprite = null;
         }
 
         private void DestroyItems()
@@ -74,11 +72,10 @@ namespace LudumDare55
             if (pentagram.drawings.Length == 0) return;
             for (var i = 0; i < pentagram.drawings.Length; i++)
             {
-                spawnedPentagramParts.Add(Instantiate(pentagram.drawings[i], pentagramDrawingSpawnPoints[i]));
+                pentagramDrawingSpriteRenderers[i].sprite = pentagram.drawings[i];
             }
 
-            if (pentagram.figure == null) return;
-            spawnedPentagramParts.Add(Instantiate(pentagram.figure, pentagramFigureSpawnPoint));
+            pentagramFigureSpriteRenderer.sprite = pentagram.figure;
         }
 
         private void CreateItems(InGameItem[] items)

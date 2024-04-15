@@ -6,6 +6,7 @@ namespace LudumDare55
     public class TimerView : MonoBehaviour
     {
         [SerializeField] private TextMeshPro[] digitTexts;
+        [SerializeField] private Animator animator;
     
         public void DisplayTime(string displayTime)
         {
@@ -13,6 +14,11 @@ namespace LudumDare55
             {
                 digitTexts[i].text = displayTime[i].ToString();
             }
+        }
+
+        public void SetRageAnimation()
+        {
+            animator.Play("TimerRunOutOfTime");
         }
     }
 }

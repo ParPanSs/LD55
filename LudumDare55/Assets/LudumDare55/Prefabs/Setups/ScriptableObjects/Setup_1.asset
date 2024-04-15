@@ -19,12 +19,7 @@ MonoBehaviour:
   - _itemObject: {fileID: 1111603235013364872, guid: 6a7c5a62e768e764fbcf318028e1e662, type: 3}
   - _itemObject: {fileID: 3827085293961925340, guid: 10527ae3a03e50448bfc3aeab69774dd, type: 3}
   setupCataloguePentagram:
-    _figure: {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
-    _drawings:
-    - {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
-    - {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
-    - {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
-    - {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
-    - {fileID: 6532501705977958925, guid: c10ed50331d1a9f4d9196d1802944fa2, type: 3}
+    _figure: {fileID: 0}
+    _drawings: []
   setupCassette:
     _cassetteAudio: {fileID: 8300000, guid: e45642975fab9c246873d512230175cd, type: 3}
