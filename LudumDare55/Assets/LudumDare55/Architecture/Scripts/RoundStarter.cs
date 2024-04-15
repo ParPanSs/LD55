@@ -9,6 +9,7 @@ namespace LudumDare55
     {
         [SerializeField] private List<CreateScriptableObjectOfSetup> setups;
         private InGamePentagramController _inGamePentagramController;
+        private MonoBehaviour _ejector = new();
         public string rightDemon { get; private set; }
         public int setupsCount { get; private set; }
 
@@ -19,6 +20,11 @@ namespace LudumDare55
         }
         
         public void StartNewRound()
+        {
+            _ejector.Invoke(nameof(StartNewRoundWithDelay), 3f);
+        }
+
+        private void StartNewRoundWithDelay()
         {
             var newSetup = setups[Random.Range(0, setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);

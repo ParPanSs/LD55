@@ -14,6 +14,7 @@ namespace LudumDare55
         private readonly List<GameObject> spawnedItems = new();
         private readonly List<GameObject> spawnedPentagramParts = new();
         private GameObject _spawnedCassette;
+        private Animator _animator;
         
         public void DisplaySetup(CreateScriptableObjectOfSetup setup)
         {
@@ -31,19 +32,32 @@ namespace LudumDare55
 
         private void DestroyPentagram()
         {
-            foreach (var part in spawnedPentagramParts) { Destroy(part); }
+            foreach (var part in spawnedPentagramParts)
+            {
+                DestroyWithDelay(part, 1f);
+            }
             spawnedPentagramParts.Clear();
         }
 
         private void DestroyItems()
         {
-            foreach (var item in spawnedItems) { Destroy(item); }
+            foreach (var item in spawnedItems)
+            {
+                DestroyWithDelay(item, 1f);
+            }
             spawnedItems.Clear();
         }
 
         private void DestroyCassette()
         {
-            Destroy(_spawnedCassette);
+            DestroyWithDelay(_spawnedCassette, 1f);
+        }
+
+        private void DestroyWithDelay(GameObject gameObject, float time)
+        {
+            _animator = gameObject.GetComponent<Animator>();
+            _animator.SetTrigger("Dissapear");
+            Destroy(gameObject, time);
         }
         
         private void CreatePentagram(InGamePentagram pentagram)

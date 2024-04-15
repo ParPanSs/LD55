@@ -3,9 +3,9 @@
     [System.Serializable]
     public class RoundEnder
     {
+        private InGamePentagramController _inGamePentagramController;
         private RoundStarter _roundStarter;
         private TimerController _timerController;
-        private InGamePentagramController _inGamePentagramController;
         private SceneTransition _sceneTransition;
 
         public void Construct(RoundStarter roundStarter, InGamePentagramController inGamePentagramController,
