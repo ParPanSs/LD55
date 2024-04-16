@@ -292,7 +292,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8.25, y: 4.03}
-  m_SizeDelta: {x: 2.5596, y: 2.9671}
+  m_SizeDelta: {x: 3.8001, y: 4.1503}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &570248013
 GameObject:
@@ -1062,7 +1062,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2180196408290120859, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2424450331810415009, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
       propertyPath: m_Camera

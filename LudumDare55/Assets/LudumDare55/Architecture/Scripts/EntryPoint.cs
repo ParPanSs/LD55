@@ -50,7 +50,7 @@ namespace LudumDare55
             timerController.Construct(roundEnder, timerView);
 
             roundsLeftText.text = daySetups.Count.ToString();
-            
+            PlayerPrefs.SetInt("RequiredAmount", daySetups.Count);
             StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
         }
     }
