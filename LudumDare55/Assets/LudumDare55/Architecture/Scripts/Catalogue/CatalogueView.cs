@@ -9,7 +9,6 @@ namespace LudumDare55
     {
         [SerializeField] private List<CreateScriptableObjectOfDemon> allDemons;
         [SerializeField] private SpriteRenderer demonIcon;
-        [SerializeField] private SpriteRenderer pentagramFigure;
         [SerializeField] private SpriteRenderer pentagramDrawing;
         [SerializeField] private SpriteRenderer[] demonItems;
         [SerializeField] private TextMeshPro demonDescription;
@@ -21,7 +20,7 @@ namespace LudumDare55
         // TODO: reorder display and remove debug
         public void DisplayCurrentDemon(string demonID)
         {
-            Debug.Log("Catalogue demon ID: " + demonID);
+//            Debug.Log("Catalogue demon ID: " + demonID);
             
             _demonSo = allDemons.Find(x => x.demonID == demonID);
             demonDescription.text = _demonSo.catalogueCassette.GetDescription();

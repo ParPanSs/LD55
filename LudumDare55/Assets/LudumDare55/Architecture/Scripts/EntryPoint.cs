@@ -44,8 +44,14 @@ namespace LudumDare55
             
             inGamePentagramController.Construct(inGamePentagramView);
             
-            roundStarter.Construct(inGamePentagramController, daySetups, roundsLeftText);
-            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<PlayableDirector>());
+            roundStarter.Construct(inGamePentagramController, daySetups);
+            roundEnder.Construct(roundStarter,
+                inGamePentagramController,
+                timerController,
+                sceneTransition,
+                bell.GetComponent<PlayableDirector>(),
+                roundsLeftText);
+            
             bell.Construct(catalogueController, roundEnder);
             timerController.Construct(roundEnder, timerView);
 

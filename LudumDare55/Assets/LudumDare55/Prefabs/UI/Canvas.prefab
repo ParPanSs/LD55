@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause
       objectReference: {fileID: 0}
+    - target: {fileID: 361203851928343942, guid: 340d8b00ce85bb148a3a496bd8b7589a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5469034482341892574, guid: 340d8b00ce85bb148a3a496bd8b7589a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.699997
