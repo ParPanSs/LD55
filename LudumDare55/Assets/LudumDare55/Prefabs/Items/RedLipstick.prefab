@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2394760284826881498}
   - component: {fileID: 2198960584350452252}
   - component: {fileID: 5161386078448572281}
-  - component: {fileID: 8543950181415684616}
   m_Layer: 0
   m_Name: RedLipstick
   m_TagString: Untagged
@@ -110,15 +109,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8543950181415684616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484774645390747322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f92f262864e458376298710f31a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

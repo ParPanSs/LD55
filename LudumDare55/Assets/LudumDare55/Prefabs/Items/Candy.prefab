@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2966981535660831404}
   - component: {fileID: 4704963546213026818}
   - component: {fileID: 1908435994987859996}
-  - component: {fileID: -5270444159651842402}
   m_Layer: 0
   m_Name: Candy
   m_TagString: Untagged
@@ -110,15 +109,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-5270444159651842402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5261332817478504665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f92f262864e458376298710f31a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
