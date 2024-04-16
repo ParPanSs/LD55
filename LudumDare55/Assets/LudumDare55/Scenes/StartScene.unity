@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 1563773043}
   - component: {fileID: 1563773042}
   - component: {fileID: 1563773044}
+  - component: {fileID: 1563773045}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -831,7 +832,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 0
@@ -961,6 +962,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1563773045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563773041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83164c606359bd4383cb34e2249a45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: FirstCatSceneV2.mp4
 --- !u!1 &1952569321
 GameObject:
   m_ObjectHideFlags: 0

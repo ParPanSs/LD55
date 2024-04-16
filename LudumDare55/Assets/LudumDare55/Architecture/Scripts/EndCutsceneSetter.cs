@@ -4,7 +4,7 @@ using UnityEngine.Video;
 
 public class EndCutsceneSetter : MonoBehaviour
 {
-    [SerializeField] private VideoClip[] cutscenes;
+    [SerializeField] private string[] cutscenes;
     [SerializeField] private VideoPlayer videoPlayer;
 
     private void Awake()
@@ -14,15 +14,15 @@ public class EndCutsceneSetter : MonoBehaviour
         switch (playerScore)
         {
             case 15:
-                videoPlayer.clip = cutscenes[0];
+                videoPlayer.url = cutscenes[0];
                 videoPlayer.Play();
                 break;
             case 14:
-                videoPlayer.clip = cutscenes[1];
+                videoPlayer.url = cutscenes[1];
                 videoPlayer.Play();
                 break;
             case 13:
-                videoPlayer.clip = cutscenes[2];
+                videoPlayer.url = cutscenes[2];
                 videoPlayer.Play();
                 break;
             default:
