@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LudumDare55/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/ResultScene.unity
+    guid: 37161a39ae153824f9ec2cf925468624
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

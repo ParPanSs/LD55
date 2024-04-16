@@ -7,20 +7,27 @@ namespace LudumDare55
     public class SceneTransition : MonoBehaviour
     {
         [SerializeField] private Animator animator;
-        private Bell _bell;
 
-        public void SetFader()
+        public void SetFader(bool type = true)
         {
             animator.SetTrigger("Fader");
-            StartCoroutine(ChangeScene());
+            StartCoroutine(ChangeScene(type));
         }
 
-        private IEnumerator ChangeScene()
+        private IEnumerator ChangeScene(bool type)
         {
             yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1
                                              && animator.GetCurrentAnimatorStateInfo(0).IsName("FaderIN")
                                              && !animator.IsInTransition(0));
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            switch (type)
+            {
+                case true:
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    break;
+                case false:
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                    break;
+            }
         }
     }
 }

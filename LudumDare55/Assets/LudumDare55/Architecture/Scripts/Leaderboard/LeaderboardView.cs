@@ -7,48 +7,66 @@ namespace LudumDare55
 {
     public class LeaderboardView : MonoBehaviour
     {
-        [SerializeField] private List<CreateScriptableObjectOfEmployee> allEmployees;
+        [SerializeField] private CreateScriptableObjectOfEmployee[] allEmployees;
         [SerializeField] private Image[] leaderboardPortraits;
-        [SerializeField] private Sprite playerPortrait;
         [SerializeField] private TextMeshProUGUI[] employeeScores;
         [SerializeField] private TextMeshProUGUI[] employeeNames;
-        [SerializeField] private Image buttonImages;
-        [SerializeField] private Transform buttonSpawnPoint;
+        [SerializeField] private GameObject[] buttons;
 
-        private CreateScriptableObjectOfEmployee createdEmployee;
+        [SerializeField] private CreateScriptableObjectOfEmployee createdEmployee;
 
         public void Start()
         {
+            PlayerPrefs.SetInt("PlayerScore", 0);
+            PlayerPrefs.Save();
             createdEmployee.employeeScore = PlayerPrefs.GetInt("PlayerScore");
-            createdEmployee.employeeId = "You";
-            createdEmployee.employeePortrait.sprite = playerPortrait;
-            allEmployees.Add(createdEmployee);
             DisplayEmployees();
         }
 
         public void DisplayEmployees()
         {
-            for (int i = 0; i < allEmployees.Count - 1; i++)
+            for (int i = 0; i < allEmployees.Length - 1; i++)
             {
-                for (int j = 0; j < allEmployees.Count - i - 1; j++)
+                for (int j = 0; j < allEmployees.Length - i - 1; j++)
                 {
-                    if (allEmployees[i].employeeScore > allEmployees[j + 1].employeeScore)
+                    if (allEmployees[j].employeeScore < allEmployees[j + 1].employeeScore)
                     {
                         (allEmployees[j], allEmployees[j + 1]) = (allEmployees[j + 1], allEmployees[j]);
                     }
                 }
             }
+            var newEmployeeList = new List<CreateScriptableObjectOfEmployee>();
 
-            for (int i = 0; i < allEmployees.Count; i++)
+            for (int i = 0; i < allEmployees.Length; i++)
             {
-                leaderboardPortraits[i] = allEmployees[i].employeePortrait;
-                employeeScores[i].text = allEmployees[i].employeeScore + "/" + PlayerPrefs.GetInt("RequiredAmount");
-                employeeNames[i].text = allEmployees[i].employeeId;
+                newEmployeeList.Add(allEmployees[i]);
+                if (allEmployees[i].employeeScore <= createdEmployee.employeeScore)
+                {
+                    if (newEmployeeList.Contains(createdEmployee)) continue;
+                    
+                    newEmployeeList.Add(createdEmployee);
+                    i++;
+                    (newEmployeeList[i], newEmployeeList[i - 1]) = (newEmployeeList[i - 1], newEmployeeList[i]);
+                    i--;
+                }
+            }
+            
+            if (!newEmployeeList.Contains(createdEmployee)) newEmployeeList.Add(createdEmployee);
+
+            for (int i = 0; i < newEmployeeList.Count; i++)
+            {
+                leaderboardPortraits[i].sprite = newEmployeeList[i].employeePortrait;
+                employeeScores[i].text = newEmployeeList[i].employeeScore + "/" + PlayerPrefs.GetInt("RequiredAmount");
+                employeeNames[i].text = newEmployeeList[i].employeeId;
             }
 
-            if (createdEmployee.employeeScore > allEmployees[2].employeeScore)
+            if (createdEmployee.employeeScore >= allEmployees[2].employeeScore)
             {
-                
+                buttons[0].SetActive(true);
+            }
+            else
+            {
+                buttons[1].SetActive(true);
             }
         }
     }
