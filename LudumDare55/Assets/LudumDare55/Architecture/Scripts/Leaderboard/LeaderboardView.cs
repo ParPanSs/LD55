@@ -17,8 +17,6 @@ namespace LudumDare55
 
         public void Start()
         {
-            PlayerPrefs.SetInt("PlayerScore", 0);
-            PlayerPrefs.Save();
             createdEmployee.employeeScore = PlayerPrefs.GetInt("PlayerScore");
             DisplayEmployees();
         }

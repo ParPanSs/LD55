@@ -12,6 +12,8 @@ namespace LudumDare55
         private SceneTransition _sceneTransition;
         private PlayableDirector _roundSuccessTimeline;
 
+        private int score;
+
         public void Construct(RoundStarter roundStarter, InGamePentagramController inGamePentagramController,
             TimerController timerController, SceneTransition sceneTransition, PlayableDirector roundSuccessTimeline)
         {
@@ -32,6 +34,9 @@ namespace LudumDare55
         {
             if (!_roundStarter.roundIsInProgress) return;
          
+            score++;
+            PlayerPrefs.SetInt("PlayerScore", score);
+            PlayerPrefs.Save();
             _roundSuccessTimeline.Play();
             if (_roundStarter.setupsCount > 0)
             {
@@ -47,6 +52,8 @@ namespace LudumDare55
 
         public void EndDay()
         {
+            PlayerPrefs.SetInt("PlayerScore", score);
+            PlayerPrefs.Save();
             _sceneTransition.SetFader();
         }
     }
