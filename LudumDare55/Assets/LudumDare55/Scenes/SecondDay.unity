@@ -1062,12 +1062,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2180196408290120859, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2424450331810415009, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 570248014}
+    - target: {fileID: 2424450331810415009, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
+      propertyPath: m_UpdateRectTransformForStandalone
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5229065223480334354, guid: 0e66c2be71530134f9849da525bd4549, type: 3}
       propertyPath: m_Enabled
       value: 1
