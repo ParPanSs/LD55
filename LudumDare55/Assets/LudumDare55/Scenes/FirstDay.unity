@@ -474,7 +474,7 @@ MonoBehaviour:
   - {fileID: 742261012}
   inGamePentagramView: {fileID: 1763471193}
   timerView: {fileID: 1475393286}
-  dayTime: 520
+  dayTime: 360
   daySetups:
   - {fileID: 11400000, guid: c85a529667e6c4f6aa175b040b1b9935, type: 2}
   - {fileID: 11400000, guid: 8458a184e13044591bade38c0570b55f, type: 2}

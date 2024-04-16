@@ -9,10 +9,28 @@ EditorBuildSettings:
     path: Assets/LudumDare55/Scenes/StartScene.unity
     guid: eb9837013f92dd04f85a3b9a996c730f
   - enabled: 1
-    path: Assets/LudumDare55/Scenes/SampleScene.unity
+    path: Assets/LudumDare55/Scenes/FirstDay.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/LudumDare55/Scenes/ResultScene.unity
     guid: 37161a39ae153824f9ec2cf925468624
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/SecondDay.unity
+    guid: 81c80da1d7efa684d88f35aa90d3732f
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/ResultSecond.unity
+    guid: 4c477221a230517478d74effe10a0821
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/ThirdDay.unity
+    guid: dc9dbbf16a17148449e58cf0cf3a34c8
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/ResultThird.unity
+    guid: 0ffa6596a6f41df42809c281c0e361bb
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/EndScene.unity
+    guid: e61ecd55896f18044b70f256f9bdda3c
+  - enabled: 1
+    path: Assets/LudumDare55/Scenes/Empty.unity
+    guid: 3e207cb5b8873614094fa78e8ec44c6c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
