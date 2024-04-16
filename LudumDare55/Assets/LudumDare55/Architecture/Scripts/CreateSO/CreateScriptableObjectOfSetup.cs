@@ -7,7 +7,6 @@ namespace LudumDare55
     {
         // TODO: encapsulate fields
         public string demonSetupID;
-        public GameObject demonObject;
         public InGameItem[] setupItems;   
         public InGamePentagram setupCataloguePentagram;
         public InGameCassette setupCassette;

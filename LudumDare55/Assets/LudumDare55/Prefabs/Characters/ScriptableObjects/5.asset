@@ -25,4 +25,4 @@ MonoBehaviour:
     - fast
     - wavy
   catalogueDemonSprite: {fileID: -775250085, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 1504151668944793478, guid: a372fbb113cd93c45a1b365b101add2f, type: 3}
+  inGameDemonPrefab: {fileID: 0}

@@ -24,7 +24,7 @@ namespace LudumDare55
             
             _demonSo = allDemons.Find(x => x.demonID == demonID);
             demonDescription.text = _demonSo.catalogueCassette.GetDescription();
-            demonName.text = _demonSo.inGameDemonPrefab.name;
+            //demonName.text = _demonSo.inGameDemonPrefab.name;
             if (_demonSo.itemToSummon.Count < 3) return;
             
             demonIcon.sprite = _demonSo.catalogueDemonSprite;

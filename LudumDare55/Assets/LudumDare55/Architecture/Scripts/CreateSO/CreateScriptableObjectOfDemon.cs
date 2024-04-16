@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +14,5 @@ namespace LudumDare55
         public CataloguePentagram cataloguePentagram;
         public CatalogueCassette catalogueCassette;
         public Sprite catalogueDemonSprite;
-        public GameObject inGameDemonPrefab;
     }
 }

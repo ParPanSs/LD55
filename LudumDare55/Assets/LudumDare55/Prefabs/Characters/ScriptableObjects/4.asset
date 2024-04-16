@@ -25,4 +25,4 @@ MonoBehaviour:
     - slow
     - echo
   catalogueDemonSprite: {fileID: -1761438820, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 1148842165298037814, guid: 03e39942f420eb4439d39413c317503d, type: 3}
+  inGameDemonPrefab: {fileID: 0}

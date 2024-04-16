@@ -25,4 +25,4 @@ MonoBehaviour:
     - normal
     - underwater
   catalogueDemonSprite: {fileID: 1692653928, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 7947637914608915352, guid: 1ff97f8b47bfcd548be77d64ec474ed9, type: 3}
+  inGameDemonPrefab: {fileID: 0}

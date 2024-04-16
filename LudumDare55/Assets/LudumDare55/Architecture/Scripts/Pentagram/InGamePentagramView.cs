@@ -28,7 +28,7 @@ namespace LudumDare55
             CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
             CreateCassette(setup.setupCassette);
-            _demonPrefab = setup.demonObject;
+            //_demonPrefab = setup.demonObject;
         }
 
         public void ClearSetup()
@@ -41,13 +41,6 @@ namespace LudumDare55
         private void DestroyPentagram()
         {
             pentagramExitDirector.Play();
-            
-            /*foreach (var part in pentagramDrawingSpriteRenderers)
-            {
-                part.sprite = null;
-            }
-
-            pentagramFigureSpriteRenderer.sprite = null;*/
         }
 
         private void DestroyItems()
@@ -69,7 +62,7 @@ namespace LudumDare55
             _animator = gameObject.GetComponent<Animator>();
             Debug.Log(gameObject.name);
             _animator.SetTrigger("Disappear");
-            if (_spawnedDemon == null) CreateDemon();
+            //if (_spawnedDemon == null) CreateDemon();
             Destroy(gameObject, time);
         }
 

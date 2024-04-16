@@ -25,4 +25,4 @@ MonoBehaviour:
     - normal
     - distorted
   catalogueDemonSprite: {fileID: 1671836638, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 7398587852097513834, guid: 0801f126839f3fa41a1dd323f36e1625, type: 3}
+  inGameDemonPrefab: {fileID: 0}

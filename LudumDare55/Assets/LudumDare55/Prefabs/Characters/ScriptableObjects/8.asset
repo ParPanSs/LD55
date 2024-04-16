@@ -25,4 +25,4 @@ MonoBehaviour:
     - slow
     - distorted
   catalogueDemonSprite: {fileID: 692809868, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 1505784000053272874, guid: 25b068423bdcaab418ec38b550e222b8, type: 3}
+  inGameDemonPrefab: {fileID: 0}

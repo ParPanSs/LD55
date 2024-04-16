@@ -25,4 +25,4 @@ MonoBehaviour:
     - normal
     - echo
   catalogueDemonSprite: {fileID: 578340515, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 5674262773156573165, guid: 28b06008875c2bf49a84b40461f95eea, type: 3}
+  inGameDemonPrefab: {fileID: 0}

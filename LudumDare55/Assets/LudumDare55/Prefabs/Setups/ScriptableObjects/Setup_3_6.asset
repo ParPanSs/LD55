@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Setup_3_6
   m_EditorClassIdentifier: 
   demonSetupID: 8
-  demonObject: {fileID: 1505784000053272874, guid: 25b068423bdcaab418ec38b550e222b8, type: 3}
+  demonObject: {fileID: 0}
   setupItems:
   - _itemObject: {fileID: 320839819953024551, guid: 2396fdd4904b8b04887835e335de0cbf, type: 3}
   - _itemObject: {fileID: 1111603235013364872, guid: 6a7c5a62e768e764fbcf318028e1e662, type: 3}
