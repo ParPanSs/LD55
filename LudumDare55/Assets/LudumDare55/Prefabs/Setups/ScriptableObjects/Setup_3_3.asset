@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028414fb37114072a9e369d2a96fa893, type: 3}
+  m_Name: Setup_3_3
+  m_EditorClassIdentifier: 
+  demonSetupID: 9
+  demonObject: {fileID: 5674262773156573165, guid: 28b06008875c2bf49a84b40461f95eea, type: 3}
+  setupItems:
+  - _itemObject: {fileID: 746586028899891396, guid: 41a9b26abaf604746b40272091283321, type: 3}
+  - _itemObject: {fileID: 2168138550253030454, guid: f9f9e021674f0c840adbdde7b127f2b4, type: 3}
+  - _itemObject: {fileID: 3026188558491728653, guid: 29a7acb1e35f6204bacd1776acb58214, type: 3}
+  setupCataloguePentagram:
+    _figure: {fileID: 21300000, guid: 7a6ed5a5d50e0334ab11aa446e50b431, type: 3}
+    _drawings:
+    - {fileID: 21300000, guid: ab91cf77e9691fa4f89c23b3c9069eac, type: 3}
+    - {fileID: 21300000, guid: 4aea8b7714b046a4f893be3a7fd1646a, type: 3}
+    - {fileID: 21300000, guid: c9d3ada8f7b31a24bbcd6c45b5029fcc, type: 3}
+    - {fileID: 21300000, guid: 9a3e3c4206913464b95779877bb5f778, type: 3}
+    - {fileID: 21300000, guid: 9a3e3c4206913464b95779877bb5f778, type: 3}
+  setupCassette:
+    _cassetteAudio: {fileID: 8300000, guid: dcda5e1d8f1474af893cb92c1f00f366, type: 3}

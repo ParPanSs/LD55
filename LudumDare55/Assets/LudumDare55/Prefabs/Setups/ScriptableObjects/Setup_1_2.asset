@@ -27,4 +27,4 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 06247992776fc924698083788abb240e, type: 3}
     - {fileID: 21300000, guid: f0aa0827372f8c246a03e2892e04d48f, type: 3}
   setupCassette:
-    _cassetteAudio: {fileID: 8300000, guid: 542ff87973b2f3145b782bc47745d3fe, type: 3}
+    _cassetteAudio: {fileID: 8300000, guid: 85b984b58f587480e87a0791f10c0268, type: 3}
