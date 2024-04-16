@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   employeePortrait: {fileID: -2868273512557043721, guid: 6942af5ef8d5f4749ba81807485f9a35, type: 3}
   employeeId: satacat
-  employeeScore: 2
+  employeeScore: 5

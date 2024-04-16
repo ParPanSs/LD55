@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   employeePortrait: {fileID: 314047637347215283, guid: 6942af5ef8d5f4749ba81807485f9a35, type: 3}
   employeeId: parpanss
-  employeeScore: 1
+  employeeScore: 11
