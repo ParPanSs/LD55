@@ -31,6 +31,8 @@ namespace LudumDare55
         
         private void Awake()
         {
+            PlayerPrefs.DeleteKey("RequiredAmount");
+            PlayerPrefs.Save();
             catalogueController = new CatalogueController();
             inGamePentagramController = new InGamePentagramController();
             timerController = new TimerController();

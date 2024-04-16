@@ -994,9 +994,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cutscenes:
-  - {fileID: 32900000, guid: ba5d17f1fa3923d4eb969e662f6e0d5b, type: 3}
-  - {fileID: 32900000, guid: 2aa9a6d0dfc72a84a9a04d4c8e066833, type: 3}
-  - {fileID: 32900000, guid: 59181155c9290d44ea8017eef67ffeaa, type: 3}
+  - {fileID: 32900000, guid: 926f008e3cf556c49ab4123f5247df74, type: 3}
+  - {fileID: 32900000, guid: 2dd51988fc09a0e47a62c22f23c197bb, type: 3}
+  - {fileID: 32900000, guid: 7e44d722891be0f41b28a1b1d68aac22, type: 3}
   videoPlayer: {fileID: 1563773042}
 --- !u!1 &1952569321
 GameObject:
