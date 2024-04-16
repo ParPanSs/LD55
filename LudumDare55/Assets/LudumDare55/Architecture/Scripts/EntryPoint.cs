@@ -7,21 +7,21 @@ namespace LudumDare55
 {
     public class EntryPoint : MonoBehaviour
     {
-        private readonly CatalogueController catalogueController = new();
+        private CatalogueController catalogueController;
         [Header("Catalogue")]
         [SerializeField] private CatalogueView catalogueView;
         [SerializeField] private CatalogueBookmark[] bookmarks;
-        
-        private readonly InGamePentagramController inGamePentagramController = new();
+
+        private InGamePentagramController inGamePentagramController;
         [Header("Pentagram")]
         [SerializeField] private InGamePentagramView inGamePentagramView;
-        
-        private readonly TimerController timerController = new();
+
+        private TimerController timerController;
         [Header("Timer")]
         [SerializeField] private TimerView timerView;
-        
-        private readonly RoundStarter roundStarter = new();
-        private readonly RoundEnder roundEnder = new();
+
+        private RoundStarter roundStarter;
+        private RoundEnder roundEnder;
         [Header("Round")]
         [SerializeField] private float dayTime;
         [SerializeField] private List<CreateScriptableObjectOfSetup> daySetups;
@@ -31,6 +31,12 @@ namespace LudumDare55
         
         private void Awake()
         {
+            catalogueController = new CatalogueController();
+            inGamePentagramController = new InGamePentagramController();
+            timerController = new TimerController();
+            roundStarter = new RoundStarter();
+            roundEnder = new RoundEnder();
+            
             catalogueController.Construct(catalogueView);
             foreach (var bookmark in bookmarks) { bookmark.Construct(catalogueController); }
             
