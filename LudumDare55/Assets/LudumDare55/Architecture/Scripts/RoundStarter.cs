@@ -15,27 +15,24 @@ namespace LudumDare55
         private List<CreateScriptableObjectOfSetup> _setups;
         private InGamePentagramController _inGamePentagramController;
         private Ejector _ejector;
-        private TextMeshPro _roundsLeftText;
 
-        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups, TextMeshPro roundsLeftText)
+        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups)
         {
-            _ejector = new GameObject().AddComponent<Ejector>();
             _setups = setups;
             _inGamePentagramController = inGamePentagramController;
-            _roundsLeftText = roundsLeftText;
-            StartNewRound();
+            
+            _ejector = new GameObject().AddComponent<Ejector>();
+            StartNewRound(2);
         }
         
-        public void StartNewRound()
+        public void StartNewRound(float delay)
         {
-            _ejector.StartCoroutine(StartNewRoundRoutine(5f));
+            _ejector.StartCoroutine(StartNewRoundRoutine(delay));
         }
 
         private IEnumerator StartNewRoundRoutine(float delay)
         {
             yield return new WaitForSeconds(delay);
-            _roundsLeftText.text = _setups.Count.ToString();
-            
             var newSetup = _setups[Random.Range(0, _setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);
             rightDemon = newSetup.demonSetupID;

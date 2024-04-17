@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   demonID: 1
+  demonName: Mermaid
   itemToSummon:
   - _itemSprite: {fileID: 340561283, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: -827187445, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - normal
     - underwater
   catalogueDemonSprite: {fileID: 1692653928, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 7947637914608915352, guid: 1ff97f8b47bfcd548be77d64ec474ed9, type: 3}

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -44,14 +45,36 @@ namespace LudumDare55
             
             inGamePentagramController.Construct(inGamePentagramView);
             
-            roundStarter.Construct(inGamePentagramController, daySetups, roundsLeftText);
-            roundEnder.Construct(roundStarter, inGamePentagramController, timerController, sceneTransition, bell.GetComponent<PlayableDirector>());
+            roundStarter.Construct(inGamePentagramController, daySetups);
+            roundEnder.Construct(roundStarter,
+                inGamePentagramController,
+                timerController,
+                sceneTransition,
+                bell.GetComponent<PlayableDirector>(),
+                roundsLeftText);
+            
             bell.Construct(catalogueController, roundEnder);
             timerController.Construct(roundEnder, timerView);
 
             roundsLeftText.text = daySetups.Count.ToString();
             PlayerPrefs.SetInt("RequiredAmount", daySetups.Count);
             StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
+        }
+
+#if UNITY_EDITOR
+        private void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.F1)) roundEnder.RoundEnded();
+        }
+#endif
+
+        private void OnDestroy()
+        {
+            for (int i = 0; i < daySetups.Count; i++)
+            {
+                daySetups[i] = null;
+            }
+            daySetups = null;
         }
     }
 }

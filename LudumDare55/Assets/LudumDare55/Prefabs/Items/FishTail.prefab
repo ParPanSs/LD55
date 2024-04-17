@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 579192566338006991}
   - component: {fileID: 2115885579179050871}
   - component: {fileID: 702076983410421860}
-  - component: {fileID: 5067481329139696441}
   m_Layer: 0
   m_Name: FishTail
   m_TagString: Untagged
@@ -110,15 +109,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5067481329139696441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036609678655386841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478f92f262864e458376298710f31a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

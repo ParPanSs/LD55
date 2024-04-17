@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   demonID: 8
+  demonName: Void
   itemToSummon:
   - _itemSprite: {fileID: 558987795, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: -1420463981, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - slow
     - distorted
   catalogueDemonSprite: {fileID: 692809868, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 1505784000053272874, guid: 25b068423bdcaab418ec38b550e222b8, type: 3}

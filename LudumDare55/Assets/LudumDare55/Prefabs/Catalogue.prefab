@@ -1588,7 +1588,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6400b7f929f0d4845b6151d55aa7d183, type: 2}
   - {fileID: 11400000, guid: f1cbf815f9dff6c4f96ebeb0d64adddd, type: 2}
   demonIcon: {fileID: 3217104933046085360}
-  pentagramFigure: {fileID: 0}
   pentagramDrawing: {fileID: 7793641727524705585}
   demonItems:
   - {fileID: 1253608947172516287}
@@ -1607,13 +1606,13 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: ec24f084345558144adabadaa352320a, type: 3}
+  m_Resource: {fileID: 8300000, guid: ec24f084345558144adabadaa352320a, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128

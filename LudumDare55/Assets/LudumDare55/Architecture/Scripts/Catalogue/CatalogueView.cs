@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -7,9 +8,8 @@ namespace LudumDare55
 {
     public class CatalogueView : MonoBehaviour
     {
-        [SerializeField] private List<CreateScriptableObjectOfDemon> allDemons;
+        [SerializeField] private CreateScriptableObjectOfDemon[] allDemons;
         [SerializeField] private SpriteRenderer demonIcon;
-        [SerializeField] private SpriteRenderer pentagramFigure;
         [SerializeField] private SpriteRenderer pentagramDrawing;
         [SerializeField] private SpriteRenderer[] demonItems;
         [SerializeField] private TextMeshPro demonDescription;
@@ -21,11 +21,10 @@ namespace LudumDare55
         // TODO: reorder display and remove debug
         public void DisplayCurrentDemon(string demonID)
         {
-            Debug.Log("Catalogue demon ID: " + demonID);
-            
-            _demonSo = allDemons.Find(x => x.demonID == demonID);
+            _demonSo = allDemons.FirstOrDefault(x => x.demonID == demonID);
+            if (_demonSo == null) return;
             demonDescription.text = _demonSo.catalogueCassette.GetDescription();
-            demonName.text = _demonSo.inGameDemonPrefab.name;
+            demonName.text = _demonSo.demonName;
             if (_demonSo.itemToSummon.Count < 3) return;
             
             demonIcon.sprite = _demonSo.catalogueDemonSprite;
@@ -37,6 +36,15 @@ namespace LudumDare55
 
             if (!bookmarkSound.mute) bookmarkSound.Play();
             else bookmarkSound.mute = false;
+        }
+
+        private void OnDestroy()
+        {
+            for (int i = 0; i < allDemons.Length; i++)
+            {
+                allDemons[i] = null;
+            }
+            allDemons = null;
         }
     }
 }

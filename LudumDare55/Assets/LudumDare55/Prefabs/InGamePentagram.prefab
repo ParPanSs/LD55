@@ -170,6 +170,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cassettePrefab: {fileID: 5315608484540582175, guid: 5ea3e2530836a3e4380ea7eac883b395, type: 3}
+  idDemonPrefabs:
+  - id: 1
+    demonPrefab: {fileID: 7947637914608915352, guid: 1ff97f8b47bfcd548be77d64ec474ed9, type: 3}
+  - id: 2
+    demonPrefab: {fileID: 2691525287826100994, guid: 7390aeb674f377b4fbd0c5bc47259f93, type: 3}
+  - id: 3
+    demonPrefab: {fileID: 4707968171551636784, guid: 83b5e39ac82b3744eaac6fbee1fc0d47, type: 3}
+  - id: 4
+    demonPrefab: {fileID: 1148842165298037814, guid: 03e39942f420eb4439d39413c317503d, type: 3}
+  - id: 5
+    demonPrefab: {fileID: 1504151668944793478, guid: a372fbb113cd93c45a1b365b101add2f, type: 3}
+  - id: 6
+    demonPrefab: {fileID: 7398587852097513834, guid: 0801f126839f3fa41a1dd323f36e1625, type: 3}
+  - id: 7
+    demonPrefab: {fileID: 2763300291780553116, guid: be4669e492a83d842b711b4b1c3435ea, type: 3}
+  - id: 8
+    demonPrefab: {fileID: 1505784000053272874, guid: 25b068423bdcaab418ec38b550e222b8, type: 3}
+  - id: 9
+    demonPrefab: {fileID: 5674262773156573165, guid: 28b06008875c2bf49a84b40461f95eea, type: 3}
   itemSpawnPoints:
   - {fileID: 719236695556033947}
   - {fileID: 3233258736368050277}
@@ -573,8 +592,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0802beec89505094b9dd2e9a8c2bd2e3, type: 3}
+  m_Resource: {fileID: 8300000, guid: 0802beec89505094b9dd2e9a8c2bd2e3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -839,7 +858,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d60c01acad483534588caa2d76c0c82e, type: 3}
   m_Resource: {fileID: 8300000, guid: d60c01acad483534588caa2d76c0c82e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -940,7 +959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7670687747859123075
 Transform:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ guid: 3df75a7825e444dc9ac4c0e1369a584c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -25,7 +25,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -72,11 +72,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
+    textureCompression: 3
+    compressionQuality: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -89,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -101,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -113,6 +116,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -465,23 +482,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      end of the day 6_4: -822347302
       end of the day 6_0: -1091686522
       end of the day 6_1: -1809721567
-      end of the day 6_15: 801512253
-      end of the day 6_8: -1675820912
-      end of the day 6_3: -1842319410
-      end of the day 6_13: -850399420
-      end of the day 6_9: 435929807
-      end of the day 6_5: 1401067641
-      end of the day 6_7: -1734759132
-      end of the day 6_11: -1999429018
-      end of the day 6_14: -335850484
-      end of the day 6_12: 1859424002
       end of the day 6_10: 300039659
-      end of the day 6_6: -1433305024
+      end of the day 6_11: -1999429018
+      end of the day 6_12: 1859424002
+      end of the day 6_13: -850399420
+      end of the day 6_14: -335850484
+      end of the day 6_15: 801512253
       end of the day 6_2: 914011327
-  spritePackingTag: 
+      end of the day 6_3: -1842319410
+      end of the day 6_4: -822347302
+      end of the day 6_5: 1401067641
+      end of the day 6_6: -1433305024
+      end of the day 6_7: -1734759132
+      end of the day 6_8: -1675820912
+      end of the day 6_9: 435929807
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 

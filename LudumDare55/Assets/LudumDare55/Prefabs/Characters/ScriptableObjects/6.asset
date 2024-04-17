@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   demonID: 6
+  demonName: 999
   itemToSummon:
   - _itemSprite: {fileID: -1366881195, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: 116047781, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - normal
     - distorted
   catalogueDemonSprite: {fileID: 1671836638, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 7398587852097513834, guid: 0801f126839f3fa41a1dd323f36e1625, type: 3}

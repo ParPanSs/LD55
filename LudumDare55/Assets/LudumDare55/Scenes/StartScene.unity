@@ -341,10 +341,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 640327989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 204, y: -77}
-  m_SizeDelta: {x: -79.12, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80.88, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346232768
 MonoBehaviour:
@@ -483,7 +483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 341, y: -250}
+  m_AnchoredPosition: {x: 693, y: -410}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640327990
@@ -759,17 +759,17 @@ Canvas:
   m_GameObject: {fileID: 1469578061}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 13307814}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -806,12 +806,13 @@ GameObject:
   - component: {fileID: 1563773043}
   - component: {fileID: 1563773042}
   - component: {fileID: 1563773044}
+  - component: {fileID: 1563773045}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!328 &1563773042
 VideoPlayer:
@@ -821,7 +822,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563773041}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 1c3b3bee884d2bb40b5bd74dbef9f783, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: cc006751f42b09b4e8833c8e65d2b3f2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 13307814}
@@ -831,7 +832,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 0
@@ -961,6 +962,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1563773045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563773041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83164c606359bd4383cb34e2249a45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: FirstCatSceneV2.mp4
 --- !u!1 &1952569321
 GameObject:
   m_ObjectHideFlags: 0

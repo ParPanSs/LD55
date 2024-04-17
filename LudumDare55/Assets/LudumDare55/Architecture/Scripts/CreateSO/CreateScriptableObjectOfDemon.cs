@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +9,10 @@ namespace LudumDare55
     {
         // TODO: encapsulate fields
         public string demonID;
-        
+        public string demonName;
         public List<CatalogueItem> itemToSummon = new();
         public CataloguePentagram cataloguePentagram;
         public CatalogueCassette catalogueCassette;
         public Sprite catalogueDemonSprite;
-        public GameObject inGameDemonPrefab;
     }
 }

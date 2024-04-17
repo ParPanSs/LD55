@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   demonID: 4
+  demonName: Succubus
   itemToSummon:
   - _itemSprite: {fileID: -1707390935, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: -1338760563, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - slow
     - echo
   catalogueDemonSprite: {fileID: -1761438820, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 1148842165298037814, guid: 03e39942f420eb4439d39413c317503d, type: 3}

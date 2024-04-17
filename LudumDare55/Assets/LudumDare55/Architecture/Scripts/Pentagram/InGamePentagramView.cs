@@ -1,13 +1,20 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
 
 namespace LudumDare55
 {
+    [System.Serializable]
+    public class IdDemonPrefab
+    {
+        public string id;
+        public GameObject demonPrefab;
+    }
     public class InGamePentagramView : MonoBehaviour
     {
         [SerializeField] private GameObject cassettePrefab;
-        
+        [SerializeField] private IdDemonPrefab[] idDemonPrefabs;
         [SerializeField] private Transform[] itemSpawnPoints;
         [SerializeField] private Transform cassetteSpawnPoint;
         [SerializeField] private SpriteRenderer pentagramFigureSpriteRenderer;
@@ -21,14 +28,13 @@ namespace LudumDare55
         private GameObject _spawnedCassette;
         private GameObject _spawnedDemon;
         private GameObject _demonPrefab;
-        private Animator _animator;
         
         public void DisplaySetup(CreateScriptableObjectOfSetup setup)
         {
             CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
             CreateCassette(setup.setupCassette);
-            _demonPrefab = setup.demonObject;
+            _demonPrefab = idDemonPrefabs.FirstOrDefault(prefab => prefab.id == setup.demonSetupID)?.demonPrefab;
         }
 
         public void ClearSetup()
@@ -41,13 +47,6 @@ namespace LudumDare55
         private void DestroyPentagram()
         {
             pentagramExitDirector.Play();
-            
-            /*foreach (var part in pentagramDrawingSpriteRenderers)
-            {
-                part.sprite = null;
-            }
-
-            pentagramFigureSpriteRenderer.sprite = null;*/
         }
 
         private void DestroyItems()
@@ -64,13 +63,18 @@ namespace LudumDare55
             DestroyWithDelay(_spawnedCassette, 1f);
         }
 
-        private void DestroyWithDelay(GameObject gameObject, float time)
+        private void DestroyWithDelay(GameObject objectToDestroy, float time)
         {
-            _animator = gameObject.GetComponent<Animator>();
-            Debug.Log(gameObject.name);
-            _animator.SetTrigger("Disappear");
+            objectToDestroy.TryGetComponent<Animator>(out var animator);
+                
+            try { animator.SetTrigger("Disappear"); }
+            catch
+            {
+                // ignored
+            }
+
             if (_spawnedDemon == null) CreateDemon();
-            Destroy(gameObject, time);
+            Destroy(objectToDestroy, time);
         }
 
         private void CreatePentagram(InGamePentagram pentagram)
@@ -101,7 +105,10 @@ namespace LudumDare55
             if (cassette.cassetteAudio == null) return;
             
             var cassetteObject = Instantiate(cassettePrefab, cassetteSpawnPoint);
-            cassetteObject.GetComponent<InGameCassetteObject>().Construct(cassette.cassetteAudio);
+            if (cassetteObject.TryGetComponent(out InGameCassetteObject inGameCassetteObject))
+            {
+                inGameCassetteObject.Construct(cassette.cassetteAudio);
+            }
             _spawnedCassette = cassetteObject;
         }
 
