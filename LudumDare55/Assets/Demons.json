@@ -1,0 +1,328 @@
+{
+    "DemonData": [
+
+{
+    "demonID": "1",
+    "demonName": "Mermaid",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23426
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23428
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23390
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23430
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "child",
+            "normal",
+            "underwater"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23432
+    }
+},
+{
+    "demonID": "2",
+    "demonName": "Dwarf",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23416
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23450
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23388
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23452
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "child",
+            "fast",
+            "wavy"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23454
+    }
+},
+{
+    "demonID": "3",
+    "demonName": "Cat",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23388
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23390
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23392
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23394
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "slow",
+            "echo"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23396
+    }
+},
+{
+    "demonID": "4",
+    "demonName": "Succubus",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23398
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23400
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23402
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23404
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "slow",
+            "echo"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23406
+    }
+},
+{
+    "demonID": "5",
+    "demonName": "Clown",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23408
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23410
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23402
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23412
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "child",
+            "fast",
+            "wavy"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23414
+    }
+},
+{
+    "demonID": "6",
+    "demonName": "999",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23434
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23436
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23408
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23438
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "normal",
+            "distorted"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23440
+    }
+},
+{
+    "demonID": "7",
+    "demonName": "Leshy",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23416
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23418
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23420
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23422
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "normal",
+            "underwater"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23424
+    }
+},
+{
+    "demonID": "8",
+    "demonName": "Void",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23408
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23442
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 0
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23456
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "slow",
+            "distorted"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23458
+    }
+},
+{
+    "demonID": "9",
+    "demonName": "Werewolf",
+    "itemToSummon": [
+        {
+            "_itemSprite": {
+                "instanceID": 23442
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23392
+            }
+        },
+        {
+            "_itemSprite": {
+                "instanceID": 23444
+            }
+        }
+    ],
+    "cataloguePentagram": {
+        "_sprite": {
+            "instanceID": 23446
+        }
+    },
+    "catalogueCassette": {
+        "_cassetteAudioCharacteristics": [
+            "adult",
+            "normal",
+            "echo"
+        ]
+    },
+    "catalogueDemonSprite": {
+        "instanceID": 23448
+    }
+}]
+}

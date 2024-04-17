@@ -6,6 +6,7 @@ namespace LudumDare55
     public class CreateScriptableObjectOfSetup : ScriptableObject
     {
         // TODO: encapsulate fields
+        public string setupId;
         public string demonSetupID;
         public InGameItem[] setupItems;   
         public InGamePentagram setupCataloguePentagram;

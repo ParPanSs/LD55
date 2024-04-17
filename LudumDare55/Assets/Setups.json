@@ -1,0 +1,1463 @@
+{
+    "SetupData": [
+{
+    "setupId": "Setup_1",
+    "demonSetupID": "2",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22436
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22418
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 0
+        },
+        "_drawings": []
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28106
+        }
+    }
+},
+{
+    "setupId": "Setup_1_1",
+    "demonSetupID": "2",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22434
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22436
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22438
+        },
+        "_drawings": [
+            {
+                "instanceID": 22428
+            },
+            {
+                "instanceID": 22440
+            },
+            {
+                "instanceID": 22442
+            },
+            {
+                "instanceID": 22424
+            },
+            {
+                "instanceID": 22444
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 22446
+        }
+    }
+},
+{
+    "setupId": "Setup_1_2",
+    "demonSetupID": "3",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22436
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22448
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22450
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22452
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22462
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 22464
+        }
+    }
+},
+{
+    "setupId": "Setup_1_3",
+    "demonSetupID": "4",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22484
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22486
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22488
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22492
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 22494
+        }
+    }
+},
+{
+    "setupId": "Setup_1_4",
+    "demonSetupID": "9",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22468
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22450
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22470
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22472
+        },
+        "_drawings": [
+            {
+                "instanceID": 22474
+            },
+            {
+                "instanceID": 22476
+            },
+            {
+                "instanceID": 22478
+            },
+            {
+                "instanceID": 22480
+            },
+            {
+                "instanceID": 22480
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 22482
+        }
+    }
+},
+{
+    "setupId": "Setup_1_5",
+    "demonSetupID": "5",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22416
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22418
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22420
+        },
+        "_drawings": [
+            {
+                "instanceID": 22422
+            },
+            {
+                "instanceID": 22424
+            },
+            {
+                "instanceID": 22426
+            },
+            {
+                "instanceID": 22428
+            },
+            {
+                "instanceID": 22424
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 22430
+        }
+    }
+},
+{
+    "setupId": "Setup_2",
+    "demonSetupID": "7",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28120
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22486
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28122
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22452
+        },
+        "_drawings": [
+            {
+                "instanceID": 28124
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 28126
+            },
+            {
+                "instanceID": 22428
+            },
+            {
+                "instanceID": 28128
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28106
+        }
+    }
+},
+{
+    "setupId": "Setup_2_1",
+    "demonSetupID": "9",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22436
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22448
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22450
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22472
+        },
+        "_drawings": [
+            {
+                "instanceID": 22474
+            },
+            {
+                "instanceID": 22476
+            },
+            {
+                "instanceID": 22478
+            },
+            {
+                "instanceID": 22480
+            },
+            {
+                "instanceID": 22480
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28160
+        }
+    }
+},
+{
+    "setupId": "Setup_2_2",
+    "demonSetupID": "8",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28162
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 28164
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28166
+        }
+    }
+},
+{
+    "setupId": "Setup_2_3",
+    "demonSetupID": "4",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22486
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22484
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22492
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28182
+        }
+    }
+},
+{
+    "setupId": "Setup_2_4",
+    "demonSetupID": "7",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22486
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22438
+        },
+        "_drawings": [
+            {
+                "instanceID": 28184
+            },
+            {
+                "instanceID": 28184
+            },
+            {
+                "instanceID": 22426
+            },
+            {
+                "instanceID": 28126
+            },
+            {
+                "instanceID": 22428
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28186
+        }
+    }
+},
+{
+    "setupId": "Setup_2_5",
+    "demonSetupID": "2",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28190
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28120
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22438
+        },
+        "_drawings": [
+            {
+                "instanceID": 22428
+            },
+            {
+                "instanceID": 22440
+            },
+            {
+                "instanceID": 22442
+            },
+            {
+                "instanceID": 22424
+            },
+            {
+                "instanceID": 22444
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28192
+        }
+    }
+},
+{
+    "setupId": "Setup_2_6",
+    "demonSetupID": "1",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28204
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28206
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28208
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28210
+        },
+        "_drawings": [
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28218
+            },
+            {
+                "instanceID": 28214
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28220
+        }
+    }
+},
+{
+    "setupId": "Setup_2_7",
+    "demonSetupID": "6",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28162
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 28164
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28264
+        }
+    }
+},
+{
+    "setupId": "Setup_2_8",
+    "demonSetupID": "3",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22436
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22450
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22438
+        },
+        "_drawings": [
+            {
+                "instanceID": 22428
+            },
+            {
+                "instanceID": 22440
+            },
+            {
+                "instanceID": 22442
+            },
+            {
+                "instanceID": 22424
+            },
+            {
+                "instanceID": 22444
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28266
+        }
+    }
+},
+{
+    "setupId": "Setup_2_9",
+    "demonSetupID": "5",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28210
+        },
+        "_drawings": [
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28218
+            },
+            {
+                "instanceID": 28214
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28268
+        }
+    }
+},
+{
+    "setupId": "Setup_2_10",
+    "demonSetupID": "4",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22418
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28122
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 28164
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28270
+        }
+    }
+},
+{
+    "setupId": "Setup_3_1",
+    "demonSetupID": "6",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28272
+        },
+        "_drawings": [
+            {
+                "instanceID": 28128
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28212
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28274
+        }
+    }
+},
+{
+    "setupId": "Setup_3_2",
+    "demonSetupID": "2",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22434
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28120
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22438
+        },
+        "_drawings": [
+            {
+                "instanceID": 28184
+            },
+            {
+                "instanceID": 28184
+            },
+            {
+                "instanceID": 22426
+            },
+            {
+                "instanceID": 28126
+            },
+            {
+                "instanceID": 22428
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28278
+        }
+    }
+},
+{
+    "setupId": "Setup_3_3",
+    "demonSetupID": "9",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22468
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22450
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22470
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22472
+        },
+        "_drawings": [
+            {
+                "instanceID": 22474
+            },
+            {
+                "instanceID": 22476
+            },
+            {
+                "instanceID": 22478
+            },
+            {
+                "instanceID": 22480
+            },
+            {
+                "instanceID": 22480
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28280
+        }
+    }
+},
+{
+    "setupId": "Setup_3_4",
+    "demonSetupID": "4",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22484
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22418
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28122
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22492
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28282
+        }
+    }
+},
+{
+    "setupId": "Setup_3_5",
+    "demonSetupID": "6",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28162
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28272
+        },
+        "_drawings": [
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28212
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28284
+        }
+    }
+},
+{
+    "setupId": "Setup_3_6",
+    "demonSetupID": "8",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28272
+        },
+        "_drawings": [
+            {
+                "instanceID": 28128
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28212
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28286
+        }
+    }
+},
+{
+    "setupId": "Setup_3_7",
+    "demonSetupID": "1",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28206
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28208
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28288
+        },
+        "_drawings": [
+            {
+                "instanceID": 28290
+            },
+            {
+                "instanceID": 28292
+            },
+            {
+                "instanceID": 28294
+            },
+            {
+                "instanceID": 22474
+            },
+            {
+                "instanceID": 22478
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28296
+        }
+    }
+},
+{
+    "setupId": "Setup_3_8",
+    "demonSetupID": "5",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28104
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28210
+        },
+        "_drawings": [
+            {
+                "instanceID": 28212
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28218
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28214
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28306
+        }
+    }
+},
+{
+    "setupId": "Setup_3_9",
+    "demonSetupID": "7",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28308
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22418
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28272
+        },
+        "_drawings": [
+            {
+                "instanceID": 28128
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28214
+            },
+            {
+                "instanceID": 28216
+            },
+            {
+                "instanceID": 28212
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28310
+        }
+    }
+},
+{
+    "setupId": "Setup_3_10",
+    "demonSetupID": "6",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22468
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28162
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22414
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22472
+        },
+        "_drawings": [
+            {
+                "instanceID": 28322
+            },
+            {
+                "instanceID": 28322
+            },
+            {
+                "instanceID": 22478
+            },
+            {
+                "instanceID": 28322
+            },
+            {
+                "instanceID": 28322
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28324
+        }
+    }
+},
+{
+    "setupId": "Setup_3_11",
+    "demonSetupID": "3",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28120
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28208
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28328
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22452
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22462
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28330
+        }
+    }
+},
+{
+    "setupId": "Setup_3_12",
+    "demonSetupID": "9",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22468
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28328
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22472
+        },
+        "_drawings": [
+            {
+                "instanceID": 22474
+            },
+            {
+                "instanceID": 22476
+            },
+            {
+                "instanceID": 22478
+            },
+            {
+                "instanceID": 22480
+            },
+            {
+                "instanceID": 22480
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28344
+        }
+    }
+},
+{
+    "setupId": "Setup_3_13",
+    "demonSetupID": "4",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22484
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22432
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22488
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 28346
+        },
+        "_drawings": [
+            {
+                "instanceID": 22454
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22458
+            },
+            {
+                "instanceID": 22460
+            },
+            {
+                "instanceID": 22492
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28348
+        }
+    }
+},
+{
+    "setupId": "Setup_3_14",
+    "demonSetupID": "1",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 28204
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 28206
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22448
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 28164
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28352
+        }
+    }
+},
+{
+    "setupId": "Setup_3_15",
+    "demonSetupID": "8",
+    "setupItems": [
+        {
+            "_itemObject": {
+                "instanceID": 22470
+            }
+        },
+        {
+            "_itemObject": {
+                "instanceID": 22468
+            }
+        }
+    ],
+    "setupCataloguePentagram": {
+        "_figure": {
+            "instanceID": 22490
+        },
+        "_drawings": [
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 28164
+            },
+            {
+                "instanceID": 22456
+            },
+            {
+                "instanceID": 22456
+            }
+        ]
+    },
+    "setupCassette": {
+        "_cassetteAudio": {
+            "instanceID": 28354
+        }
+    }
+}]
+}
