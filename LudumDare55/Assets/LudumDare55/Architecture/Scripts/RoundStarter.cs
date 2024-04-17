@@ -35,7 +35,7 @@ namespace LudumDare55
             yield return new WaitForSeconds(delay);
             var newSetup = _setups[Random.Range(0, _setups.Count)];
             _inGamePentagramController.SetSetup(newSetup);
-            rightDemon = newSetup.demonSetupID;
+            rightDemon = newSetup.demonSetupId;
             _setups.Remove(newSetup);
             SetRoundIsInProgress();
             setupsCount = _setups.Count;

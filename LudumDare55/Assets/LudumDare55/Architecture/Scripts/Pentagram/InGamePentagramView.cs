@@ -34,7 +34,7 @@ namespace LudumDare55
             CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
             CreateCassette(setup.setupCassette);
-            _demonPrefab = idDemonPrefabs.FirstOrDefault(prefab => prefab.id == setup.demonSetupID)?.demonPrefab;
+            _demonPrefab = idDemonPrefabs.FirstOrDefault(prefab => prefab.id == setup.demonSetupId)?.demonPrefab;
         }
 
         public void ClearSetup()
