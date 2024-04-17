@@ -9,7 +9,7 @@ namespace LudumDare55
     {
         // TODO: encapsulate fields
         public string demonID;
-        
+        public string demonName;
         public List<CatalogueItem> itemToSummon = new();
         public CataloguePentagram cataloguePentagram;
         public CatalogueCassette catalogueCassette;

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   demonID: 3
+  demonName: Cat
   itemToSummon:
   - _itemSprite: {fileID: -1153380358, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: -193939374, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - slow
     - echo
   catalogueDemonSprite: {fileID: 409173373, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 0}

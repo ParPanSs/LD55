@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2426166269232981681}
   - component: {fileID: 3291684174432040124}
   - component: {fileID: 7434905427516460010}
+  - component: {fileID: 527301799110288046}
   m_Layer: 0
   m_Name: Bell
   m_TagString: Untagged
@@ -101,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 120
-  m_Sprite: {fileID: -1908378116, guid: 647f124946ef16747813bc123c630f0a, type: 3}
+  m_Sprite: {fileID: 1010324787, guid: 0ec4231133884b743ba63a41ad6b7b05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -170,9 +171,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 74881ac813d926a4b85c068c5263c743, type: 3}
+  m_Resource: {fileID: 8300000, guid: 74881ac813d926a4b85c068c5263c743, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -257,3 +258,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!320 &527301799110288046
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3378722357404400426}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: e3c802a0dbd0008489c01ca528ee3dea, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4249209608869878933, guid: e3c802a0dbd0008489c01ca528ee3dea, type: 2}
+    value: {fileID: 2435704790004951202}
+  - key: {fileID: 8569594191272146246, guid: e3c802a0dbd0008489c01ca528ee3dea, type: 2}
+    value: {fileID: 7434905427516460010}
+  m_ExposedReferences:
+    m_References: []

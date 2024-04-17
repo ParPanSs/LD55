@@ -42,7 +42,8 @@ namespace LudumDare55
             else _timerController.PunishmentDecrementTime();
         }
 
-        private void RoundEnded()
+        // TODO: make private
+        public void RoundEnded()
         {
             if (!_roundStarter.roundIsInProgress) return;
          

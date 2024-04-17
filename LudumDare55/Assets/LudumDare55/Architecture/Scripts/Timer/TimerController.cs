@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -9,7 +8,7 @@ namespace LudumDare55
         private TimerView _timerView;
         private TimerModel _timerModel;
         private RoundEnder _roundEnder;
-        private const float PunishmentTime = 30f;
+        private const float PunishmentTime = 10f;
 
         public void Construct(RoundEnder roundEnder, TimerView timerView)
         {

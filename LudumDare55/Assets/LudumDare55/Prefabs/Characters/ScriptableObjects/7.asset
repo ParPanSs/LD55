@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: 
   demonID: 7
+  demonName: Leshy
   itemToSummon:
   - _itemSprite: {fileID: 1107403464, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
   - _itemSprite: {fileID: 382254788, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
@@ -25,4 +26,3 @@ MonoBehaviour:
     - normal
     - underwater
   catalogueDemonSprite: {fileID: 1760118027, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
-  inGameDemonPrefab: {fileID: 0}
