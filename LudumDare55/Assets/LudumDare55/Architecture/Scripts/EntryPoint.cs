@@ -25,11 +25,21 @@ namespace LudumDare55
         private RoundEnder roundEnder;
         [Header("Round")]
         [SerializeField] private float dayTime;
-        [SerializeField] private List<CreateScriptableObjectOfSetup> daySetups;
+        [SerializeField] private List<Setup> daySetups;
         [SerializeField] private TextMeshPro roundsLeftText;
         [SerializeField] private Bell bell;
         [SerializeField] private SceneTransition sceneTransition;
-        
+        //public GameDataContainer DataContainer;
+
+
+        /*
+        [ContextMenu("YA PIDORAS")]
+        private void SetSetus()
+        {
+            var dc = Instantiate(DataContainer);
+            daySetups = dc.allSetups;
+            DestroyImmediate(dc);
+        }*/
         private void Awake()
         {
             PlayerPrefs.DeleteKey("RequiredAmount");

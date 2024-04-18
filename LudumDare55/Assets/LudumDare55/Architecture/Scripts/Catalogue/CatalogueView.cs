@@ -8,7 +8,7 @@ namespace LudumDare55
 {
     public class CatalogueView : MonoBehaviour
     {
-        [SerializeField] private CreateScriptableObjectOfDemon[] allDemons;
+        [SerializeField] private Demon[] allDemons;
         [SerializeField] private SpriteRenderer demonIcon;
         [SerializeField] private SpriteRenderer pentagramDrawing;
         [SerializeField] private SpriteRenderer[] demonItems;
@@ -16,7 +16,7 @@ namespace LudumDare55
         [SerializeField] private TextMeshPro demonName;
         [SerializeField] private AudioSource bookmarkSound;
         
-        private CreateScriptableObjectOfDemon _demonSo;
+        private Demon _demonSo;
 
         // TODO: reorder display and remove debug
         public void DisplayCurrentDemon(string demonID)
@@ -25,7 +25,7 @@ namespace LudumDare55
             if (_demonSo == null) return;
             demonDescription.text = _demonSo.catalogueCassette.GetDescription();
             demonName.text = _demonSo.demonName;
-            if (_demonSo.itemToSummon.Count < 3) return;
+            if (_demonSo.itemToSummon.Length < 3) return;
             
             demonIcon.sprite = _demonSo.catalogueDemonSprite;
             pentagramDrawing.sprite = _demonSo.cataloguePentagram.sprite;

@@ -12,11 +12,11 @@ namespace LudumDare55
         public int setupsCount { get; private set; }
         public bool roundIsInProgress { get; private set; }
 
-        private List<CreateScriptableObjectOfSetup> _setups;
+        private List<Setup> _setups;
         private InGamePentagramController _inGamePentagramController;
         private Ejector _ejector;
 
-        public void Construct(InGamePentagramController inGamePentagramController, List<CreateScriptableObjectOfSetup> setups)
+        public void Construct(InGamePentagramController inGamePentagramController, List<Setup> setups)
         {
             _setups = setups;
             _inGamePentagramController = inGamePentagramController;

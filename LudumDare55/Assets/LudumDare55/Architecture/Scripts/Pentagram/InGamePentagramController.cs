@@ -11,7 +11,7 @@ namespace LudumDare55
             _inGamePentagramView = inGamePentagramView;
         }
 
-    public void SetSetup(CreateScriptableObjectOfSetup setup)
+    public void SetSetup(Setup setup)
         {
             _inGamePentagramView.DisplaySetup(setup);
         }

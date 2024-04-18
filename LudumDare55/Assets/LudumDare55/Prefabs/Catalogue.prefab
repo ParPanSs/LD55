@@ -1578,15 +1578,132 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allDemons:
-  - {fileID: 11400000, guid: af445d0d9d1f39a46ab9a66df9af6313, type: 2}
-  - {fileID: 11400000, guid: 050fca4a245599a418eacd0b48876f2a, type: 2}
-  - {fileID: 11400000, guid: 92cb3a6f389eeea4aa0279a78f854e29, type: 2}
-  - {fileID: 11400000, guid: baea5ca714c78304fbeb8b954fcc6c32, type: 2}
-  - {fileID: 11400000, guid: 643372acb55ab794eab8be27c61830fb, type: 2}
-  - {fileID: 11400000, guid: 1e84783f415edff46baf57173a0c86cc, type: 2}
-  - {fileID: 11400000, guid: 2cc19811532333048a5e09fe91f86b95, type: 2}
-  - {fileID: 11400000, guid: 6400b7f929f0d4845b6151d55aa7d183, type: 2}
-  - {fileID: 11400000, guid: f1cbf815f9dff6c4f96ebeb0d64adddd, type: 2}
+  - demonID: 1
+    demonName: Mermaid
+    itemToSummon:
+    - _itemSprite: {fileID: 340561283, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -827187445, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -193939374, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: 1400667938, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - child
+      - normal
+      - underwater
+    catalogueDemonSprite: {fileID: 1692653928, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 2
+    demonName: Dwarf
+    itemToSummon:
+    - _itemSprite: {fileID: 1107403464, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -1611919283, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -1153380358, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: -1093284930548691481, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - child
+      - fast
+      - wavy
+    catalogueDemonSprite: {fileID: 187705928, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 3
+    demonName: Cat
+    itemToSummon:
+    - _itemSprite: {fileID: -1153380358, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -193939374, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 722770303, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: -7902592156190263971, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - slow
+      - echo
+    catalogueDemonSprite: {fileID: 409173373, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 4
+    demonName: Succubus
+    itemToSummon:
+    - _itemSprite: {fileID: -1707390935, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -1338760563, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -332523974, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: -5692021688392579117, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - slow
+      - echo
+    catalogueDemonSprite: {fileID: -1761438820, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 5
+    demonName: Clown
+    itemToSummon:
+    - _itemSprite: {fileID: 558987795, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 1213687724, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -332523974, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: -4318420529237474961, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - child
+      - fast
+      - wavy
+    catalogueDemonSprite: {fileID: -775250085, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 6
+    demonName: 999
+    itemToSummon:
+    - _itemSprite: {fileID: -1366881195, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 116047781, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 558987795, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: 1264480653788789014, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - normal
+      - distorted
+    catalogueDemonSprite: {fileID: 1671836638, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 7
+    demonName: Leshy
+    itemToSummon:
+    - _itemSprite: {fileID: 1107403464, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 382254788, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -234822762, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: 1021659475798424703, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - normal
+      - underwater
+    catalogueDemonSprite: {fileID: 1760118027, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 8
+    demonName: Void
+    itemToSummon:
+    - _itemSprite: {fileID: 558987795, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: -1420463981, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 0}
+    cataloguePentagram:
+      _sprite: {fileID: -8708893354285482913, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - slow
+      - distorted
+    catalogueDemonSprite: {fileID: 692809868, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
+  - demonID: 9
+    demonName: Werewolf
+    itemToSummon:
+    - _itemSprite: {fileID: -1420463981, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 722770303, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    - _itemSprite: {fileID: 45710888, guid: f8ef5378b73c47742b15c83e1b471e28, type: 3}
+    cataloguePentagram:
+      _sprite: {fileID: -3429000006820230157, guid: ac040ea88ad8673408119632d05db4ad, type: 3}
+    catalogueCassette:
+      _cassetteAudioCharacteristics:
+      - adult
+      - normal
+      - echo
+    catalogueDemonSprite: {fileID: 578340515, guid: 7cc1097f002abbc41b305d1d2e92396e, type: 3}
   demonIcon: {fileID: 3217104933046085360}
   pentagramDrawing: {fileID: 7793641727524705585}
   demonItems:
