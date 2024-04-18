@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Properties;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -29,12 +30,12 @@ namespace LudumDare55
         private GameObject _spawnedDemon;
         private GameObject _demonPrefab;
         
-        public void DisplaySetup(CreateScriptableObjectOfSetup setup)
+        public void DisplaySetup(Setup setup)
         {
             CreatePentagram(setup.setupCataloguePentagram);
             CreateItems(setup.setupItems);
             CreateCassette(setup.setupCassette);
-            _demonPrefab = idDemonPrefabs.FirstOrDefault(prefab => prefab.id == setup.demonSetupId)?.demonPrefab;
+            _demonPrefab = idDemonPrefabs.FirstOrDefault(prefab => prefab.id == setup.demonSetupID)?.demonPrefab;
         }
 
         public void ClearSetup()
