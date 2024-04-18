@@ -5,7 +5,7 @@ namespace LudumDare55
 {
     public class TimerView : MonoBehaviour
     {
-        [SerializeField] private TextMeshPro[] digitTexts;
+        [SerializeField] private TextMeshProUGUI[] digitTexts;
         [SerializeField] private AudioClip[] timerSounds;
         [SerializeField] private AudioSource timerSoundsPlayer;
         [SerializeField] private AudioSource timerWrongBeeper;

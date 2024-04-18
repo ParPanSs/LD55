@@ -26,7 +26,7 @@ namespace LudumDare55
         [Header("Round")]
         [SerializeField] private float dayTime;
         [SerializeField] private List<Setup> daySetups;
-        [SerializeField] private TextMeshPro roundsLeftText;
+        [SerializeField] private TextMeshProUGUI roundsLeftText;
         [SerializeField] private Bell bell;
         [SerializeField] private SceneTransition sceneTransition;
         //public GameDataContainer DataContainer;

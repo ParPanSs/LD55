@@ -12,8 +12,8 @@ namespace LudumDare55
         [SerializeField] private SpriteRenderer demonIcon;
         [SerializeField] private SpriteRenderer pentagramDrawing;
         [SerializeField] private SpriteRenderer[] demonItems;
-        [SerializeField] private TextMeshPro demonDescription;
-        [SerializeField] private TextMeshPro demonName;
+        [SerializeField] private TextMeshProUGUI demonDescription;
+        [SerializeField] private TextMeshProUGUI demonName;
         [SerializeField] private AudioSource bookmarkSound;
         
         private Demon _demonSo;

@@ -14,7 +14,7 @@ namespace LudumDare55
         private TimerController _timerController;
         private SceneTransition _sceneTransition;
         private PlayableDirector _roundSuccessTimeline; 
-        private TextMeshPro _roundsLeftText;
+        private TextMeshProUGUI _roundsLeftText;
         private Ejector _ejector;
 
         private int score;
@@ -24,7 +24,7 @@ namespace LudumDare55
             TimerController timerController,
             SceneTransition sceneTransition,
             PlayableDirector roundSuccessTimeline,
-            TextMeshPro roundsLeftText)
+            TextMeshProUGUI roundsLeftText)
         {
             _roundStarter = roundStarter;
             _inGamePentagramController = inGamePentagramController;

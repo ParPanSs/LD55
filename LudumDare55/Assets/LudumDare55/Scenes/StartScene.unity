@@ -434,7 +434,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &346232769
@@ -457,8 +457,6 @@ GameObject:
   - component: {fileID: 640327992}
   - component: {fileID: 640327991}
   - component: {fileID: 640327990}
-  - component: {fileID: 640327993}
-  - component: {fileID: 640327994}
   m_Layer: 5
   m_Name: SkipButton
   m_TagString: Untagged
@@ -530,7 +528,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 640327993}
+      - m_Target: {fileID: 694920368}
         m_TargetAssemblyTypeName: LudumDare55.SceneTransition, Assembly-CSharp
         m_MethodName: SetFader
         m_Mode: 6
@@ -540,7 +538,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &640327991
 MonoBehaviour:
@@ -580,26 +578,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640327988}
   m_CullTransparentMesh: 1
---- !u!114 &640327993
+--- !u!1 &694920366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 694920369}
+  - component: {fileID: 694920368}
+  - component: {fileID: 694920370}
+  m_Layer: 0
+  m_Name: SCENETRANS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &694920368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640327988}
+  m_GameObject: {fileID: 694920366}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc2690640234d4eb7646f01451ebd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 23233686}
---- !u!114 &640327994
+--- !u!4 &694920369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694920366}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8846304, y: 2.2107785, z: 1.940975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &694920370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640327988}
+  m_GameObject: {fileID: 694920366}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
@@ -611,7 +642,7 @@ MonoBehaviour:
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 640327993}
+        - m_Target: {fileID: 694920368}
           m_TargetAssemblyTypeName: LudumDare55.SceneTransition, Assembly-CSharp
           m_MethodName: SetFader
           m_Mode: 6
@@ -621,7 +652,7 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 1
+            m_BoolArgument: 0
           m_CallState: 2
 --- !u!1 &1170058008
 GameObject:
@@ -1008,7 +1039,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -189746614334441825, guid: 16e2b1d5c300fa04d831df79cfd19301, type: 2}
-    value: {fileID: 640327994}
+    value: {fileID: 694920370}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1952569323
@@ -1034,3 +1065,4 @@ SceneRoots:
   - {fileID: 1170058011}
   - {fileID: 1469578065}
   - {fileID: 1952569323}
+  - {fileID: 694920369}
