@@ -71,13 +71,12 @@ namespace LudumDare55
             StartCoroutine(timerController.DecrementTimeCoroutine(dayTime));
         }
 
-//#if UNITY_EDITOR
+#if UNITY_EDITOR
         private void Update()
         {
             if(Input.GetKeyDown(KeyCode.F1)) roundEnder.RoundEnded();
         }
-//#endif
-
+#endif
         private void OnDestroy()
         {
             for (int i = 0; i < daySetups.Count; i++)
