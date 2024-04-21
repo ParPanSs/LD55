@@ -67,12 +67,7 @@ namespace LudumDare55
         private void DestroyWithDelay(GameObject objectToDestroy, float time)
         {
             objectToDestroy.TryGetComponent<Animator>(out var animator);
-                
-            try { animator.SetTrigger("Disappear"); }
-            catch
-            {
-                // ignored
-            }
+            animator.SetTrigger("Disappear");
 
             if (_spawnedDemon == null) CreateDemon();
             Destroy(objectToDestroy, time);

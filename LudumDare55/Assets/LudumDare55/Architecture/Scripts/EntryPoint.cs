@@ -77,7 +77,6 @@ namespace LudumDare55
             if(Input.GetKeyDown(KeyCode.F1)) roundEnder.RoundEnded();
         }
 #endif
-
         private void OnDestroy()
         {
             for (int i = 0; i < daySetups.Count; i++)

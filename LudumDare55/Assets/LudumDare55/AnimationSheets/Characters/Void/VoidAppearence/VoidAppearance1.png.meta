@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 9573646162fb09e4798f3780238a8be0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3787419020618344223
+    second: VoidAppearance1_0
+  - first:
+      213: 5324219721894867429
+    second: VoidAppearance1_1
+  - first:
+      213: -6289735350865240332
+    second: VoidAppearance1_2
+  - first:
+      213: 6630667137357976813
+    second: VoidAppearance1_3
+  - first:
+      213: 1842065817769847220
+    second: VoidAppearance1_4
+  - first:
+      213: -4104983680702719156
+    second: VoidAppearance1_5
+  - first:
+      213: 6139057832766018161
+    second: VoidAppearance1_6
+  - first:
+      213: -3522973729022541700
+    second: VoidAppearance1_7
+  - first:
+      213: 6558389326608375452
+    second: VoidAppearance1_8
+  - first:
+      213: -1172101605113493087
+    second: VoidAppearance1_9
+  - first:
+      213: -3488239091789169527
+    second: VoidAppearance1_10
+  - first:
+      213: -6200544214201122057
+    second: VoidAppearance1_11
+  - first:
+      213: -5336053624840107489
+    second: VoidAppearance1_12
+  - first:
+      213: 950509024629388841
+    second: VoidAppearance1_13
+  - first:
+      213: 7485041422787851299
+    second: VoidAppearance1_14
+  - first:
+      213: -7022494982648183116
+    second: VoidAppearance1_15
+  - first:
+      213: -1323506051984457582
+    second: VoidAppearance1_16
+  - first:
+      213: -4832954922407430975
+    second: VoidAppearance1_17
+  - first:
+      213: -8145754005993932344
+    second: VoidAppearance1_18
+  - first:
+      213: 1246195411722069483
+    second: VoidAppearance1_19
+  - first:
+      213: -1943659930544124160
+    second: VoidAppearance1_20
+  - first:
+      213: -269306043595289735
+    second: VoidAppearance1_21
+  - first:
+      213: -6904947318100062113
+    second: VoidAppearance1_22
+  - first:
+      213: 8323855925223232625
+    second: VoidAppearance1_23
+  - first:
+      213: 55753609383412976
+    second: VoidAppearance1_24
+  - first:
+      213: -2313431679178503369
+    second: VoidAppearance1_25
+  - first:
+      213: 6897021312028638051
+    second: VoidAppearance1_26
+  - first:
+      213: 8647023066507081139
+    second: VoidAppearance1_27
+  - first:
+      213: 1169412854194519800
+    second: VoidAppearance1_28
+  - first:
+      213: 7433478680890894981
+    second: VoidAppearance1_29
+  - first:
+      213: -8980496546317655098
+    second: VoidAppearance1_30
+  - first:
+      213: 5652038604992811534
+    second: VoidAppearance1_31
+  - first:
+      213: 2318143086539034804
+    second: VoidAppearance1_32
+  - first:
+      213: -8959365581109514957
+    second: VoidAppearance1_33
+  - first:
+      213: -4496277259350742805
+    second: VoidAppearance1_34
+  - first:
+      213: -3454549764141497721
+    second: VoidAppearance1_35
+  - first:
+      213: 1499433826008544177
+    second: VoidAppearance1_36
+  - first:
+      213: 8036807174312604190
+    second: VoidAppearance1_37
+  - first:
+      213: 1279183434721320223
+    second: VoidAppearance1_38
+  - first:
+      213: 7973746979151494744
+    second: VoidAppearance1_39
+  - first:
+      213: 8626618458744400529
+    second: VoidAppearance1_40
+  - first:
+      213: 5175477833368954657
+    second: VoidAppearance1_41
+  - first:
+      213: -755892270737682174
+    second: VoidAppearance1_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoidAppearance1_0
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bcf71f8ac53e84698a9ddcd3cfa3de
+      internalID: 550151643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aec2c953c4cb841a66afea55c0e1d7
+      internalID: -2124350118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf14fe5d8f206840910dd04234903c6
+      internalID: 1697830366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_3
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19080b0feb00047b0977814818925d
+      internalID: 518618468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b569a68ab4de1e2448238a8ebc3c8b1f
+      internalID: -663904245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d7368299d94f04386205382eb0f3f2
+      internalID: -1841676209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ccc41a03b5eb4d80fd27298c71047
+      internalID: -1323690085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_7
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c1a9254c344b34686a6e3ee0d71450
+      internalID: 798608598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0992e9b2a16424c9fdfd071eda5129
+      internalID: 935561844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5520cb0223fef034f90ce0dc307f1f42
+      internalID: 1149647547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c16f83f975ce748a61b1751bc87239
+      internalID: 1280481913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694a6b334925df94185c91e10cbcb10f
+      internalID: 1307586407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidAppearance1_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb529a78ff510049a207e39c28234c8
+      internalID: -1229344422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24ead626a4ab27b4dbc37ae0e34627ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VoidAppearance1_0: 550151643
+      VoidAppearance1_1: -2124350118
+      VoidAppearance1_10: 1280481913
+      VoidAppearance1_11: 1307586407
+      VoidAppearance1_12: -1229344422
+      VoidAppearance1_2: 1697830366
+      VoidAppearance1_3: 518618468
+      VoidAppearance1_4: -663904245
+      VoidAppearance1_5: -1841676209
+      VoidAppearance1_6: -1323690085
+      VoidAppearance1_7: 798608598
+      VoidAppearance1_8: 935561844
+      VoidAppearance1_9: 1149647547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

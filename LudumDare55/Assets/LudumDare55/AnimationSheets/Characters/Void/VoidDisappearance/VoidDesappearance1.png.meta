@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: eafe20a36dcc941438e6bafc9fabe623
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8077091759237857953
+    second: VoidDesappearance1_0
+  - first:
+      213: 5090814577445356331
+    second: VoidDesappearance1_1
+  - first:
+      213: -6981026181571929380
+    second: VoidDesappearance1_2
+  - first:
+      213: -4716492317757598531
+    second: VoidDesappearance1_3
+  - first:
+      213: -3020962384728723970
+    second: VoidDesappearance1_4
+  - first:
+      213: -8964618389026941050
+    second: VoidDesappearance1_5
+  - first:
+      213: -2381822857117600930
+    second: VoidDesappearance1_6
+  - first:
+      213: -3581507717308382609
+    second: VoidDesappearance1_7
+  - first:
+      213: 5200424084327772901
+    second: VoidDesappearance1_8
+  - first:
+      213: -8428720663566351756
+    second: VoidDesappearance1_9
+  - first:
+      213: 4268428373990551125
+    second: VoidDesappearance1_10
+  - first:
+      213: -50876688888316423
+    second: VoidDesappearance1_11
+  - first:
+      213: -2649567551217873743
+    second: VoidDesappearance1_12
+  - first:
+      213: -6818634673874373340
+    second: VoidDesappearance1_13
+  - first:
+      213: 6613646057212630357
+    second: VoidDesappearance1_14
+  - first:
+      213: -7977959338555887896
+    second: VoidDesappearance1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoidDesappearance1_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3202
+        width: 515
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d7468d6d768ef80800000000000000
+      internalID: -8077091759237857953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_1
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 3186
+        width: 544
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23c20ac2e436a640800000000000000
+      internalID: 5090814577445356331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_2
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 3184
+        width: 548
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda14b7cca96e1f90800000000000000
+      internalID: -6981026181571929380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_3
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 3183
+        width: 550
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4133ed937ab8eb0800000000000000
+      internalID: -4716492317757598531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2155
+        width: 550
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd6d6287b26316d0800000000000000
+      internalID: -3020962384728723970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_5
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 2154
+        width: 552
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6875d1f5217479380800000000000000
+      internalID: -8964618389026941050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_6
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 2153
+        width: 557
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53799b1bb012fed0800000000000000
+      internalID: -2381822857117600930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_7
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 2153
+        width: 560
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62838de4bdeb4ec0800000000000000
+      internalID: -3581507717308382609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1131
+        width: 556
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e23eb3d62e9b2840800000000000000
+      internalID: 5200424084327772901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_9
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1132
+        width: 545
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720229b63b270b80800000000000000
+      internalID: -8428720663566351756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_10
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 1133
+        width: 532
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ea7e4bdf08c3b30800000000000000
+      internalID: 4268428373990551125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_11
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 1134
+        width: 525
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdb677cbef3b4ff0800000000000000
+      internalID: -50876688888316423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 109
+        width: 524
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcc145a958da3bd0800000000000000
+      internalID: -2649567551217873743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_13
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 109
+        width: 520
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257e8a04e75f51a0800000000000000
+      internalID: -6818634673874373340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_14
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 110
+        width: 522
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55552566c0468cb50800000000000000
+      internalID: 6613646057212630357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidDesappearance1_15
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 110
+        width: 525
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeadd82048984190800000000000000
+      internalID: -7977959338555887896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VoidDesappearance1_0: -8077091759237857953
+      VoidDesappearance1_1: 5090814577445356331
+      VoidDesappearance1_10: 4268428373990551125
+      VoidDesappearance1_11: -50876688888316423
+      VoidDesappearance1_12: -2649567551217873743
+      VoidDesappearance1_13: -6818634673874373340
+      VoidDesappearance1_14: 6613646057212630357
+      VoidDesappearance1_15: -7977959338555887896
+      VoidDesappearance1_2: -6981026181571929380
+      VoidDesappearance1_3: -4716492317757598531
+      VoidDesappearance1_4: -3020962384728723970
+      VoidDesappearance1_5: -8964618389026941050
+      VoidDesappearance1_6: -2381822857117600930
+      VoidDesappearance1_7: -3581507717308382609
+      VoidDesappearance1_8: 5200424084327772901
+      VoidDesappearance1_9: -8428720663566351756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
